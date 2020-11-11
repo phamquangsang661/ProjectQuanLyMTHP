@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DuAnMain.DataBase_Connect;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,6 +35,7 @@ namespace DuAnMain
         void test3()
         {
             MessageBox.Show("test 1 test 2 test3");
+            dbc.Instance.get()
         }
     }
 }
