@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DuAnMain.DataBase_Connect;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,6 +17,7 @@ namespace DuAnMain
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            dbc.Instance.Con();
             Application.Run(new Form1());
         }
     }
