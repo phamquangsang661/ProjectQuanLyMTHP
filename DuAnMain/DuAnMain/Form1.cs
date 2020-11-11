@@ -20,6 +20,20 @@ namespace DuAnMain
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello");
+           
+           
+        }
+        void test()
+        {
+            MessageBox.Show("test 1 test 2 test3");
+        }
+        void test2()
+        {
+            MessageBox.Show("test 1 test 2 test3");
+        }
+        void test3()
+        {
+            MessageBox.Show("test 1 test 2 test3");
         }
     }
 }
