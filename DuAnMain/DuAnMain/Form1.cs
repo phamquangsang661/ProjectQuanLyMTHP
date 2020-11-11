@@ -21,5 +21,18 @@ namespace DuAnMain
         {
             MessageBox.Show("Hello");
         }
+        void botest()
+        {
+            MessageBox.Show("ok ban ie");
+        }
+        void botest1()
+        {
+            MessageBox.Show("ok ban ie213");
+        }
+        void botest2()
+        {
+            MessageBox.Show("ok ban i123e");
+
+        }
     }
 }
