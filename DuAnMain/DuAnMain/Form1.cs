@@ -17,12 +17,10 @@ namespace DuAnMain
         {
             InitializeComponent();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello");
-           
-           
+            formday1 f = new formday1();
+            f.ShowDialog();        
         }
         void test()
         {
@@ -37,7 +35,6 @@ namespace DuAnMain
             MessageBox.Show("test 1 test 2 test3");
             DataTable dt = dbc.Instance.get("exec GetDsSV");
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
