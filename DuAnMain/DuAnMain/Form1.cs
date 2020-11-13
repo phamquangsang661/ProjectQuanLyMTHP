@@ -37,5 +37,10 @@ namespace DuAnMain
             MessageBox.Show("test 1 test 2 test3");
             DataTable dt = dbc.Instance.get("exec GetDsSV");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
