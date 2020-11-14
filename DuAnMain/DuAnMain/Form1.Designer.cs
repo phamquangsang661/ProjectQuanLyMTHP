@@ -50,6 +50,7 @@
             this.bunifuMaterialTextbox6 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.animateLogin = new Guna.UI.WinForms.GunaTransition(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.p1.SuspendLayout();
             this.p2.SuspendLayout();
             this.p3.SuspendLayout();
@@ -57,19 +58,18 @@
             // 
             // p1
             // 
-            this.p1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.p1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(29)))), ((int)(((byte)(28)))));
             this.p1.Controls.Add(this.gunaLabel2);
             this.p1.Controls.Add(this.gunaLabel1);
             this.animateLogin.SetDecoration(this.p1, Guna.UI.Animation.DecorationType.None);
-            this.p1.Location = new System.Drawing.Point(10, 9);
+            this.p1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.p1.Location = new System.Drawing.Point(0, 0);
             this.p1.Name = "p1";
-            this.p1.Size = new System.Drawing.Size(264, 442);
+            this.p1.Size = new System.Drawing.Size(271, 468);
             this.p1.TabIndex = 0;
             // 
             // p2
             // 
-            this.p2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.p2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(34)))), ((int)(((byte)(36)))));
             this.p2.Controls.Add(this.gunaCheckBox1);
             this.p2.Controls.Add(this.lblCreateAcc);
@@ -77,9 +77,10 @@
             this.p2.Controls.Add(this.bunifuMaterialTextbox2);
             this.p2.Controls.Add(this.bunifuMaterialTextbox1);
             this.animateLogin.SetDecoration(this.p2, Guna.UI.Animation.DecorationType.None);
-            this.p2.Location = new System.Drawing.Point(274, 9);
+            this.p2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.p2.Location = new System.Drawing.Point(267, 0);
             this.p2.Name = "p2";
-            this.p2.Size = new System.Drawing.Size(312, 442);
+            this.p2.Size = new System.Drawing.Size(328, 468);
             this.p2.TabIndex = 0;
             // 
             // gunaLabel1
@@ -203,7 +204,6 @@
             // 
             // p3
             // 
-            this.p3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.p3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(34)))), ((int)(((byte)(36)))));
             this.p3.Controls.Add(this.btnExit);
             this.p3.Controls.Add(this.gunaLabel3);
@@ -213,9 +213,9 @@
             this.p3.Controls.Add(this.bunifuMaterialTextbox3);
             this.p3.Controls.Add(this.bunifuMaterialTextbox4);
             this.animateLogin.SetDecoration(this.p3, Guna.UI.Animation.DecorationType.None);
-            this.p3.Location = new System.Drawing.Point(274, 9);
+            this.p3.Location = new System.Drawing.Point(267, 0);
             this.p3.Name = "p3";
-            this.p3.Size = new System.Drawing.Size(312, 442);
+            this.p3.Size = new System.Drawing.Size(328, 468);
             this.p3.TabIndex = 5;
             this.p3.Visible = false;
             // 
@@ -322,7 +322,7 @@
             this.animateLogin.SetDecoration(this.btnExit, Guna.UI.Animation.DecorationType.None);
             this.btnExit.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.btnExit.ForeColor = System.Drawing.Color.Silver;
-            this.btnExit.Location = new System.Drawing.Point(294, 0);
+            this.btnExit.Location = new System.Drawing.Point(307, 0);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(18, 20);
             this.btnExit.TabIndex = 0;
@@ -351,7 +351,7 @@
             // 
             // animateLogin
             // 
-            this.animateLogin.AnimationType = Guna.UI.Animation.AnimationType.HorizSlide;
+            this.animateLogin.AnimationType = Guna.UI.Animation.AnimationType.Scale;
             this.animateLogin.Cursor = null;
             animation4.AnimateOnlyDifferences = true;
             animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
@@ -375,12 +375,19 @@
             this.bunifuElipse1.ElipseRadius = 5;
             this.bunifuElipse1.TargetControl = this;
             // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this.p1;
+            this.bunifuDragControl1.Vertical = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(53)))), ((int)(((byte)(55)))));
-            this.ClientSize = new System.Drawing.Size(598, 462);
+            this.ClientSize = new System.Drawing.Size(595, 468);
             this.Controls.Add(this.p3);
             this.Controls.Add(this.p2);
             this.Controls.Add(this.p1);
@@ -423,6 +430,7 @@
         private Guna.UI.WinForms.GunaTransition animateLogin;
         private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox6;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
     }
 }
 
