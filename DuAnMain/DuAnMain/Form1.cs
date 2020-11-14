@@ -17,27 +17,28 @@ namespace DuAnMain
         {
             InitializeComponent();
         }
-        private void button1_Click(object sender, EventArgs e)
-        {
-            formday1 f = new formday1();
-            f.ShowDialog();        
-        }
-        void test()
-        {
-            MessageBox.Show("test 1 test 2 test3");
-        }
-        void test2()
-        {
-            MessageBox.Show("test 1 test 2 test3");
-        }
-        void test3()
-        {
-            MessageBox.Show("test 1 test 2 test3");
-            DataTable dt = dbc.Instance.get("exec GetDsSV");
-        }
+       
+       
+        
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void lblCreateAcc_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            animateLogin.HideSync(p2);
+       
+
+            animateLogin.ShowSync(p3);
+         
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            animateLogin.HideSync(p3);
+            animateLogin.ShowSync(p2);
         }
     }
 }
