@@ -40,5 +40,16 @@ namespace DuAnMain
             animateLogin.HideSync(p3);
             animateLogin.ShowSync(p2);
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            FormStaffs frm = new FormStaffs();
+            frm.ShowDialog();
+        }
+
+        private void gunaButton2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
