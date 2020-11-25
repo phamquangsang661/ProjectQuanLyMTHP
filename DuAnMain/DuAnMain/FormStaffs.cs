@@ -1,4 +1,5 @@
-﻿using FontAwesome.Sharp;
+﻿using DuAnMain.FormBelongStaffs.QuanLyBanTraHang;
+using FontAwesome.Sharp;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -89,7 +90,7 @@ namespace DuAnMain
             panelSubMenuCongTy.Visible = false;
             panelSubMenuQuanLyCongNo.Visible = false;
             panelSubMenuQuanLyKhachHang.Visible = false;
-            panelSubMenuQuanLyNhanSu.Visible = false;
+            panelSubMenuThongKe.Visible = false;
             panelSubMenuQuanLyTaiSan.Visible = false;
             panelSubMenuQuanLyThuChi.Visible = false;
             panelSubMenuBaoCaoDoanhSo.Visible = false;
@@ -130,8 +131,6 @@ namespace DuAnMain
 
         private void subQuanLyNhanSu_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, RGBColors.color1);
-            ActivitySubMenu(panelSubMenuQuanLyNhanSu);
         }
 
         private void subQuanLyThuChi_Click(object sender, EventArgs e)
@@ -198,6 +197,49 @@ namespace DuAnMain
         private void gunaButton1_Click(object sender, EventArgs e)
         {
             OpenChildForm(new FormBelongStaffs.testForm());
+        }
+
+        private void subQuanLyCongViec_Click(object sender, EventArgs e)
+        {
+
+            
+
+        }
+
+        private void subThongKe_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color1);
+            ActivitySubMenu(panelSubMenuThongKe);
+        }
+
+        private void btnDanhSachSanPham_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new frmDanhSachSanPham());
+        }
+
+        private void btnNhaCungCap_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnDanhSachKhoSanPham_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDanhSachKhachHang_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnDoanhSoBanHang_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThongKeThuChi_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
