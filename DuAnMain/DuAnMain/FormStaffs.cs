@@ -59,6 +59,10 @@ namespace DuAnMain
                 currentBtn.BackColor = Color.FromArgb(122, 121, 218);
             }
         }
+        /// <summary>
+        /// Hàm để tạo form và cho vào panel, chỉ cần gọi và truyền form
+        /// </summary>
+        /// <param name="childForm">Tham số là 1 form </param>
         private void OpenChildForm(Form childForm)
         {
             if (currentChildForm!=null)
@@ -240,6 +244,21 @@ namespace DuAnMain
         private void btnThongKeThuChi_Click(object sender, EventArgs e)
         {
 
+        }
+
+      
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            if (txtSearch.Text != "")
+            {
+                lblSearch.Text = "";
+                pbSearch.Visible = false;
+            }
+            else
+            {
+                lblSearch.Text = "Search";
+                pbSearch.Visible = true;
+            }
         }
     }
 }

@@ -20,11 +20,6 @@ namespace DuAnMain.FormBelongStaffs.QuanLyBanTraHang
 
         private void frmDanhSachSanPham_Load(object sender, EventArgs e)
         {
-            GridView gv = gcDanhSachSanPham.MainView as GridView;
-            int[] a = gv.GetSelectedRows();
-            int ma = int.Parse(gv.GetRowCellDisplayText(a[0], "Ma"));
-
-            string ten = gv.GetRowCellDisplayText(a[0], "ten");
         }
     }
 }
