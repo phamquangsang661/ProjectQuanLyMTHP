@@ -200,7 +200,7 @@ namespace DuAnMain
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FormBelongStaffs.testForm());
+            OpenChildForm(new FormBelongStaffs.QuanLyBanTraHang.frmDanhSachDonHang());
         }
 
         private void subQuanLyCongViec_Click(object sender, EventArgs e)

@@ -1,6 +1,6 @@
-﻿namespace DuAnMain.FormBelongStaffs
+﻿namespace DuAnMain.FormBelongStaffs.QuanLyBanTraHang
 {
-    partial class testForm
+    partial class frmChiTietSanPham
     {
         /// <summary>
         /// Required designer variable.
@@ -28,18 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // testForm
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "testForm";
-            this.Text = "testForm";
-            this.ResumeLayout(false);
-
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "frmChiTietSanPham";
         }
 
         #endregion
