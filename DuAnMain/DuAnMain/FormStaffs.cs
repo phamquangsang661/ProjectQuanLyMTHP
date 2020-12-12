@@ -225,7 +225,8 @@ namespace DuAnMain
 
         private void btnNhaCungCap_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new frmNCC());
+            panelDesktop.Controls.Clear();
+            panelDesktop.Controls.Add(new fmNCC());
         }
 
         private void btnDanhSachKhoSanPham_Click(object sender, EventArgs e)
