@@ -218,6 +218,12 @@
     <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmDanhSachSanPham.Designer.cs">
       <DependentUpon>frmDanhSachSanPham.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\tevv.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\tevv.Designer.cs">
+      <DependentUpon>tevv.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormBelongStaffs\QuanLyKhoHang\frmNCC.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -310,7 +316,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FormBelongStaffs\BaoCaoDoanhSo\" />
-    <Folder Include="FormBelongStaffs\QuanLyKhachHang\" />
     <Folder Include="FormBelongStaffs\QuanLyNhanSu\" />
     <Folder Include="FormBelongStaffs\QuanLySuaChua\" />
     <Folder Include="FormBelongStaffs\QuanLyThongKe\" />
