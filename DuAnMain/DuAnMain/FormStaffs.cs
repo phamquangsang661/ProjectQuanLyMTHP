@@ -287,5 +287,10 @@ namespace DuAnMain
         {
 
         }
+
+        private void gunaButton6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

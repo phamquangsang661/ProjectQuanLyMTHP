@@ -31,9 +31,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormStaffs));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            Guna.UI.Animation.Animation animation1 = new Guna.UI.Animation.Animation();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            Guna.UI.Animation.Animation animation2 = new Guna.UI.Animation.Animation();
             this.gunaElipsePanel1 = new Guna.UI.WinForms.GunaElipsePanel();
             this.gunaGradientPanel1 = new Guna.UI.WinForms.GunaGradientPanel();
             this.panelDesktop = new System.Windows.Forms.Panel();
@@ -191,19 +191,19 @@
             // 
             // bunifuCustomDataGrid1
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.bunifuCustomDataGrid1.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.bunifuCustomDataGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bunifuCustomDataGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.bunifuCustomDataGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gunaTran.SetDecoration(this.bunifuCustomDataGrid1, Guna.UI.Animation.DecorationType.None);
             this.bunifuCustomDataGrid1.DoubleBuffered = true;
@@ -278,7 +278,6 @@
             this.gunaTran.SetDecoration(this.gunaButton25, Guna.UI.Animation.DecorationType.None);
             this.gunaButton25.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton25.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton25.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton25.ForeColor = System.Drawing.Color.White;
             this.gunaButton25.Image = global::DuAnMain.Properties.Resources._messaging_two_128;
             this.gunaButton25.ImageSize = new System.Drawing.Size(30, 30);
@@ -303,7 +302,6 @@
             this.gunaTran.SetDecoration(this.gunaButton24, Guna.UI.Animation.DecorationType.None);
             this.gunaButton24.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton24.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton24.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton24.ForeColor = System.Drawing.Color.White;
             this.gunaButton24.Image = global::DuAnMain.Properties.Resources.icon_help_circled_128;
             this.gunaButton24.ImageSize = new System.Drawing.Size(30, 30);
@@ -328,7 +326,6 @@
             this.gunaTran.SetDecoration(this.gunaButton23, Guna.UI.Animation.DecorationType.None);
             this.gunaButton23.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton23.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton23.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton23.ForeColor = System.Drawing.Color.White;
             this.gunaButton23.Image = global::DuAnMain.Properties.Resources.megaphone_128;
             this.gunaButton23.ImageSize = new System.Drawing.Size(30, 30);
@@ -353,7 +350,6 @@
             this.gunaTran.SetDecoration(this.gunaButton22, Guna.UI.Animation.DecorationType.None);
             this.gunaButton22.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton22.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton22.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton22.ForeColor = System.Drawing.Color.White;
             this.gunaButton22.Image = global::DuAnMain.Properties.Resources.ic_settings_48px_2561;
             this.gunaButton22.ImageSize = new System.Drawing.Size(30, 30);
@@ -380,7 +376,6 @@
             this.gunaTran.SetDecoration(this.gunaButton21, Guna.UI.Animation.DecorationType.None);
             this.gunaButton21.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton21.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton21.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton21.ForeColor = System.Drawing.Color.White;
             this.gunaButton21.Image = global::DuAnMain.Properties.Resources.Profile01_256;
             this.gunaButton21.ImageSize = new System.Drawing.Size(40, 40);
@@ -405,7 +400,6 @@
             this.gunaTran.SetDecoration(this.gunaButton20, Guna.UI.Animation.DecorationType.None);
             this.gunaButton20.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton20.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton20.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton20.ForeColor = System.Drawing.Color.White;
             this.gunaButton20.Image = global::DuAnMain.Properties.Resources._5064_256;
             this.gunaButton20.ImageSize = new System.Drawing.Size(30, 30);
@@ -429,7 +423,6 @@
             this.gunaTran.SetDecoration(this.gunaButton19, Guna.UI.Animation.DecorationType.None);
             this.gunaButton19.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton19.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton19.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton19.ForeColor = System.Drawing.Color.White;
             this.gunaButton19.Image = global::DuAnMain.Properties.Resources.plus_add_additional_256;
             this.gunaButton19.ImageSize = new System.Drawing.Size(30, 30);
@@ -461,7 +454,6 @@
             this.txtSearch.BackColor = System.Drawing.Color.Transparent;
             this.txtSearch.BaseColor = System.Drawing.Color.White;
             this.txtSearch.BorderColor = System.Drawing.Color.Silver;
-            this.txtSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTran.SetDecoration(this.txtSearch, Guna.UI.Animation.DecorationType.None);
             this.txtSearch.FocusedBaseColor = System.Drawing.Color.White;
             this.txtSearch.FocusedBorderColor = System.Drawing.Color.Silver;
@@ -596,7 +588,6 @@
             this.btnThongKeBangLuong.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnThongKeBangLuong.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnThongKeBangLuong.FocusedColor = System.Drawing.Color.Empty;
-            this.btnThongKeBangLuong.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnThongKeBangLuong.ForeColor = System.Drawing.Color.White;
             this.btnThongKeBangLuong.Image = null;
             this.btnThongKeBangLuong.ImageSize = new System.Drawing.Size(20, 20);
@@ -689,7 +680,6 @@
             this.gunaButton42.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton42.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton42.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton42.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton42.ForeColor = System.Drawing.Color.White;
             this.gunaButton42.Image = null;
             this.gunaButton42.ImageSize = new System.Drawing.Size(20, 20);
@@ -716,7 +706,6 @@
             this.gunaButton43.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton43.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton43.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton43.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton43.ForeColor = System.Drawing.Color.White;
             this.gunaButton43.Image = null;
             this.gunaButton43.ImageSize = new System.Drawing.Size(20, 20);
@@ -743,7 +732,6 @@
             this.gunaButton44.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton44.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton44.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton44.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton44.ForeColor = System.Drawing.Color.White;
             this.gunaButton44.Image = null;
             this.gunaButton44.ImageSize = new System.Drawing.Size(20, 20);
@@ -770,7 +758,6 @@
             this.gunaButton45.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton45.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton45.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton45.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton45.ForeColor = System.Drawing.Color.White;
             this.gunaButton45.Image = null;
             this.gunaButton45.ImageSize = new System.Drawing.Size(20, 20);
@@ -841,7 +828,6 @@
             this.gunaButton18.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton18.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton18.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton18.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton18.ForeColor = System.Drawing.Color.White;
             this.gunaButton18.Image = null;
             this.gunaButton18.ImageSize = new System.Drawing.Size(20, 20);
@@ -868,7 +854,6 @@
             this.gunaButton17.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton17.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton17.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton17.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton17.ForeColor = System.Drawing.Color.White;
             this.gunaButton17.Image = null;
             this.gunaButton17.ImageSize = new System.Drawing.Size(20, 20);
@@ -895,7 +880,6 @@
             this.gunaButton16.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton16.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton16.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton16.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton16.ForeColor = System.Drawing.Color.White;
             this.gunaButton16.Image = null;
             this.gunaButton16.ImageSize = new System.Drawing.Size(20, 20);
@@ -922,7 +906,6 @@
             this.gunaButton15.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton15.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton15.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton15.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton15.ForeColor = System.Drawing.Color.White;
             this.gunaButton15.Image = null;
             this.gunaButton15.ImageSize = new System.Drawing.Size(20, 20);
@@ -949,7 +932,6 @@
             this.gunaButton13.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton13.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton13.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton13.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton13.ForeColor = System.Drawing.Color.White;
             this.gunaButton13.Image = null;
             this.gunaButton13.ImageSize = new System.Drawing.Size(20, 20);
@@ -976,7 +958,6 @@
             this.gunaButton12.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton12.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton12.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton12.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton12.ForeColor = System.Drawing.Color.White;
             this.gunaButton12.Image = null;
             this.gunaButton12.ImageSize = new System.Drawing.Size(20, 20);
@@ -1003,7 +984,6 @@
             this.btnDoanhSoBanHang.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnDoanhSoBanHang.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDoanhSoBanHang.FocusedColor = System.Drawing.Color.Empty;
-            this.btnDoanhSoBanHang.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnDoanhSoBanHang.ForeColor = System.Drawing.Color.White;
             this.btnDoanhSoBanHang.Image = null;
             this.btnDoanhSoBanHang.ImageSize = new System.Drawing.Size(20, 20);
@@ -1072,7 +1052,6 @@
             this.gunaButton34.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton34.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton34.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton34.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton34.ForeColor = System.Drawing.Color.White;
             this.gunaButton34.Image = null;
             this.gunaButton34.ImageSize = new System.Drawing.Size(20, 20);
@@ -1099,7 +1078,6 @@
             this.gunaButton35.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton35.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton35.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton35.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton35.ForeColor = System.Drawing.Color.White;
             this.gunaButton35.Image = null;
             this.gunaButton35.ImageSize = new System.Drawing.Size(20, 20);
@@ -1126,7 +1104,6 @@
             this.gunaButton36.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton36.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton36.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton36.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton36.ForeColor = System.Drawing.Color.White;
             this.gunaButton36.Image = null;
             this.gunaButton36.ImageSize = new System.Drawing.Size(20, 20);
@@ -1153,7 +1130,6 @@
             this.gunaButton37.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton37.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton37.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton37.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton37.ForeColor = System.Drawing.Color.White;
             this.gunaButton37.Image = null;
             this.gunaButton37.ImageSize = new System.Drawing.Size(20, 20);
@@ -1195,7 +1171,6 @@
             this.subQuanLyCongNo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyCongNo.UseVisualStyleBackColor = false;
             this.subQuanLyCongNo.Click += new System.EventHandler(this.subQuanLyCongNo_Click);
-         
             // 
             // panelSubMenuQuanLyTaiSan
             // 
@@ -1219,7 +1194,6 @@
             this.gunaButton32.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton32.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton32.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton32.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton32.ForeColor = System.Drawing.Color.White;
             this.gunaButton32.Image = null;
             this.gunaButton32.ImageSize = new System.Drawing.Size(20, 20);
@@ -1261,7 +1235,6 @@
             this.subQuanLyTaiSan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyTaiSan.UseVisualStyleBackColor = false;
             this.subQuanLyTaiSan.Click += new System.EventHandler(this.subQuanLyTaiSan_Click);
-
             // 
             // panelSubMenuQuanLyKhachHang
             // 
@@ -1287,7 +1260,6 @@
             this.gunaButton47.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton47.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton47.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton47.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton47.ForeColor = System.Drawing.Color.White;
             this.gunaButton47.Image = null;
             this.gunaButton47.ImageSize = new System.Drawing.Size(20, 20);
@@ -1314,7 +1286,6 @@
             this.btnDanhSachKhachHang.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnDanhSachKhachHang.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDanhSachKhachHang.FocusedColor = System.Drawing.Color.Empty;
-            this.btnDanhSachKhachHang.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnDanhSachKhachHang.ForeColor = System.Drawing.Color.White;
             this.btnDanhSachKhachHang.Image = null;
             this.btnDanhSachKhachHang.ImageSize = new System.Drawing.Size(20, 20);
@@ -1342,7 +1313,6 @@
             this.gunaButton26.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton26.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton26.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton26.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton26.ForeColor = System.Drawing.Color.White;
             this.gunaButton26.Image = null;
             this.gunaButton26.ImageSize = new System.Drawing.Size(20, 20);
@@ -1384,7 +1354,6 @@
             this.subQuanLyKhachHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyKhachHang.UseVisualStyleBackColor = false;
             this.subQuanLyKhachHang.Click += new System.EventHandler(this.subQuanLyKhachHang_Click);
-
             // 
             // panelSubMenuQuanLyThuChi
             // 
@@ -1410,7 +1379,6 @@
             this.gunaButton11.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton11.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton11.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton11.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton11.ForeColor = System.Drawing.Color.White;
             this.gunaButton11.Image = null;
             this.gunaButton11.ImageSize = new System.Drawing.Size(20, 20);
@@ -1437,7 +1405,6 @@
             this.gunaButton3.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton3.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton3.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton3.ForeColor = System.Drawing.Color.White;
             this.gunaButton3.Image = null;
             this.gunaButton3.ImageSize = new System.Drawing.Size(20, 20);
@@ -1464,7 +1431,6 @@
             this.btnThongKeThuChi.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnThongKeThuChi.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnThongKeThuChi.FocusedColor = System.Drawing.Color.Empty;
-            this.btnThongKeThuChi.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnThongKeThuChi.ForeColor = System.Drawing.Color.White;
             this.btnThongKeThuChi.Image = null;
             this.btnThongKeThuChi.ImageSize = new System.Drawing.Size(20, 20);
@@ -1507,7 +1473,6 @@
             this.subQuanLyThuChi.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyThuChi.UseVisualStyleBackColor = false;
             this.subQuanLyThuChi.Click += new System.EventHandler(this.subQuanLyThuChi_Click);
-
             // 
             // subQuanLyNhanSu
             // 
@@ -1534,7 +1499,7 @@
             this.subQuanLyNhanSu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyNhanSu.UseVisualStyleBackColor = false;
             this.subQuanLyNhanSu.Click += new System.EventHandler(this.subQuanLyNhanSu_Click);
-
+            // 
             // panelSubMenuQuanLyKhoHang
             // 
             this.panelSubMenuQuanLyKhoHang.AutoSize = true;
@@ -1562,7 +1527,6 @@
             this.gunaButton27.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton27.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton27.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton27.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton27.ForeColor = System.Drawing.Color.White;
             this.gunaButton27.Image = null;
             this.gunaButton27.ImageSize = new System.Drawing.Size(20, 20);
@@ -1589,7 +1553,6 @@
             this.gunaButton10.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton10.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton10.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton10.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton10.ForeColor = System.Drawing.Color.White;
             this.gunaButton10.Image = null;
             this.gunaButton10.ImageSize = new System.Drawing.Size(20, 20);
@@ -1616,7 +1579,6 @@
             this.gunaButton2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton2.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton2.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton2.ForeColor = System.Drawing.Color.White;
             this.gunaButton2.Image = null;
             this.gunaButton2.ImageSize = new System.Drawing.Size(20, 20);
@@ -1643,7 +1605,6 @@
             this.btnnhomSP.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnnhomSP.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnnhomSP.FocusedColor = System.Drawing.Color.Empty;
-            this.btnnhomSP.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnnhomSP.ForeColor = System.Drawing.Color.White;
             this.btnnhomSP.Image = null;
             this.btnnhomSP.ImageSize = new System.Drawing.Size(20, 20);
@@ -1671,7 +1632,6 @@
             this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton1.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton1.ForeColor = System.Drawing.Color.White;
             this.gunaButton1.Image = null;
             this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
@@ -1699,7 +1659,6 @@
             this.btnNhaCungCap.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnNhaCungCap.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnNhaCungCap.FocusedColor = System.Drawing.Color.Empty;
-            this.btnNhaCungCap.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnNhaCungCap.ForeColor = System.Drawing.Color.White;
             this.btnNhaCungCap.Image = null;
             this.btnNhaCungCap.ImageSize = new System.Drawing.Size(20, 20);
@@ -1742,7 +1701,6 @@
             this.subQuanLyKhoHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyKhoHang.UseVisualStyleBackColor = false;
             this.subQuanLyKhoHang.Click += new System.EventHandler(this.subQuanLyKhoHang_Click);
-        
             // 
             // panelSubMenuQuanLySuaChua
             // 
@@ -1767,7 +1725,6 @@
             this.btnDanhSachSanPham.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnDanhSachSanPham.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDanhSachSanPham.FocusedColor = System.Drawing.Color.Empty;
-            this.btnDanhSachSanPham.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnDanhSachSanPham.ForeColor = System.Drawing.Color.White;
             this.btnDanhSachSanPham.Image = null;
             this.btnDanhSachSanPham.ImageSize = new System.Drawing.Size(20, 20);
@@ -1795,7 +1752,6 @@
             this.gunaButton5.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton5.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton5.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton5.ForeColor = System.Drawing.Color.White;
             this.gunaButton5.Image = null;
             this.gunaButton5.ImageSize = new System.Drawing.Size(20, 20);
@@ -1837,7 +1793,6 @@
             this.subQuanLySuaChua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLySuaChua.UseVisualStyleBackColor = false;
             this.subQuanLySuaChua.Click += new System.EventHandler(this.subQuanLySuaChua_Click);
-
             // 
             // panelsubQuanLyBanTraHang
             // 
@@ -1866,7 +1821,6 @@
             this.gunaButton9.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton9.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton9.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton9.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton9.ForeColor = System.Drawing.Color.White;
             this.gunaButton9.Image = null;
             this.gunaButton9.ImageSize = new System.Drawing.Size(20, 20);
@@ -1893,7 +1847,6 @@
             this.gunaButton8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton8.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton8.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton8.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton8.ForeColor = System.Drawing.Color.White;
             this.gunaButton8.Image = null;
             this.gunaButton8.ImageSize = new System.Drawing.Size(20, 20);
@@ -1920,7 +1873,6 @@
             this.gunaButton7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton7.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton7.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton7.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton7.ForeColor = System.Drawing.Color.White;
             this.gunaButton7.Image = null;
             this.gunaButton7.ImageSize = new System.Drawing.Size(20, 20);
@@ -1947,7 +1899,6 @@
             this.gunaButton6.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton6.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton6.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton6.ForeColor = System.Drawing.Color.White;
             this.gunaButton6.Image = null;
             this.gunaButton6.ImageSize = new System.Drawing.Size(20, 20);
@@ -1963,6 +1914,7 @@
             this.gunaButton6.TabIndex = 9;
             this.gunaButton6.Text = "Hóa đơn";
             this.gunaButton6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton6.Click += new System.EventHandler(this.gunaButton6_Click);
             // 
             // gunaButton4
             // 
@@ -1974,7 +1926,6 @@
             this.gunaButton4.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton4.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaButton4.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton4.ForeColor = System.Drawing.Color.White;
             this.gunaButton4.Image = null;
             this.gunaButton4.ImageSize = new System.Drawing.Size(20, 20);
@@ -2001,7 +1952,6 @@
             this.btnDanhSachDonGiaoHang.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnDanhSachDonGiaoHang.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDanhSachDonGiaoHang.FocusedColor = System.Drawing.Color.Empty;
-            this.btnDanhSachDonGiaoHang.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnDanhSachDonGiaoHang.ForeColor = System.Drawing.Color.White;
             this.btnDanhSachDonGiaoHang.Image = null;
             this.btnDanhSachDonGiaoHang.ImageSize = new System.Drawing.Size(20, 20);
@@ -2115,22 +2065,22 @@
             // 
             this.gunaTran.AnimationType = Guna.UI.Animation.AnimationType.VertSlide;
             this.gunaTran.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.gunaTran.DefaultAnimation = animation1;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 0F;
+            this.gunaTran.DefaultAnimation = animation2;
             // 
             // FormStaffs
             // 
