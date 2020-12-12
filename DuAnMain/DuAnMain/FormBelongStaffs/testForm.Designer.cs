@@ -29,93 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(testForm));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.ngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.jghjgToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ghhkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.jghjhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.jhjhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hjToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.bunifuButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.kToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.kToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.kToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-            this.splitContainer1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel1.Controls.Add(this.bunifuButton1);
-            this.panel1.Location = new System.Drawing.Point(33, 341);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(556, 323);
-            this.panel1.TabIndex = 1;
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
-            this.menuStrip1.Location = new System.Drawing.Point(226, 22);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(126, 82);
-            this.menuStrip1.TabIndex = 2;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // ngToolStripMenuItem
-            // 
-            this.ngToolStripMenuItem.Name = "ngToolStripMenuItem";
-            this.ngToolStripMenuItem.Size = new System.Drawing.Size(33, 20);
-            this.ngToolStripMenuItem.Text = "ng";
-            // 
-            // jghjgToolStripMenuItem
-            // 
-            this.jghjgToolStripMenuItem.Name = "jghjgToolStripMenuItem";
-            this.jghjgToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
-            this.jghjgToolStripMenuItem.Text = "jghjg";
-            // 
-            // ghhkToolStripMenuItem
-            // 
-            this.ghhkToolStripMenuItem.Name = "ghhkToolStripMenuItem";
-            this.ghhkToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
-            this.ghhkToolStripMenuItem.Text = "ghhk";
-            // 
-            // jghjhToolStripMenuItem
-            // 
-            this.jghjhToolStripMenuItem.Name = "jghjhToolStripMenuItem";
-            this.jghjhToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.jghjhToolStripMenuItem.Text = "jghjh";
-            // 
-            // jhjhToolStripMenuItem
-            // 
-            this.jhjhToolStripMenuItem.Name = "jhjhToolStripMenuItem";
-            this.jhjhToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.jhjhToolStripMenuItem.Text = "jhjh";
-            // 
-            // hjToolStripMenuItem
-            // 
-            this.hjToolStripMenuItem.Name = "hjToolStripMenuItem";
-            this.hjToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.hjToolStripMenuItem.Text = "hj";
-            // 
-            // splitContainer1
-            // 
-            this.splitContainer1.Location = new System.Drawing.Point(59, 157);
-            this.splitContainer1.Name = "splitContainer1";
-            this.splitContainer1.Size = new System.Drawing.Size(376, 132);
-            this.splitContainer1.SplitterDistance = 125;
-            this.splitContainer1.TabIndex = 3;
             // 
             // bunifuButton1
             // 
@@ -131,11 +49,11 @@
             this.bunifuButton1.ColorContrastOnClick = 45;
             this.bunifuButton1.ColorContrastOnHover = 45;
             this.bunifuButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges9.BottomLeft = true;
-            borderEdges9.BottomRight = true;
-            borderEdges9.TopLeft = true;
-            borderEdges9.TopRight = true;
-            this.bunifuButton1.CustomizableEdges = borderEdges9;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.bunifuButton1.CustomizableEdges = borderEdges1;
             this.bunifuButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuButton1.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton1.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -154,8 +72,7 @@
             this.bunifuButton1.IdleIconLeftImage = null;
             this.bunifuButton1.IdleIconRightImage = null;
             this.bunifuButton1.IndicateFocus = false;
-            this.bunifuButton1.Location = new System.Drawing.Point(26, 30);
-            this.bunifuButton1.Margin = new System.Windows.Forms.Padding(2);
+            this.bunifuButton1.Location = new System.Drawing.Point(35, 37);
             this.bunifuButton1.Name = "bunifuButton1";
             this.bunifuButton1.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             this.bunifuButton1.onHoverState.BorderRadius = 3;
@@ -181,55 +98,31 @@
             this.bunifuButton1.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton1.OnPressedState.IconLeftImage = null;
             this.bunifuButton1.OnPressedState.IconRightImage = null;
-            this.bunifuButton1.Size = new System.Drawing.Size(158, 37);
+            this.bunifuButton1.Size = new System.Drawing.Size(210, 45);
             this.bunifuButton1.TabIndex = 0;
             this.bunifuButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton1.TextMarginLeft = 0;
             this.bunifuButton1.UseDefaultRadiusAndThickness = true;
             // 
-            // kToolStripMenuItem
+            // panel1
             // 
-            this.kToolStripMenuItem.Name = "kToolStripMenuItem";
-            this.kToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.kToolStripMenuItem.Text = "k";
-            // 
-            // kToolStripMenuItem1
-            // 
-            this.kToolStripMenuItem1.Name = "kToolStripMenuItem1";
-            this.kToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.kToolStripMenuItem1.Text = "k";
-            // 
-            // kToolStripMenuItem2
-            // 
-            this.kToolStripMenuItem2.Name = "kToolStripMenuItem2";
-            this.kToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.kToolStripMenuItem2.Text = "k";
-            // 
-            // kToolStripMenuItem3
-            // 
-            this.kToolStripMenuItem3.Name = "kToolStripMenuItem3";
-            this.kToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
-            this.kToolStripMenuItem3.Text = "k";
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel1.Controls.Add(this.bunifuButton1);
+            this.panel1.Location = new System.Drawing.Point(27, 23);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(742, 398);
+            this.panel1.TabIndex = 1;
             // 
             // testForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
-            this.Controls.Add(this.splitContainer1);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "testForm";
             this.Text = "testForm";
             this.panel1.ResumeLayout(false);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-            this.splitContainer1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -237,17 +130,5 @@
 
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem ngToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem jghjgToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ghhkToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem jghjhToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem jhjhToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hjToolStripMenuItem;
-        private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.ToolStripMenuItem kToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem kToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem kToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem kToolStripMenuItem3;
     }
 }

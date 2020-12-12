@@ -376,7 +376,7 @@
             this.gunaButton2.FocusedColor = System.Drawing.Color.Empty;
             this.gunaButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaButton2.ForeColor = System.Drawing.Color.White;
-           
+            this.gunaButton2.Image = global::DuAnMain.Properties.Resources.registry_editor_100px;
             this.gunaButton2.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaButton2.Location = new System.Drawing.Point(37, 399);
             this.gunaButton2.Margin = new System.Windows.Forms.Padding(4);
@@ -403,7 +403,7 @@
             this.btnLogin.FocusedColor = System.Drawing.Color.Empty;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-           
+            this.btnLogin.Image = global::DuAnMain.Properties.Resources.registry_editor_100px;
             this.btnLogin.ImageSize = new System.Drawing.Size(20, 20);
             this.btnLogin.Location = new System.Drawing.Point(36, 346);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(4);

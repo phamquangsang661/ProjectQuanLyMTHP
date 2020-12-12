@@ -202,7 +202,7 @@ namespace DuAnMain
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FormBelongStaffs.testForm());
+            OpenChildForm(new FormBelongStaffs.QuanLyBanTraHang.frmDanhSachDonHang());
         }
 
         private void subQuanLyCongViec_Click(object sender, EventArgs e)
@@ -262,7 +262,7 @@ namespace DuAnMain
                 pbSearch.Visible = true;
             }
         }
-
+        //
         private void gunaButton10_Click(object sender, EventArgs e)
         {
             OpenChildForm(new testForm());
