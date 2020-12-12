@@ -262,7 +262,7 @@ namespace DuAnMain
                 pbSearch.Visible = true;
             }
         }
-
+        //
         private void gunaButton10_Click(object sender, EventArgs e)
         {
             OpenChildForm(new testForm());
