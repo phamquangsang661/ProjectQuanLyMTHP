@@ -1195,7 +1195,6 @@
             this.subQuanLyCongNo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyCongNo.UseVisualStyleBackColor = false;
             this.subQuanLyCongNo.Click += new System.EventHandler(this.subQuanLyCongNo_Click);
-         
             // 
             // panelSubMenuQuanLyTaiSan
             // 
@@ -1261,7 +1260,6 @@
             this.subQuanLyTaiSan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyTaiSan.UseVisualStyleBackColor = false;
             this.subQuanLyTaiSan.Click += new System.EventHandler(this.subQuanLyTaiSan_Click);
-
             // 
             // panelSubMenuQuanLyKhachHang
             // 
@@ -1384,7 +1382,6 @@
             this.subQuanLyKhachHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyKhachHang.UseVisualStyleBackColor = false;
             this.subQuanLyKhachHang.Click += new System.EventHandler(this.subQuanLyKhachHang_Click);
-
             // 
             // panelSubMenuQuanLyThuChi
             // 
@@ -1507,7 +1504,6 @@
             this.subQuanLyThuChi.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyThuChi.UseVisualStyleBackColor = false;
             this.subQuanLyThuChi.Click += new System.EventHandler(this.subQuanLyThuChi_Click);
-
             // 
             // subQuanLyNhanSu
             // 
@@ -1534,7 +1530,7 @@
             this.subQuanLyNhanSu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyNhanSu.UseVisualStyleBackColor = false;
             this.subQuanLyNhanSu.Click += new System.EventHandler(this.subQuanLyNhanSu_Click);
-
+            // 
             // panelSubMenuQuanLyKhoHang
             // 
             this.panelSubMenuQuanLyKhoHang.AutoSize = true;
@@ -1742,7 +1738,6 @@
             this.subQuanLyKhoHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyKhoHang.UseVisualStyleBackColor = false;
             this.subQuanLyKhoHang.Click += new System.EventHandler(this.subQuanLyKhoHang_Click);
-        
             // 
             // panelSubMenuQuanLySuaChua
             // 
@@ -1837,7 +1832,6 @@
             this.subQuanLySuaChua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLySuaChua.UseVisualStyleBackColor = false;
             this.subQuanLySuaChua.Click += new System.EventHandler(this.subQuanLySuaChua_Click);
-
             // 
             // panelsubQuanLyBanTraHang
             // 
