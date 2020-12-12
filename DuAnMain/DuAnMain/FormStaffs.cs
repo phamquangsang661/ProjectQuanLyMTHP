@@ -1,6 +1,4 @@
-﻿using DuAnMain.FormBelongStaffs;
-using DuAnMain.FormBelongStaffs.QuanLyBanTraHang;
-using DuAnMain.FormBelongStaffs.QuanLyKhoHang;
+﻿using DuAnMain.FormBelongStaffs.QuanLyBanTraHang;
 using FontAwesome.Sharp;
 using System;
 using System.Collections.Generic;
@@ -202,7 +200,7 @@ namespace DuAnMain
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FormBelongStaffs.QuanLyBanTraHang.frmDanhSachDonHang());
+            OpenChildForm(new FormBelongStaffs.testForm());
         }
 
         private void subQuanLyCongViec_Click(object sender, EventArgs e)
@@ -225,17 +223,17 @@ namespace DuAnMain
 
         private void btnNhaCungCap_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new frmNCC());
+            
         }
 
         private void btnDanhSachKhoSanPham_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new frmQuanLyKhoSP());
+
         }
 
         private void btnDanhSachKhachHang_Click(object sender, EventArgs e)
         {
-            
+           
         }
 
         private void btnDoanhSoBanHang_Click(object sender, EventArgs e)
@@ -261,31 +259,6 @@ namespace DuAnMain
                 lblSearch.Text = "Search";
                 pbSearch.Visible = true;
             }
-        }
-
-        private void gunaButton10_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new testForm());
-        }
-
-        private void gunaButton1_Click_1(object sender, EventArgs e)
-        {
-            OpenChildForm(new frmQuanLyKhoSP());
-        }
-
-        private void btnnhomSP_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new frmNhomSP());
-        }
-
-     //// ////////////////////////////////////////////////////////
-    
-        
-       
-
-        private void btnDanhSachSanPham_Click_1(object sender, EventArgs e)
-        {
-
         }
     }
 }

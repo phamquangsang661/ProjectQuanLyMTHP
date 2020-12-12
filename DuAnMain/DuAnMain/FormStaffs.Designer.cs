@@ -2,7 +2,6 @@
 {
     partial class FormStaffs
     {
-
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -31,25 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormStaffs));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            Guna.UI.Animation.Animation animation1 = new Guna.UI.Animation.Animation();
+            Guna.UI.Animation.Animation animation2 = new Guna.UI.Animation.Animation();
             this.gunaElipsePanel1 = new Guna.UI.WinForms.GunaElipsePanel();
             this.gunaGradientPanel1 = new Guna.UI.WinForms.GunaGradientPanel();
             this.panelDesktop = new System.Windows.Forms.Panel();
-            this.bunifuCustomDataGrid1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.lblTime = new Guna.UI.WinForms.GunaLabel();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.panelTitleBar = new System.Windows.Forms.Panel();
-            this.gunaButton25 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton24 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton23 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton22 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton21 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton20 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton19 = new Guna.UI.WinForms.GunaButton();
-            this.lblSearch = new Guna.UI.WinForms.GunaLabel();
-            this.txtSearch = new Guna.UI.WinForms.GunaTextBox();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.panelMenuControl = new Guna.UI.WinForms.GunaGradientPanel();
             this.subTroGiup = new FontAwesome.Sharp.IconButton();
             this.subCaiDat = new FontAwesome.Sharp.IconButton();
@@ -64,12 +52,6 @@
             this.gunaButton45 = new Guna.UI.WinForms.GunaButton();
             this.subCongTy = new FontAwesome.Sharp.IconButton();
             this.panelSubMenuBaoCaoDoanhSo = new Guna.UI.WinForms.GunaPanel();
-            this.gunaButton18 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton17 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton16 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton15 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton13 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton12 = new Guna.UI.WinForms.GunaButton();
             this.btnDoanhSoBanHang = new Guna.UI.WinForms.GunaButton();
             this.subBaoCaoDoanhSo = new FontAwesome.Sharp.IconButton();
             this.panelSubMenuQuanLyCongNo = new Guna.UI.WinForms.GunaPanel();
@@ -87,42 +69,38 @@
             this.gunaButton26 = new Guna.UI.WinForms.GunaButton();
             this.subQuanLyKhachHang = new FontAwesome.Sharp.IconButton();
             this.panelSubMenuQuanLyThuChi = new Guna.UI.WinForms.GunaPanel();
-            this.gunaButton11 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
             this.btnThongKeThuChi = new Guna.UI.WinForms.GunaButton();
             this.subQuanLyThuChi = new FontAwesome.Sharp.IconButton();
             this.subQuanLyNhanSu = new FontAwesome.Sharp.IconButton();
             this.panelSubMenuQuanLyKhoHang = new Guna.UI.WinForms.GunaPanel();
-            this.gunaButton27 = new Guna.UI.WinForms.GunaButton();
+            this.gunaButton14 = new Guna.UI.WinForms.GunaButton();
+            this.gunaButton13 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton10 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
-            this.btnnhomSP = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
+            this.btnDanhSachKhoSanPham = new Guna.UI.WinForms.GunaButton();
             this.btnNhaCungCap = new Guna.UI.WinForms.GunaButton();
             this.subQuanLyKhoHang = new FontAwesome.Sharp.IconButton();
             this.panelSubMenuQuanLySuaChua = new Guna.UI.WinForms.GunaPanel();
-            this.btnDanhSachSanPham = new Guna.UI.WinForms.GunaButton();
             this.gunaButton5 = new Guna.UI.WinForms.GunaButton();
+            this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
             this.subQuanLySuaChua = new FontAwesome.Sharp.IconButton();
             this.panelsubQuanLyBanTraHang = new Guna.UI.WinForms.GunaPanel();
-            this.gunaButton9 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton8 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton7 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton6 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton4 = new Guna.UI.WinForms.GunaButton();
             this.btnDanhSachDonGiaoHang = new Guna.UI.WinForms.GunaButton();
             this.subQuanLyBanTraHang = new FontAwesome.Sharp.IconButton();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
+            this.pbLogo = new FontAwesome.Sharp.IconPictureBox();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.realclock = new System.Windows.Forms.Timer(this.components);
             this.gunaTran = new Guna.UI.WinForms.GunaTransition(this.components);
+            this.btnDanhSachSanPham = new Guna.UI.WinForms.GunaButton();
+            this.txtSearch = new Guna.UI.WinForms.GunaTextBox();
+            this.lblSearch = new Guna.UI.WinForms.GunaLabel();
+            this.pbSearch = new Guna.UI2.WinForms.Guna2PictureBox();
             this.gunaElipsePanel1.SuspendLayout();
             this.panelDesktop.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.panelTitleBar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.panelMenuControl.SuspendLayout();
             this.panelSubMenuThongKe.SuspendLayout();
             this.panelSubMenuCongTy.SuspendLayout();
@@ -135,7 +113,8 @@
             this.panelSubMenuQuanLySuaChua.SuspendLayout();
             this.panelsubQuanLyBanTraHang.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSearch)).BeginInit();
             this.SuspendLayout();
             // 
             // gunaElipsePanel1
@@ -151,7 +130,7 @@
             this.gunaElipsePanel1.Controls.Add(this.panelMenuControl);
             this.gunaTran.SetDecoration(this.gunaElipsePanel1, Guna.UI.Animation.DecorationType.None);
             this.gunaElipsePanel1.Location = new System.Drawing.Point(9, 10);
-            this.gunaElipsePanel1.Margin = new System.Windows.Forms.Padding(2);
+            this.gunaElipsePanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaElipsePanel1.Name = "gunaElipsePanel1";
             this.gunaElipsePanel1.Radius = 17;
             this.gunaElipsePanel1.Size = new System.Drawing.Size(957, 812);
@@ -168,7 +147,7 @@
             this.gunaGradientPanel1.GradientColor3 = System.Drawing.Color.Silver;
             this.gunaGradientPanel1.GradientColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(243)))), ((int)(((byte)(248)))));
             this.gunaGradientPanel1.Location = new System.Drawing.Point(204, 64);
-            this.gunaGradientPanel1.Margin = new System.Windows.Forms.Padding(2);
+            this.gunaGradientPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaGradientPanel1.Name = "gunaGradientPanel1";
             this.gunaGradientPanel1.Size = new System.Drawing.Size(753, 8);
             this.gunaGradientPanel1.TabIndex = 0;
@@ -176,45 +155,16 @@
             // 
             // panelDesktop
             // 
-            this.panelDesktop.AutoScroll = true;
             this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(243)))), ((int)(((byte)(248)))));
-            this.panelDesktop.Controls.Add(this.bunifuCustomDataGrid1);
             this.panelDesktop.Controls.Add(this.lblTime);
             this.panelDesktop.Controls.Add(this.iconPictureBox1);
             this.gunaTran.SetDecoration(this.panelDesktop, Guna.UI.Animation.DecorationType.None);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(204, 64);
-            this.panelDesktop.Margin = new System.Windows.Forms.Padding(2);
+            this.panelDesktop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelDesktop.Name = "panelDesktop";
             this.panelDesktop.Size = new System.Drawing.Size(753, 748);
             this.panelDesktop.TabIndex = 3;
-            // 
-            // bunifuCustomDataGrid1
-            // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.bunifuCustomDataGrid1.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.bunifuCustomDataGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.bunifuCustomDataGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.SeaGreen;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.bunifuCustomDataGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gunaTran.SetDecoration(this.bunifuCustomDataGrid1, Guna.UI.Animation.DecorationType.None);
-            this.bunifuCustomDataGrid1.DoubleBuffered = true;
-            this.bunifuCustomDataGrid1.EnableHeadersVisualStyles = false;
-            this.bunifuCustomDataGrid1.HeaderBgColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCustomDataGrid1.HeaderForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCustomDataGrid1.Location = new System.Drawing.Point(-236, -120);
-            this.bunifuCustomDataGrid1.Name = "bunifuCustomDataGrid1";
-            this.bunifuCustomDataGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(240, 150);
-            this.bunifuCustomDataGrid1.TabIndex = 5;
             // 
             // lblTime
             // 
@@ -222,7 +172,7 @@
             this.lblTime.BackColor = System.Drawing.Color.Transparent;
             this.gunaTran.SetDecoration(this.lblTime, Guna.UI.Animation.DecorationType.None);
             this.lblTime.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTime.Location = new System.Drawing.Point(338, 366);
+            this.lblTime.Location = new System.Drawing.Point(327, 375);
             this.lblTime.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTime.Name = "lblTime";
             this.lblTime.Size = new System.Drawing.Size(130, 46);
@@ -240,8 +190,8 @@
             this.iconPictureBox1.IconColor = System.Drawing.Color.DimGray;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox1.IconSize = 168;
-            this.iconPictureBox1.Location = new System.Drawing.Point(319, 229);
-            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.iconPictureBox1.Location = new System.Drawing.Point(308, 238);
+            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.iconPictureBox1.Name = "iconPictureBox1";
             this.iconPictureBox1.Size = new System.Drawing.Size(201, 168);
             this.iconPictureBox1.TabIndex = 3;
@@ -250,233 +200,33 @@
             // panelTitleBar
             // 
             this.panelTitleBar.BackColor = System.Drawing.Color.White;
-            this.panelTitleBar.Controls.Add(this.gunaButton25);
-            this.panelTitleBar.Controls.Add(this.gunaButton24);
-            this.panelTitleBar.Controls.Add(this.gunaButton23);
-            this.panelTitleBar.Controls.Add(this.gunaButton22);
-            this.panelTitleBar.Controls.Add(this.gunaButton21);
-            this.panelTitleBar.Controls.Add(this.gunaButton20);
-            this.panelTitleBar.Controls.Add(this.gunaButton19);
+            this.panelTitleBar.Controls.Add(this.pbSearch);
             this.panelTitleBar.Controls.Add(this.lblSearch);
             this.panelTitleBar.Controls.Add(this.txtSearch);
+            this.panelTitleBar.Controls.Add(this.guna2CirclePictureBox1);
             this.gunaTran.SetDecoration(this.panelTitleBar, Guna.UI.Animation.DecorationType.None);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitleBar.Location = new System.Drawing.Point(204, 0);
-            this.panelTitleBar.Margin = new System.Windows.Forms.Padding(2);
+            this.panelTitleBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelTitleBar.Name = "panelTitleBar";
             this.panelTitleBar.Size = new System.Drawing.Size(753, 64);
             this.panelTitleBar.TabIndex = 1;
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
-            // gunaButton25
+            // guna2CirclePictureBox1
             // 
-            this.gunaButton25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaButton25.AnimationHoverSpeed = 0.07F;
-            this.gunaButton25.AnimationSpeed = 0.03F;
-            this.gunaButton25.BaseColor = System.Drawing.Color.White;
-            this.gunaButton25.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton25, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton25.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton25.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton25.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton25.ForeColor = System.Drawing.Color.White;
-            this.gunaButton25.Image = global::DuAnMain.Properties.Resources._messaging_two_128;
-            this.gunaButton25.ImageSize = new System.Drawing.Size(30, 30);
-            this.gunaButton25.Location = new System.Drawing.Point(471, 13);
-            this.gunaButton25.Name = "gunaButton25";
-            this.gunaButton25.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton25.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton25.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton25.OnHoverImage = null;
-            this.gunaButton25.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton25.Size = new System.Drawing.Size(48, 42);
-            this.gunaButton25.TabIndex = 9;
-            this.gunaButton25.Text = "gunaButton25";
-            // 
-            // gunaButton24
-            // 
-            this.gunaButton24.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaButton24.AnimationHoverSpeed = 0.07F;
-            this.gunaButton24.AnimationSpeed = 0.03F;
-            this.gunaButton24.BaseColor = System.Drawing.Color.White;
-            this.gunaButton24.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton24, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton24.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton24.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton24.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton24.ForeColor = System.Drawing.Color.White;
-            this.gunaButton24.Image = global::DuAnMain.Properties.Resources.icon_help_circled_128;
-            this.gunaButton24.ImageSize = new System.Drawing.Size(30, 30);
-            this.gunaButton24.Location = new System.Drawing.Point(629, 13);
-            this.gunaButton24.Name = "gunaButton24";
-            this.gunaButton24.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton24.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton24.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton24.OnHoverImage = null;
-            this.gunaButton24.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton24.Size = new System.Drawing.Size(48, 42);
-            this.gunaButton24.TabIndex = 8;
-            this.gunaButton24.Text = "gunaButton24";
-            // 
-            // gunaButton23
-            // 
-            this.gunaButton23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaButton23.AnimationHoverSpeed = 0.07F;
-            this.gunaButton23.AnimationSpeed = 0.03F;
-            this.gunaButton23.BaseColor = System.Drawing.Color.White;
-            this.gunaButton23.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton23, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton23.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton23.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton23.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton23.ForeColor = System.Drawing.Color.White;
-            this.gunaButton23.Image = global::DuAnMain.Properties.Resources.megaphone_128;
-            this.gunaButton23.ImageSize = new System.Drawing.Size(30, 30);
-            this.gunaButton23.Location = new System.Drawing.Point(521, 13);
-            this.gunaButton23.Name = "gunaButton23";
-            this.gunaButton23.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton23.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton23.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton23.OnHoverImage = null;
-            this.gunaButton23.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton23.Size = new System.Drawing.Size(48, 42);
-            this.gunaButton23.TabIndex = 7;
-            this.gunaButton23.Text = "gunaButton23";
-            // 
-            // gunaButton22
-            // 
-            this.gunaButton22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaButton22.AnimationHoverSpeed = 0.07F;
-            this.gunaButton22.AnimationSpeed = 0.03F;
-            this.gunaButton22.BaseColor = System.Drawing.Color.White;
-            this.gunaButton22.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton22, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton22.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton22.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton22.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton22.ForeColor = System.Drawing.Color.White;
-            this.gunaButton22.Image = global::DuAnMain.Properties.Resources.ic_settings_48px_2561;
-            this.gunaButton22.ImageSize = new System.Drawing.Size(30, 30);
-            this.gunaButton22.Location = new System.Drawing.Point(575, 13);
-            this.gunaButton22.Name = "gunaButton22";
-            this.gunaButton22.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton22.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton22.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton22.OnHoverImage = null;
-            this.gunaButton22.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton22.Size = new System.Drawing.Size(48, 42);
-            this.gunaButton22.TabIndex = 6;
-            this.gunaButton22.Text = "gunaButton22";
-            // 
-            // gunaButton21
-            // 
-            this.gunaButton21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaButton21.AnimationHoverSpeed = 0.07F;
-            this.gunaButton21.AnimationSpeed = 0.03F;
-            this.gunaButton21.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton21.BaseColor = System.Drawing.Color.White;
-            this.gunaButton21.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton21.BorderSize = 1;
-            this.gunaTran.SetDecoration(this.gunaButton21, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton21.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton21.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton21.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton21.ForeColor = System.Drawing.Color.White;
-            this.gunaButton21.Image = global::DuAnMain.Properties.Resources.Profile01_256;
-            this.gunaButton21.ImageSize = new System.Drawing.Size(40, 40);
-            this.gunaButton21.Location = new System.Drawing.Point(683, 13);
-            this.gunaButton21.Name = "gunaButton21";
-            this.gunaButton21.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton21.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton21.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton21.OnHoverImage = null;
-            this.gunaButton21.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton21.Radius = 20;
-            this.gunaButton21.Size = new System.Drawing.Size(57, 42);
-            this.gunaButton21.TabIndex = 5;
-            this.gunaButton21.Text = "gunaButton21";
-            // 
-            // gunaButton20
-            // 
-            this.gunaButton20.AnimationHoverSpeed = 0.07F;
-            this.gunaButton20.AnimationSpeed = 0.03F;
-            this.gunaButton20.BaseColor = System.Drawing.Color.White;
-            this.gunaButton20.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton20, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton20.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton20.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton20.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton20.ForeColor = System.Drawing.Color.White;
-            this.gunaButton20.Image = global::DuAnMain.Properties.Resources._5064_256;
-            this.gunaButton20.ImageSize = new System.Drawing.Size(30, 30);
-            this.gunaButton20.Location = new System.Drawing.Point(59, 13);
-            this.gunaButton20.Name = "gunaButton20";
-            this.gunaButton20.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton20.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton20.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton20.OnHoverImage = null;
-            this.gunaButton20.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton20.Size = new System.Drawing.Size(48, 42);
-            this.gunaButton20.TabIndex = 4;
-            this.gunaButton20.Text = "gunaButton20";
-            // 
-            // gunaButton19
-            // 
-            this.gunaButton19.AnimationHoverSpeed = 0.07F;
-            this.gunaButton19.AnimationSpeed = 0.03F;
-            this.gunaButton19.BaseColor = System.Drawing.Color.White;
-            this.gunaButton19.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton19, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton19.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton19.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton19.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton19.ForeColor = System.Drawing.Color.White;
-            this.gunaButton19.Image = global::DuAnMain.Properties.Resources.plus_add_additional_256;
-            this.gunaButton19.ImageSize = new System.Drawing.Size(30, 30);
-            this.gunaButton19.Location = new System.Drawing.Point(5, 13);
-            this.gunaButton19.Name = "gunaButton19";
-            this.gunaButton19.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton19.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton19.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton19.OnHoverImage = null;
-            this.gunaButton19.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton19.Size = new System.Drawing.Size(48, 42);
-            this.gunaButton19.TabIndex = 3;
-            this.gunaButton19.Text = "gunaButton19";
-            // 
-            // lblSearch
-            // 
-            this.lblSearch.AutoSize = true;
-            this.gunaTran.SetDecoration(this.lblSearch, Guna.UI.Animation.DecorationType.None);
-            this.lblSearch.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(214)))), ((int)(((byte)(214)))));
-            this.lblSearch.Location = new System.Drawing.Point(130, 26);
-            this.lblSearch.Name = "lblSearch";
-            this.lblSearch.Size = new System.Drawing.Size(57, 21);
-            this.lblSearch.TabIndex = 2;
-            this.lblSearch.Text = "Search";
-            // 
-            // txtSearch
-            // 
-            this.txtSearch.BackColor = System.Drawing.Color.Transparent;
-            this.txtSearch.BaseColor = System.Drawing.Color.White;
-            this.txtSearch.BorderColor = System.Drawing.Color.Silver;
-            this.txtSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaTran.SetDecoration(this.txtSearch, Guna.UI.Animation.DecorationType.None);
-            this.txtSearch.FocusedBaseColor = System.Drawing.Color.White;
-            this.txtSearch.FocusedBorderColor = System.Drawing.Color.Silver;
-            this.txtSearch.FocusedForeColor = System.Drawing.Color.Silver;
-            this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearch.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.txtSearch.Location = new System.Drawing.Point(113, 18);
-            this.txtSearch.Name = "txtSearch";
-            this.txtSearch.PasswordChar = '\0';
-            this.txtSearch.Radius = 18;
-            this.txtSearch.SelectedText = "";
-            this.txtSearch.Size = new System.Drawing.Size(239, 37);
-            this.txtSearch.TabIndex = 1;
-            this.txtSearch.TextOffsetX = 7;
-            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
+            this.guna2CirclePictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.gunaTran.SetDecoration(this.guna2CirclePictureBox1, Guna.UI.Animation.DecorationType.None);
+            this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(704, 13);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(34, 37);
+            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox1.TabIndex = 0;
+            this.guna2CirclePictureBox1.TabStop = false;
             // 
             // panelMenuControl
             // 
@@ -516,7 +266,7 @@
             this.panelMenuControl.GradientColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(121)))), ((int)(((byte)(218)))));
             this.panelMenuControl.GradientColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(121)))), ((int)(((byte)(218)))));
             this.panelMenuControl.Location = new System.Drawing.Point(0, 0);
-            this.panelMenuControl.Margin = new System.Windows.Forms.Padding(2);
+            this.panelMenuControl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelMenuControl.Name = "panelMenuControl";
             this.panelMenuControl.Size = new System.Drawing.Size(204, 812);
             this.panelMenuControl.TabIndex = 0;
@@ -536,8 +286,8 @@
             this.subTroGiup.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subTroGiup.IconSize = 32;
             this.subTroGiup.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subTroGiup.Location = new System.Drawing.Point(0, 2019);
-            this.subTroGiup.Margin = new System.Windows.Forms.Padding(2);
+            this.subTroGiup.Location = new System.Drawing.Point(0, 1515);
+            this.subTroGiup.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.subTroGiup.Name = "subTroGiup";
             this.subTroGiup.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
             this.subTroGiup.Size = new System.Drawing.Size(187, 41);
@@ -562,8 +312,8 @@
             this.subCaiDat.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subCaiDat.IconSize = 32;
             this.subCaiDat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subCaiDat.Location = new System.Drawing.Point(0, 1978);
-            this.subCaiDat.Margin = new System.Windows.Forms.Padding(2);
+            this.subCaiDat.Location = new System.Drawing.Point(0, 1474);
+            this.subCaiDat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.subCaiDat.Name = "subCaiDat";
             this.subCaiDat.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
             this.subCaiDat.Size = new System.Drawing.Size(187, 41);
@@ -580,8 +330,8 @@
             this.panelSubMenuThongKe.Controls.Add(this.btnThongKeBangLuong);
             this.gunaTran.SetDecoration(this.panelSubMenuThongKe, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuThongKe.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuThongKe.Location = new System.Drawing.Point(0, 1944);
-            this.panelSubMenuThongKe.Margin = new System.Windows.Forms.Padding(2);
+            this.panelSubMenuThongKe.Location = new System.Drawing.Point(0, 1440);
+            this.panelSubMenuThongKe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelSubMenuThongKe.Name = "panelSubMenuThongKe";
             this.panelSubMenuThongKe.Size = new System.Drawing.Size(187, 34);
             this.panelSubMenuThongKe.TabIndex = 18;
@@ -601,7 +351,7 @@
             this.btnThongKeBangLuong.Image = null;
             this.btnThongKeBangLuong.ImageSize = new System.Drawing.Size(20, 20);
             this.btnThongKeBangLuong.Location = new System.Drawing.Point(0, 0);
-            this.btnThongKeBangLuong.Margin = new System.Windows.Forms.Padding(2);
+            this.btnThongKeBangLuong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnThongKeBangLuong.Name = "btnThongKeBangLuong";
             this.btnThongKeBangLuong.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnThongKeBangLuong.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -610,6 +360,7 @@
             this.btnThongKeBangLuong.OnPressedColor = System.Drawing.Color.Black;
             this.btnThongKeBangLuong.Size = new System.Drawing.Size(187, 34);
             this.btnThongKeBangLuong.TabIndex = 8;
+            this.btnThongKeBangLuong.Text = "Thống kê bảng lương";
             this.btnThongKeBangLuong.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // subThongKe
@@ -626,13 +377,13 @@
             this.subThongKe.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subThongKe.IconSize = 32;
             this.subThongKe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subThongKe.Location = new System.Drawing.Point(0, 1903);
-            this.subThongKe.Margin = new System.Windows.Forms.Padding(2);
+            this.subThongKe.Location = new System.Drawing.Point(0, 1399);
+            this.subThongKe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.subThongKe.Name = "subThongKe";
             this.subThongKe.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
             this.subThongKe.Size = new System.Drawing.Size(187, 41);
             this.subThongKe.TabIndex = 25;
-            this.subThongKe.Text = "Ngân hàng";
+            this.subThongKe.Text = "Thống kê";
             this.subThongKe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.subThongKe.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subThongKe.UseVisualStyleBackColor = false;
@@ -652,8 +403,8 @@
             this.subQuanLyCongViec.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subQuanLyCongViec.IconSize = 32;
             this.subQuanLyCongViec.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLyCongViec.Location = new System.Drawing.Point(0, 1862);
-            this.subQuanLyCongViec.Margin = new System.Windows.Forms.Padding(2);
+            this.subQuanLyCongViec.Location = new System.Drawing.Point(0, 1358);
+            this.subQuanLyCongViec.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.subQuanLyCongViec.Name = "subQuanLyCongViec";
             this.subQuanLyCongViec.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
             this.subQuanLyCongViec.Size = new System.Drawing.Size(187, 41);
@@ -673,8 +424,8 @@
             this.panelSubMenuCongTy.Controls.Add(this.gunaButton45);
             this.gunaTran.SetDecoration(this.panelSubMenuCongTy, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuCongTy.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuCongTy.Location = new System.Drawing.Point(0, 1726);
-            this.panelSubMenuCongTy.Margin = new System.Windows.Forms.Padding(2);
+            this.panelSubMenuCongTy.Location = new System.Drawing.Point(0, 1222);
+            this.panelSubMenuCongTy.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelSubMenuCongTy.Name = "panelSubMenuCongTy";
             this.panelSubMenuCongTy.Size = new System.Drawing.Size(187, 136);
             this.panelSubMenuCongTy.TabIndex = 24;
@@ -694,7 +445,7 @@
             this.gunaButton42.Image = null;
             this.gunaButton42.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaButton42.Location = new System.Drawing.Point(0, 102);
-            this.gunaButton42.Margin = new System.Windows.Forms.Padding(2);
+            this.gunaButton42.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaButton42.Name = "gunaButton42";
             this.gunaButton42.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton42.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -721,7 +472,7 @@
             this.gunaButton43.Image = null;
             this.gunaButton43.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaButton43.Location = new System.Drawing.Point(0, 68);
-            this.gunaButton43.Margin = new System.Windows.Forms.Padding(2);
+            this.gunaButton43.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaButton43.Name = "gunaButton43";
             this.gunaButton43.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton43.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -748,7 +499,7 @@
             this.gunaButton44.Image = null;
             this.gunaButton44.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaButton44.Location = new System.Drawing.Point(0, 34);
-            this.gunaButton44.Margin = new System.Windows.Forms.Padding(2);
+            this.gunaButton44.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaButton44.Name = "gunaButton44";
             this.gunaButton44.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton44.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -775,7 +526,7 @@
             this.gunaButton45.Image = null;
             this.gunaButton45.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaButton45.Location = new System.Drawing.Point(0, 0);
-            this.gunaButton45.Margin = new System.Windows.Forms.Padding(2);
+            this.gunaButton45.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaButton45.Name = "gunaButton45";
             this.gunaButton45.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton45.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -801,8 +552,8 @@
             this.subCongTy.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subCongTy.IconSize = 32;
             this.subCongTy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subCongTy.Location = new System.Drawing.Point(0, 1685);
-            this.subCongTy.Margin = new System.Windows.Forms.Padding(2);
+            this.subCongTy.Location = new System.Drawing.Point(0, 1181);
+            this.subCongTy.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.subCongTy.Name = "subCongTy";
             this.subCongTy.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
             this.subCongTy.Size = new System.Drawing.Size(187, 41);
@@ -816,182 +567,14 @@
             // panelSubMenuBaoCaoDoanhSo
             // 
             this.panelSubMenuBaoCaoDoanhSo.AutoSize = true;
-            this.panelSubMenuBaoCaoDoanhSo.Controls.Add(this.gunaButton18);
-            this.panelSubMenuBaoCaoDoanhSo.Controls.Add(this.gunaButton17);
-            this.panelSubMenuBaoCaoDoanhSo.Controls.Add(this.gunaButton16);
-            this.panelSubMenuBaoCaoDoanhSo.Controls.Add(this.gunaButton15);
-            this.panelSubMenuBaoCaoDoanhSo.Controls.Add(this.gunaButton13);
-            this.panelSubMenuBaoCaoDoanhSo.Controls.Add(this.gunaButton12);
             this.panelSubMenuBaoCaoDoanhSo.Controls.Add(this.btnDoanhSoBanHang);
             this.gunaTran.SetDecoration(this.panelSubMenuBaoCaoDoanhSo, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuBaoCaoDoanhSo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuBaoCaoDoanhSo.Location = new System.Drawing.Point(0, 1447);
-            this.panelSubMenuBaoCaoDoanhSo.Margin = new System.Windows.Forms.Padding(2);
+            this.panelSubMenuBaoCaoDoanhSo.Location = new System.Drawing.Point(0, 1147);
+            this.panelSubMenuBaoCaoDoanhSo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelSubMenuBaoCaoDoanhSo.Name = "panelSubMenuBaoCaoDoanhSo";
-            this.panelSubMenuBaoCaoDoanhSo.Size = new System.Drawing.Size(187, 238);
+            this.panelSubMenuBaoCaoDoanhSo.Size = new System.Drawing.Size(187, 34);
             this.panelSubMenuBaoCaoDoanhSo.TabIndex = 23;
-            // 
-            // gunaButton18
-            // 
-            this.gunaButton18.AnimationHoverSpeed = 0.07F;
-            this.gunaButton18.AnimationSpeed = 0.03F;
-            this.gunaButton18.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton18.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton18, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton18.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton18.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton18.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton18.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton18.ForeColor = System.Drawing.Color.White;
-            this.gunaButton18.Image = null;
-            this.gunaButton18.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton18.Location = new System.Drawing.Point(0, 204);
-            this.gunaButton18.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton18.Name = "gunaButton18";
-            this.gunaButton18.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton18.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton18.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton18.OnHoverImage = null;
-            this.gunaButton18.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton18.Size = new System.Drawing.Size(187, 34);
-            this.gunaButton18.TabIndex = 12;
-            this.gunaButton18.Text = "Hàng tồn kho";
-            this.gunaButton18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton17
-            // 
-            this.gunaButton17.AnimationHoverSpeed = 0.07F;
-            this.gunaButton17.AnimationSpeed = 0.03F;
-            this.gunaButton17.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton17.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton17, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton17.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton17.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton17.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton17.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton17.ForeColor = System.Drawing.Color.White;
-            this.gunaButton17.Image = null;
-            this.gunaButton17.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton17.Location = new System.Drawing.Point(0, 170);
-            this.gunaButton17.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton17.Name = "gunaButton17";
-            this.gunaButton17.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton17.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton17.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton17.OnHoverImage = null;
-            this.gunaButton17.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton17.Size = new System.Drawing.Size(187, 34);
-            this.gunaButton17.TabIndex = 11;
-            this.gunaButton17.Text = "Dự án và bảng chấm công";
-            this.gunaButton17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton16
-            // 
-            this.gunaButton16.AnimationHoverSpeed = 0.07F;
-            this.gunaButton16.AnimationSpeed = 0.03F;
-            this.gunaButton16.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton16.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton16, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton16.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton16.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton16.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton16.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton16.ForeColor = System.Drawing.Color.White;
-            this.gunaButton16.Image = null;
-            this.gunaButton16.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton16.Location = new System.Drawing.Point(0, 136);
-            this.gunaButton16.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton16.Name = "gunaButton16";
-            this.gunaButton16.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton16.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton16.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton16.OnHoverImage = null;
-            this.gunaButton16.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton16.Size = new System.Drawing.Size(187, 34);
-            this.gunaButton16.TabIndex = 10;
-            this.gunaButton16.Text = "Hoạt động";
-            this.gunaButton16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton15
-            // 
-            this.gunaButton15.AnimationHoverSpeed = 0.07F;
-            this.gunaButton15.AnimationSpeed = 0.03F;
-            this.gunaButton15.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton15.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton15, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton15.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton15.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton15.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton15.ForeColor = System.Drawing.Color.White;
-            this.gunaButton15.Image = null;
-            this.gunaButton15.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton15.Location = new System.Drawing.Point(0, 102);
-            this.gunaButton15.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton15.Name = "gunaButton15";
-            this.gunaButton15.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton15.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton15.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton15.OnHoverImage = null;
-            this.gunaButton15.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton15.Size = new System.Drawing.Size(187, 34);
-            this.gunaButton15.TabIndex = 9;
-            this.gunaButton15.Text = "Nợ phải thu thu - Nợ phải trả";
-            this.gunaButton15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton13
-            // 
-            this.gunaButton13.AnimationHoverSpeed = 0.07F;
-            this.gunaButton13.AnimationSpeed = 0.03F;
-            this.gunaButton13.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton13.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton13, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton13.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton13.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton13.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton13.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton13.ForeColor = System.Drawing.Color.White;
-            this.gunaButton13.Image = null;
-            this.gunaButton13.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton13.Location = new System.Drawing.Point(0, 68);
-            this.gunaButton13.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton13.Name = "gunaButton13";
-            this.gunaButton13.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton13.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton13.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton13.OnHoverImage = null;
-            this.gunaButton13.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton13.Size = new System.Drawing.Size(187, 34);
-            this.gunaButton13.TabIndex = 8;
-            this.gunaButton13.Text = "Sửa chữa";
-            this.gunaButton13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton12
-            // 
-            this.gunaButton12.AnimationHoverSpeed = 0.07F;
-            this.gunaButton12.AnimationSpeed = 0.03F;
-            this.gunaButton12.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton12.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton12, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton12.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton12.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton12.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton12.ForeColor = System.Drawing.Color.White;
-            this.gunaButton12.Image = null;
-            this.gunaButton12.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton12.Location = new System.Drawing.Point(0, 34);
-            this.gunaButton12.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton12.Name = "gunaButton12";
-            this.gunaButton12.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton12.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton12.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton12.OnHoverImage = null;
-            this.gunaButton12.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton12.Size = new System.Drawing.Size(187, 34);
-            this.gunaButton12.TabIndex = 7;
-            this.gunaButton12.Text = "Bán hàng";
-            this.gunaButton12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnDoanhSoBanHang
             // 
@@ -1008,7 +591,7 @@
             this.btnDoanhSoBanHang.Image = null;
             this.btnDoanhSoBanHang.ImageSize = new System.Drawing.Size(20, 20);
             this.btnDoanhSoBanHang.Location = new System.Drawing.Point(0, 0);
-            this.btnDoanhSoBanHang.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDoanhSoBanHang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDoanhSoBanHang.Name = "btnDoanhSoBanHang";
             this.btnDoanhSoBanHang.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnDoanhSoBanHang.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1017,7 +600,7 @@
             this.btnDoanhSoBanHang.OnPressedColor = System.Drawing.Color.Black;
             this.btnDoanhSoBanHang.Size = new System.Drawing.Size(187, 34);
             this.btnDoanhSoBanHang.TabIndex = 6;
-            this.btnDoanhSoBanHang.Text = "Tổng quan về doanh nghiệp";
+            this.btnDoanhSoBanHang.Text = "Doanh số bán hàng";
             this.btnDoanhSoBanHang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnDoanhSoBanHang.Click += new System.EventHandler(this.btnDoanhSoBanHang_Click);
             // 
@@ -1035,13 +618,13 @@
             this.subBaoCaoDoanhSo.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subBaoCaoDoanhSo.IconSize = 32;
             this.subBaoCaoDoanhSo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subBaoCaoDoanhSo.Location = new System.Drawing.Point(0, 1406);
-            this.subBaoCaoDoanhSo.Margin = new System.Windows.Forms.Padding(2);
+            this.subBaoCaoDoanhSo.Location = new System.Drawing.Point(0, 1106);
+            this.subBaoCaoDoanhSo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.subBaoCaoDoanhSo.Name = "subBaoCaoDoanhSo";
             this.subBaoCaoDoanhSo.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
             this.subBaoCaoDoanhSo.Size = new System.Drawing.Size(187, 41);
             this.subBaoCaoDoanhSo.TabIndex = 12;
-            this.subBaoCaoDoanhSo.Text = "Báo cáo ";
+            this.subBaoCaoDoanhSo.Text = "Báo cáo doanh số";
             this.subBaoCaoDoanhSo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.subBaoCaoDoanhSo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subBaoCaoDoanhSo.UseVisualStyleBackColor = false;
@@ -1056,8 +639,8 @@
             this.panelSubMenuQuanLyCongNo.Controls.Add(this.gunaButton37);
             this.gunaTran.SetDecoration(this.panelSubMenuQuanLyCongNo, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuQuanLyCongNo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuQuanLyCongNo.Location = new System.Drawing.Point(0, 1270);
-            this.panelSubMenuQuanLyCongNo.Margin = new System.Windows.Forms.Padding(2);
+            this.panelSubMenuQuanLyCongNo.Location = new System.Drawing.Point(0, 970);
+            this.panelSubMenuQuanLyCongNo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelSubMenuQuanLyCongNo.Name = "panelSubMenuQuanLyCongNo";
             this.panelSubMenuQuanLyCongNo.Size = new System.Drawing.Size(187, 136);
             this.panelSubMenuQuanLyCongNo.TabIndex = 22;
@@ -1077,7 +660,7 @@
             this.gunaButton34.Image = null;
             this.gunaButton34.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaButton34.Location = new System.Drawing.Point(0, 102);
-            this.gunaButton34.Margin = new System.Windows.Forms.Padding(2);
+            this.gunaButton34.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaButton34.Name = "gunaButton34";
             this.gunaButton34.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton34.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1104,7 +687,7 @@
             this.gunaButton35.Image = null;
             this.gunaButton35.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaButton35.Location = new System.Drawing.Point(0, 68);
-            this.gunaButton35.Margin = new System.Windows.Forms.Padding(2);
+            this.gunaButton35.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaButton35.Name = "gunaButton35";
             this.gunaButton35.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton35.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1131,7 +714,7 @@
             this.gunaButton36.Image = null;
             this.gunaButton36.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaButton36.Location = new System.Drawing.Point(0, 34);
-            this.gunaButton36.Margin = new System.Windows.Forms.Padding(2);
+            this.gunaButton36.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaButton36.Name = "gunaButton36";
             this.gunaButton36.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton36.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1158,7 +741,7 @@
             this.gunaButton37.Image = null;
             this.gunaButton37.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaButton37.Location = new System.Drawing.Point(0, 0);
-            this.gunaButton37.Margin = new System.Windows.Forms.Padding(2);
+            this.gunaButton37.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaButton37.Name = "gunaButton37";
             this.gunaButton37.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton37.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1184,8 +767,8 @@
             this.subQuanLyCongNo.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subQuanLyCongNo.IconSize = 32;
             this.subQuanLyCongNo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLyCongNo.Location = new System.Drawing.Point(0, 1229);
-            this.subQuanLyCongNo.Margin = new System.Windows.Forms.Padding(2);
+            this.subQuanLyCongNo.Location = new System.Drawing.Point(0, 929);
+            this.subQuanLyCongNo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.subQuanLyCongNo.Name = "subQuanLyCongNo";
             this.subQuanLyCongNo.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
             this.subQuanLyCongNo.Size = new System.Drawing.Size(187, 41);
@@ -1195,7 +778,6 @@
             this.subQuanLyCongNo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyCongNo.UseVisualStyleBackColor = false;
             this.subQuanLyCongNo.Click += new System.EventHandler(this.subQuanLyCongNo_Click);
-         
             // 
             // panelSubMenuQuanLyTaiSan
             // 
@@ -1203,8 +785,8 @@
             this.panelSubMenuQuanLyTaiSan.Controls.Add(this.gunaButton32);
             this.gunaTran.SetDecoration(this.panelSubMenuQuanLyTaiSan, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuQuanLyTaiSan.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuQuanLyTaiSan.Location = new System.Drawing.Point(0, 1195);
-            this.panelSubMenuQuanLyTaiSan.Margin = new System.Windows.Forms.Padding(2);
+            this.panelSubMenuQuanLyTaiSan.Location = new System.Drawing.Point(0, 895);
+            this.panelSubMenuQuanLyTaiSan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelSubMenuQuanLyTaiSan.Name = "panelSubMenuQuanLyTaiSan";
             this.panelSubMenuQuanLyTaiSan.Size = new System.Drawing.Size(187, 34);
             this.panelSubMenuQuanLyTaiSan.TabIndex = 21;
@@ -1224,7 +806,7 @@
             this.gunaButton32.Image = null;
             this.gunaButton32.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaButton32.Location = new System.Drawing.Point(0, 0);
-            this.gunaButton32.Margin = new System.Windows.Forms.Padding(2);
+            this.gunaButton32.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaButton32.Name = "gunaButton32";
             this.gunaButton32.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton32.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1250,8 +832,8 @@
             this.subQuanLyTaiSan.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subQuanLyTaiSan.IconSize = 32;
             this.subQuanLyTaiSan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLyTaiSan.Location = new System.Drawing.Point(0, 1154);
-            this.subQuanLyTaiSan.Margin = new System.Windows.Forms.Padding(2);
+            this.subQuanLyTaiSan.Location = new System.Drawing.Point(0, 854);
+            this.subQuanLyTaiSan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.subQuanLyTaiSan.Name = "subQuanLyTaiSan";
             this.subQuanLyTaiSan.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
             this.subQuanLyTaiSan.Size = new System.Drawing.Size(187, 41);
@@ -1261,7 +843,6 @@
             this.subQuanLyTaiSan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyTaiSan.UseVisualStyleBackColor = false;
             this.subQuanLyTaiSan.Click += new System.EventHandler(this.subQuanLyTaiSan_Click);
-
             // 
             // panelSubMenuQuanLyKhachHang
             // 
@@ -1271,8 +852,8 @@
             this.panelSubMenuQuanLyKhachHang.Controls.Add(this.gunaButton26);
             this.gunaTran.SetDecoration(this.panelSubMenuQuanLyKhachHang, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuQuanLyKhachHang.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuQuanLyKhachHang.Location = new System.Drawing.Point(0, 1052);
-            this.panelSubMenuQuanLyKhachHang.Margin = new System.Windows.Forms.Padding(2);
+            this.panelSubMenuQuanLyKhachHang.Location = new System.Drawing.Point(0, 752);
+            this.panelSubMenuQuanLyKhachHang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelSubMenuQuanLyKhachHang.Name = "panelSubMenuQuanLyKhachHang";
             this.panelSubMenuQuanLyKhachHang.Size = new System.Drawing.Size(187, 102);
             this.panelSubMenuQuanLyKhachHang.TabIndex = 20;
@@ -1292,7 +873,7 @@
             this.gunaButton47.Image = null;
             this.gunaButton47.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaButton47.Location = new System.Drawing.Point(0, 68);
-            this.gunaButton47.Margin = new System.Windows.Forms.Padding(2);
+            this.gunaButton47.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaButton47.Name = "gunaButton47";
             this.gunaButton47.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton47.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1319,7 +900,7 @@
             this.btnDanhSachKhachHang.Image = null;
             this.btnDanhSachKhachHang.ImageSize = new System.Drawing.Size(20, 20);
             this.btnDanhSachKhachHang.Location = new System.Drawing.Point(0, 34);
-            this.btnDanhSachKhachHang.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDanhSachKhachHang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDanhSachKhachHang.Name = "btnDanhSachKhachHang";
             this.btnDanhSachKhachHang.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnDanhSachKhachHang.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1347,7 +928,7 @@
             this.gunaButton26.Image = null;
             this.gunaButton26.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaButton26.Location = new System.Drawing.Point(0, 0);
-            this.gunaButton26.Margin = new System.Windows.Forms.Padding(2);
+            this.gunaButton26.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaButton26.Name = "gunaButton26";
             this.gunaButton26.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton26.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1373,8 +954,8 @@
             this.subQuanLyKhachHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subQuanLyKhachHang.IconSize = 32;
             this.subQuanLyKhachHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLyKhachHang.Location = new System.Drawing.Point(0, 1011);
-            this.subQuanLyKhachHang.Margin = new System.Windows.Forms.Padding(2);
+            this.subQuanLyKhachHang.Location = new System.Drawing.Point(0, 711);
+            this.subQuanLyKhachHang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.subQuanLyKhachHang.Name = "subQuanLyKhachHang";
             this.subQuanLyKhachHang.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
             this.subQuanLyKhachHang.Size = new System.Drawing.Size(187, 41);
@@ -1384,75 +965,18 @@
             this.subQuanLyKhachHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyKhachHang.UseVisualStyleBackColor = false;
             this.subQuanLyKhachHang.Click += new System.EventHandler(this.subQuanLyKhachHang_Click);
-
             // 
             // panelSubMenuQuanLyThuChi
             // 
             this.panelSubMenuQuanLyThuChi.AutoSize = true;
-            this.panelSubMenuQuanLyThuChi.Controls.Add(this.gunaButton11);
-            this.panelSubMenuQuanLyThuChi.Controls.Add(this.gunaButton3);
             this.panelSubMenuQuanLyThuChi.Controls.Add(this.btnThongKeThuChi);
             this.gunaTran.SetDecoration(this.panelSubMenuQuanLyThuChi, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuQuanLyThuChi.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuQuanLyThuChi.Location = new System.Drawing.Point(0, 909);
-            this.panelSubMenuQuanLyThuChi.Margin = new System.Windows.Forms.Padding(2);
+            this.panelSubMenuQuanLyThuChi.Location = new System.Drawing.Point(0, 677);
+            this.panelSubMenuQuanLyThuChi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelSubMenuQuanLyThuChi.Name = "panelSubMenuQuanLyThuChi";
-            this.panelSubMenuQuanLyThuChi.Size = new System.Drawing.Size(187, 102);
+            this.panelSubMenuQuanLyThuChi.Size = new System.Drawing.Size(187, 34);
             this.panelSubMenuQuanLyThuChi.TabIndex = 19;
-            // 
-            // gunaButton11
-            // 
-            this.gunaButton11.AnimationHoverSpeed = 0.07F;
-            this.gunaButton11.AnimationSpeed = 0.03F;
-            this.gunaButton11.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton11.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton11, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton11.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton11.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton11.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton11.ForeColor = System.Drawing.Color.White;
-            this.gunaButton11.Image = null;
-            this.gunaButton11.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton11.Location = new System.Drawing.Point(0, 68);
-            this.gunaButton11.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton11.Name = "gunaButton11";
-            this.gunaButton11.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton11.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton11.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton11.OnHoverImage = null;
-            this.gunaButton11.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton11.Size = new System.Drawing.Size(187, 34);
-            this.gunaButton11.TabIndex = 9;
-            this.gunaButton11.Text = "Hoạch đồ kế toán";
-            this.gunaButton11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton3
-            // 
-            this.gunaButton3.AnimationHoverSpeed = 0.07F;
-            this.gunaButton3.AnimationSpeed = 0.03F;
-            this.gunaButton3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton3.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton3, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton3.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton3.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton3.ForeColor = System.Drawing.Color.White;
-            this.gunaButton3.Image = null;
-            this.gunaButton3.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton3.Location = new System.Drawing.Point(0, 34);
-            this.gunaButton3.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton3.Name = "gunaButton3";
-            this.gunaButton3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton3.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton3.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton3.OnHoverImage = null;
-            this.gunaButton3.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton3.Size = new System.Drawing.Size(187, 34);
-            this.gunaButton3.TabIndex = 8;
-            this.gunaButton3.Text = "Các khoản thanh toán đã nhận";
-            this.gunaButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnThongKeThuChi
             // 
@@ -1469,7 +993,7 @@
             this.btnThongKeThuChi.Image = null;
             this.btnThongKeThuChi.ImageSize = new System.Drawing.Size(20, 20);
             this.btnThongKeThuChi.Location = new System.Drawing.Point(0, 0);
-            this.btnThongKeThuChi.Margin = new System.Windows.Forms.Padding(2);
+            this.btnThongKeThuChi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnThongKeThuChi.Name = "btnThongKeThuChi";
             this.btnThongKeThuChi.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnThongKeThuChi.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1496,8 +1020,8 @@
             this.subQuanLyThuChi.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subQuanLyThuChi.IconSize = 32;
             this.subQuanLyThuChi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLyThuChi.Location = new System.Drawing.Point(0, 868);
-            this.subQuanLyThuChi.Margin = new System.Windows.Forms.Padding(2);
+            this.subQuanLyThuChi.Location = new System.Drawing.Point(0, 636);
+            this.subQuanLyThuChi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.subQuanLyThuChi.Name = "subQuanLyThuChi";
             this.subQuanLyThuChi.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
             this.subQuanLyThuChi.Size = new System.Drawing.Size(187, 41);
@@ -1507,7 +1031,6 @@
             this.subQuanLyThuChi.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyThuChi.UseVisualStyleBackColor = false;
             this.subQuanLyThuChi.Click += new System.EventHandler(this.subQuanLyThuChi_Click);
-
             // 
             // subQuanLyNhanSu
             // 
@@ -1523,61 +1046,87 @@
             this.subQuanLyNhanSu.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subQuanLyNhanSu.IconSize = 32;
             this.subQuanLyNhanSu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLyNhanSu.Location = new System.Drawing.Point(0, 827);
-            this.subQuanLyNhanSu.Margin = new System.Windows.Forms.Padding(2);
+            this.subQuanLyNhanSu.Location = new System.Drawing.Point(0, 595);
+            this.subQuanLyNhanSu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.subQuanLyNhanSu.Name = "subQuanLyNhanSu";
             this.subQuanLyNhanSu.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
             this.subQuanLyNhanSu.Size = new System.Drawing.Size(187, 41);
             this.subQuanLyNhanSu.TabIndex = 7;
-            this.subQuanLyNhanSu.Text = "Quản lý bảng lương";
+            this.subQuanLyNhanSu.Text = "Quản lý nhân sự";
             this.subQuanLyNhanSu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.subQuanLyNhanSu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyNhanSu.UseVisualStyleBackColor = false;
             this.subQuanLyNhanSu.Click += new System.EventHandler(this.subQuanLyNhanSu_Click);
-
+            // 
             // panelSubMenuQuanLyKhoHang
             // 
             this.panelSubMenuQuanLyKhoHang.AutoSize = true;
-            this.panelSubMenuQuanLyKhoHang.Controls.Add(this.gunaButton27);
+            this.panelSubMenuQuanLyKhoHang.Controls.Add(this.gunaButton14);
+            this.panelSubMenuQuanLyKhoHang.Controls.Add(this.gunaButton13);
             this.panelSubMenuQuanLyKhoHang.Controls.Add(this.gunaButton10);
-            this.panelSubMenuQuanLyKhoHang.Controls.Add(this.gunaButton2);
-            this.panelSubMenuQuanLyKhoHang.Controls.Add(this.btnnhomSP);
-            this.panelSubMenuQuanLyKhoHang.Controls.Add(this.gunaButton1);
+            this.panelSubMenuQuanLyKhoHang.Controls.Add(this.btnDanhSachKhoSanPham);
             this.panelSubMenuQuanLyKhoHang.Controls.Add(this.btnNhaCungCap);
             this.gunaTran.SetDecoration(this.panelSubMenuQuanLyKhoHang, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuQuanLyKhoHang.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuQuanLyKhoHang.Location = new System.Drawing.Point(0, 623);
-            this.panelSubMenuQuanLyKhoHang.Margin = new System.Windows.Forms.Padding(2);
+            this.panelSubMenuQuanLyKhoHang.Location = new System.Drawing.Point(0, 425);
+            this.panelSubMenuQuanLyKhoHang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelSubMenuQuanLyKhoHang.Name = "panelSubMenuQuanLyKhoHang";
-            this.panelSubMenuQuanLyKhoHang.Size = new System.Drawing.Size(187, 204);
+            this.panelSubMenuQuanLyKhoHang.Size = new System.Drawing.Size(187, 170);
             this.panelSubMenuQuanLyKhoHang.TabIndex = 17;
             // 
-            // gunaButton27
+            // gunaButton14
             // 
-            this.gunaButton27.AnimationHoverSpeed = 0.07F;
-            this.gunaButton27.AnimationSpeed = 0.03F;
-            this.gunaButton27.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton27.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton27, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton27.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton27.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton27.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton27.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton27.ForeColor = System.Drawing.Color.White;
-            this.gunaButton27.Image = null;
-            this.gunaButton27.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton27.Location = new System.Drawing.Point(0, 170);
-            this.gunaButton27.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton27.Name = "gunaButton27";
-            this.gunaButton27.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton27.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton27.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton27.OnHoverImage = null;
-            this.gunaButton27.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton27.Size = new System.Drawing.Size(187, 34);
-            this.gunaButton27.TabIndex = 19;
-            this.gunaButton27.Text = "Danh sách sản phẩm lỗi";
-            this.gunaButton27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton14.AnimationHoverSpeed = 0.07F;
+            this.gunaButton14.AnimationSpeed = 0.03F;
+            this.gunaButton14.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaButton14.BorderColor = System.Drawing.Color.Black;
+            this.gunaTran.SetDecoration(this.gunaButton14, Guna.UI.Animation.DecorationType.None);
+            this.gunaButton14.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButton14.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaButton14.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaButton14.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaButton14.ForeColor = System.Drawing.Color.White;
+            this.gunaButton14.Image = null;
+            this.gunaButton14.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaButton14.Location = new System.Drawing.Point(0, 136);
+            this.gunaButton14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gunaButton14.Name = "gunaButton14";
+            this.gunaButton14.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.gunaButton14.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaButton14.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButton14.OnHoverImage = null;
+            this.gunaButton14.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButton14.Size = new System.Drawing.Size(187, 34);
+            this.gunaButton14.TabIndex = 14;
+            this.gunaButton14.Text = "Danh sách sản phẩm lỗi";
+            this.gunaButton14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // gunaButton13
+            // 
+            this.gunaButton13.AnimationHoverSpeed = 0.07F;
+            this.gunaButton13.AnimationSpeed = 0.03F;
+            this.gunaButton13.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaButton13.BorderColor = System.Drawing.Color.Black;
+            this.gunaTran.SetDecoration(this.gunaButton13, Guna.UI.Animation.DecorationType.None);
+            this.gunaButton13.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButton13.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaButton13.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaButton13.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaButton13.ForeColor = System.Drawing.Color.White;
+            this.gunaButton13.Image = null;
+            this.gunaButton13.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaButton13.Location = new System.Drawing.Point(0, 102);
+            this.gunaButton13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gunaButton13.Name = "gunaButton13";
+            this.gunaButton13.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.gunaButton13.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaButton13.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButton13.OnHoverImage = null;
+            this.gunaButton13.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButton13.Size = new System.Drawing.Size(187, 34);
+            this.gunaButton13.TabIndex = 13;
+            this.gunaButton13.Text = "Danh sách chuyển hàng";
+            this.gunaButton13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gunaButton10
             // 
@@ -1593,8 +1142,8 @@
             this.gunaButton10.ForeColor = System.Drawing.Color.White;
             this.gunaButton10.Image = null;
             this.gunaButton10.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton10.Location = new System.Drawing.Point(0, 136);
-            this.gunaButton10.Margin = new System.Windows.Forms.Padding(2);
+            this.gunaButton10.Location = new System.Drawing.Point(0, 68);
+            this.gunaButton10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaButton10.Name = "gunaButton10";
             this.gunaButton10.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton10.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1602,92 +1151,37 @@
             this.gunaButton10.OnHoverImage = null;
             this.gunaButton10.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton10.Size = new System.Drawing.Size(187, 34);
-            this.gunaButton10.TabIndex = 18;
-            this.gunaButton10.Text = "Đơn hàng nhà cung cấp";
+            this.gunaButton10.TabIndex = 10;
+            this.gunaButton10.Text = "Hàng tồn đầu kì";
             this.gunaButton10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // gunaButton2
+            // btnDanhSachKhoSanPham
             // 
-            this.gunaButton2.AnimationHoverSpeed = 0.07F;
-            this.gunaButton2.AnimationSpeed = 0.03F;
-            this.gunaButton2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton2.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton2, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton2.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton2.ForeColor = System.Drawing.Color.White;
-            this.gunaButton2.Image = null;
-            this.gunaButton2.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton2.Location = new System.Drawing.Point(0, 102);
-            this.gunaButton2.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton2.Name = "gunaButton2";
-            this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton2.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton2.OnHoverImage = null;
-            this.gunaButton2.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton2.Size = new System.Drawing.Size(187, 34);
-            this.gunaButton2.TabIndex = 17;
-            this.gunaButton2.Text = "Điều chỉnh hàng tồn kho";
-            this.gunaButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btnnhomSP
-            // 
-            this.btnnhomSP.AnimationHoverSpeed = 0.07F;
-            this.btnnhomSP.AnimationSpeed = 0.03F;
-            this.btnnhomSP.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.btnnhomSP.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.btnnhomSP, Guna.UI.Animation.DecorationType.None);
-            this.btnnhomSP.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnnhomSP.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnnhomSP.FocusedColor = System.Drawing.Color.Empty;
-            this.btnnhomSP.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnnhomSP.ForeColor = System.Drawing.Color.White;
-            this.btnnhomSP.Image = null;
-            this.btnnhomSP.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnnhomSP.Location = new System.Drawing.Point(0, 68);
-            this.btnnhomSP.Margin = new System.Windows.Forms.Padding(2);
-            this.btnnhomSP.Name = "btnnhomSP";
-            this.btnnhomSP.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.btnnhomSP.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnnhomSP.OnHoverForeColor = System.Drawing.Color.White;
-            this.btnnhomSP.OnHoverImage = null;
-            this.btnnhomSP.OnPressedColor = System.Drawing.Color.Black;
-            this.btnnhomSP.Size = new System.Drawing.Size(187, 34);
-            this.btnnhomSP.TabIndex = 16;
-            this.btnnhomSP.Text = "Danh sách nhóm sản phẩm ";
-            this.btnnhomSP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btnnhomSP.Click += new System.EventHandler(this.btnnhomSP_Click);
-            // 
-            // gunaButton1
-            // 
-            this.gunaButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaButton1.AnimationSpeed = 0.03F;
-            this.gunaButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton1.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton1, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton1.ForeColor = System.Drawing.Color.White;
-            this.gunaButton1.Image = null;
-            this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton1.Location = new System.Drawing.Point(0, 34);
-            this.gunaButton1.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton1.Name = "gunaButton1";
-            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton1.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton1.OnHoverImage = null;
-            this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton1.Size = new System.Drawing.Size(187, 34);
-            this.gunaButton1.TabIndex = 15;
-            this.gunaButton1.Text = "Danh sách kho sản phẩm";
-            this.gunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gunaButton1.Click += new System.EventHandler(this.gunaButton1_Click_1);
+            this.btnDanhSachKhoSanPham.AnimationHoverSpeed = 0.07F;
+            this.btnDanhSachKhoSanPham.AnimationSpeed = 0.03F;
+            this.btnDanhSachKhoSanPham.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.btnDanhSachKhoSanPham.BorderColor = System.Drawing.Color.Black;
+            this.gunaTran.SetDecoration(this.btnDanhSachKhoSanPham, Guna.UI.Animation.DecorationType.None);
+            this.btnDanhSachKhoSanPham.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnDanhSachKhoSanPham.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDanhSachKhoSanPham.FocusedColor = System.Drawing.Color.Empty;
+            this.btnDanhSachKhoSanPham.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnDanhSachKhoSanPham.ForeColor = System.Drawing.Color.White;
+            this.btnDanhSachKhoSanPham.Image = null;
+            this.btnDanhSachKhoSanPham.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnDanhSachKhoSanPham.Location = new System.Drawing.Point(0, 34);
+            this.btnDanhSachKhoSanPham.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDanhSachKhoSanPham.Name = "btnDanhSachKhoSanPham";
+            this.btnDanhSachKhoSanPham.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btnDanhSachKhoSanPham.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnDanhSachKhoSanPham.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnDanhSachKhoSanPham.OnHoverImage = null;
+            this.btnDanhSachKhoSanPham.OnPressedColor = System.Drawing.Color.Black;
+            this.btnDanhSachKhoSanPham.Size = new System.Drawing.Size(187, 34);
+            this.btnDanhSachKhoSanPham.TabIndex = 8;
+            this.btnDanhSachKhoSanPham.Text = "Danh sách kho sản phẩm";
+            this.btnDanhSachKhoSanPham.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnDanhSachKhoSanPham.Click += new System.EventHandler(this.btnDanhSachKhoSanPham_Click);
             // 
             // btnNhaCungCap
             // 
@@ -1704,7 +1198,7 @@
             this.btnNhaCungCap.Image = null;
             this.btnNhaCungCap.ImageSize = new System.Drawing.Size(20, 20);
             this.btnNhaCungCap.Location = new System.Drawing.Point(0, 0);
-            this.btnNhaCungCap.Margin = new System.Windows.Forms.Padding(2);
+            this.btnNhaCungCap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNhaCungCap.Name = "btnNhaCungCap";
             this.btnNhaCungCap.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnNhaCungCap.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -1731,8 +1225,8 @@
             this.subQuanLyKhoHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subQuanLyKhoHang.IconSize = 32;
             this.subQuanLyKhoHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLyKhoHang.Location = new System.Drawing.Point(0, 582);
-            this.subQuanLyKhoHang.Margin = new System.Windows.Forms.Padding(2);
+            this.subQuanLyKhoHang.Location = new System.Drawing.Point(0, 384);
+            this.subQuanLyKhoHang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.subQuanLyKhoHang.Name = "subQuanLyKhoHang";
             this.subQuanLyKhoHang.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
             this.subQuanLyKhoHang.Size = new System.Drawing.Size(187, 41);
@@ -1742,20 +1236,257 @@
             this.subQuanLyKhoHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.subQuanLyKhoHang.UseVisualStyleBackColor = false;
             this.subQuanLyKhoHang.Click += new System.EventHandler(this.subQuanLyKhoHang_Click);
-        
             // 
             // panelSubMenuQuanLySuaChua
             // 
             this.panelSubMenuQuanLySuaChua.AutoSize = true;
-            this.panelSubMenuQuanLySuaChua.Controls.Add(this.btnDanhSachSanPham);
             this.panelSubMenuQuanLySuaChua.Controls.Add(this.gunaButton5);
+            this.panelSubMenuQuanLySuaChua.Controls.Add(this.gunaButton3);
             this.gunaTran.SetDecoration(this.panelSubMenuQuanLySuaChua, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuQuanLySuaChua.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuQuanLySuaChua.Location = new System.Drawing.Point(0, 514);
-            this.panelSubMenuQuanLySuaChua.Margin = new System.Windows.Forms.Padding(2);
+            this.panelSubMenuQuanLySuaChua.Location = new System.Drawing.Point(0, 316);
+            this.panelSubMenuQuanLySuaChua.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelSubMenuQuanLySuaChua.Name = "panelSubMenuQuanLySuaChua";
             this.panelSubMenuQuanLySuaChua.Size = new System.Drawing.Size(187, 68);
             this.panelSubMenuQuanLySuaChua.TabIndex = 16;
+            // 
+            // gunaButton5
+            // 
+            this.gunaButton5.AnimationHoverSpeed = 0.07F;
+            this.gunaButton5.AnimationSpeed = 0.03F;
+            this.gunaButton5.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaButton5.BorderColor = System.Drawing.Color.Black;
+            this.gunaTran.SetDecoration(this.gunaButton5, Guna.UI.Animation.DecorationType.None);
+            this.gunaButton5.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButton5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaButton5.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaButton5.ForeColor = System.Drawing.Color.White;
+            this.gunaButton5.Image = null;
+            this.gunaButton5.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaButton5.Location = new System.Drawing.Point(0, 34);
+            this.gunaButton5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gunaButton5.Name = "gunaButton5";
+            this.gunaButton5.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.gunaButton5.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaButton5.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButton5.OnHoverImage = null;
+            this.gunaButton5.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButton5.Size = new System.Drawing.Size(187, 34);
+            this.gunaButton5.TabIndex = 9;
+            this.gunaButton5.Text = "Danh sách sửa chữa";
+            this.gunaButton5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // gunaButton3
+            // 
+            this.gunaButton3.AnimationHoverSpeed = 0.07F;
+            this.gunaButton3.AnimationSpeed = 0.03F;
+            this.gunaButton3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaButton3.BorderColor = System.Drawing.Color.Black;
+            this.gunaTran.SetDecoration(this.gunaButton3, Guna.UI.Animation.DecorationType.None);
+            this.gunaButton3.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButton3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaButton3.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaButton3.ForeColor = System.Drawing.Color.White;
+            this.gunaButton3.Image = null;
+            this.gunaButton3.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaButton3.Location = new System.Drawing.Point(0, 0);
+            this.gunaButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gunaButton3.Name = "gunaButton3";
+            this.gunaButton3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.gunaButton3.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaButton3.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButton3.OnHoverImage = null;
+            this.gunaButton3.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButton3.Size = new System.Drawing.Size(187, 34);
+            this.gunaButton3.TabIndex = 7;
+            this.gunaButton3.Text = "Quản lý quy trình sửa chữa";
+            this.gunaButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // subQuanLySuaChua
+            // 
+            this.subQuanLySuaChua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(121)))), ((int)(((byte)(218)))));
+            this.gunaTran.SetDecoration(this.subQuanLySuaChua, Guna.UI.Animation.DecorationType.None);
+            this.subQuanLySuaChua.Dock = System.Windows.Forms.DockStyle.Top;
+            this.subQuanLySuaChua.FlatAppearance.BorderSize = 0;
+            this.subQuanLySuaChua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.subQuanLySuaChua.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subQuanLySuaChua.ForeColor = System.Drawing.Color.White;
+            this.subQuanLySuaChua.IconChar = FontAwesome.Sharp.IconChar.Wrench;
+            this.subQuanLySuaChua.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(178)))), ((int)(((byte)(223)))));
+            this.subQuanLySuaChua.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.subQuanLySuaChua.IconSize = 32;
+            this.subQuanLySuaChua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.subQuanLySuaChua.Location = new System.Drawing.Point(0, 275);
+            this.subQuanLySuaChua.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.subQuanLySuaChua.Name = "subQuanLySuaChua";
+            this.subQuanLySuaChua.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
+            this.subQuanLySuaChua.Size = new System.Drawing.Size(187, 41);
+            this.subQuanLySuaChua.TabIndex = 5;
+            this.subQuanLySuaChua.Text = "Quản lý sửa chữa";
+            this.subQuanLySuaChua.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.subQuanLySuaChua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.subQuanLySuaChua.UseVisualStyleBackColor = false;
+            this.subQuanLySuaChua.Click += new System.EventHandler(this.subQuanLySuaChua_Click);
+            // 
+            // panelsubQuanLyBanTraHang
+            // 
+            this.panelsubQuanLyBanTraHang.AutoSize = true;
+            this.panelsubQuanLyBanTraHang.Controls.Add(this.btnDanhSachSanPham);
+            this.panelsubQuanLyBanTraHang.Controls.Add(this.btnDanhSachDonGiaoHang);
+            this.gunaTran.SetDecoration(this.panelsubQuanLyBanTraHang, Guna.UI.Animation.DecorationType.None);
+            this.panelsubQuanLyBanTraHang.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelsubQuanLyBanTraHang.Location = new System.Drawing.Point(0, 207);
+            this.panelsubQuanLyBanTraHang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelsubQuanLyBanTraHang.Name = "panelsubQuanLyBanTraHang";
+            this.panelsubQuanLyBanTraHang.Size = new System.Drawing.Size(187, 68);
+            this.panelsubQuanLyBanTraHang.TabIndex = 7;
+            // 
+            // btnDanhSachDonGiaoHang
+            // 
+            this.btnDanhSachDonGiaoHang.AnimationHoverSpeed = 0.07F;
+            this.btnDanhSachDonGiaoHang.AnimationSpeed = 0.03F;
+            this.btnDanhSachDonGiaoHang.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.btnDanhSachDonGiaoHang.BorderColor = System.Drawing.Color.Black;
+            this.gunaTran.SetDecoration(this.btnDanhSachDonGiaoHang, Guna.UI.Animation.DecorationType.None);
+            this.btnDanhSachDonGiaoHang.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnDanhSachDonGiaoHang.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDanhSachDonGiaoHang.FocusedColor = System.Drawing.Color.Empty;
+            this.btnDanhSachDonGiaoHang.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnDanhSachDonGiaoHang.ForeColor = System.Drawing.Color.White;
+            this.btnDanhSachDonGiaoHang.Image = null;
+            this.btnDanhSachDonGiaoHang.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnDanhSachDonGiaoHang.Location = new System.Drawing.Point(0, 0);
+            this.btnDanhSachDonGiaoHang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDanhSachDonGiaoHang.Name = "btnDanhSachDonGiaoHang";
+            this.btnDanhSachDonGiaoHang.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btnDanhSachDonGiaoHang.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnDanhSachDonGiaoHang.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnDanhSachDonGiaoHang.OnHoverImage = null;
+            this.btnDanhSachDonGiaoHang.OnPressedColor = System.Drawing.Color.Black;
+            this.btnDanhSachDonGiaoHang.Size = new System.Drawing.Size(187, 34);
+            this.btnDanhSachDonGiaoHang.TabIndex = 6;
+            this.btnDanhSachDonGiaoHang.Text = "Danh sách đơn giao hàng";
+            this.btnDanhSachDonGiaoHang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnDanhSachDonGiaoHang.Click += new System.EventHandler(this.gunaButton1_Click);
+            // 
+            // subQuanLyBanTraHang
+            // 
+            this.subQuanLyBanTraHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(121)))), ((int)(((byte)(218)))));
+            this.gunaTran.SetDecoration(this.subQuanLyBanTraHang, Guna.UI.Animation.DecorationType.None);
+            this.subQuanLyBanTraHang.Dock = System.Windows.Forms.DockStyle.Top;
+            this.subQuanLyBanTraHang.FlatAppearance.BorderSize = 0;
+            this.subQuanLyBanTraHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.subQuanLyBanTraHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subQuanLyBanTraHang.ForeColor = System.Drawing.Color.White;
+            this.subQuanLyBanTraHang.IconChar = FontAwesome.Sharp.IconChar.ShoppingCart;
+            this.subQuanLyBanTraHang.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(178)))), ((int)(((byte)(223)))));
+            this.subQuanLyBanTraHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.subQuanLyBanTraHang.IconSize = 32;
+            this.subQuanLyBanTraHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.subQuanLyBanTraHang.Location = new System.Drawing.Point(0, 166);
+            this.subQuanLyBanTraHang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.subQuanLyBanTraHang.Name = "subQuanLyBanTraHang";
+            this.subQuanLyBanTraHang.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
+            this.subQuanLyBanTraHang.Size = new System.Drawing.Size(187, 41);
+            this.subQuanLyBanTraHang.TabIndex = 4;
+            this.subQuanLyBanTraHang.Text = "Quản lý Bán - trả hàng";
+            this.subQuanLyBanTraHang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.subQuanLyBanTraHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.subQuanLyBanTraHang.UseVisualStyleBackColor = false;
+            this.subQuanLyBanTraHang.Click += new System.EventHandler(this.subQuanLyBanTraHang_Click);
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(121)))), ((int)(((byte)(218)))));
+            this.gunaTran.SetDecoration(this.iconButton1, Guna.UI.Animation.DecorationType.None);
+            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton1.ForeColor = System.Drawing.Color.White;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Napster;
+            this.iconButton1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(178)))), ((int)(((byte)(223)))));
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 32;
+            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.Location = new System.Drawing.Point(0, 125);
+            this.iconButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
+            this.iconButton1.Size = new System.Drawing.Size(187, 41);
+            this.iconButton1.TabIndex = 3;
+            this.iconButton1.Text = "iconButton1";
+            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton1.UseVisualStyleBackColor = false;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.pbLogo);
+            this.panel1.Controls.Add(this.gunaLabel1);
+            this.gunaTran.SetDecoration(this.panel1, Guna.UI.Animation.DecorationType.None);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(187, 125);
+            this.panel1.TabIndex = 2;
+            // 
+            // pbLogo
+            // 
+            this.pbLogo.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTran.SetDecoration(this.pbLogo, Guna.UI.Animation.DecorationType.None);
+            this.pbLogo.IconChar = FontAwesome.Sharp.IconChar.Accusoft;
+            this.pbLogo.IconColor = System.Drawing.Color.White;
+            this.pbLogo.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.pbLogo.IconSize = 51;
+            this.pbLogo.Location = new System.Drawing.Point(71, 21);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbLogo.Name = "pbLogo";
+            this.pbLogo.Size = new System.Drawing.Size(75, 51);
+            this.pbLogo.TabIndex = 2;
+            this.pbLogo.TabStop = false;
+            this.pbLogo.Click += new System.EventHandler(this.pbLogo_Click);
+            // 
+            // gunaLabel1
+            // 
+            this.gunaLabel1.AutoSize = true;
+            this.gunaTran.SetDecoration(this.gunaLabel1, Guna.UI.Animation.DecorationType.None);
+            this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.gunaLabel1.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel1.Location = new System.Drawing.Point(29, 72);
+            this.gunaLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.gunaLabel1.Name = "gunaLabel1";
+            this.gunaLabel1.Size = new System.Drawing.Size(150, 15);
+            this.gunaLabel1.TabIndex = 1;
+            this.gunaLabel1.Text = "WAC - We are connecting";
+            // 
+            // realclock
+            // 
+            this.realclock.Tick += new System.EventHandler(this.realclock_Tick);
+            // 
+            // gunaTran
+            // 
+            this.gunaTran.AnimationType = Guna.UI.Animation.AnimationType.VertSlide;
+            this.gunaTran.Cursor = null;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 0F;
+            this.gunaTran.DefaultAnimation = animation2;
             // 
             // btnDanhSachSanPham
             // 
@@ -1780,376 +1511,76 @@
             this.btnDanhSachSanPham.OnHoverImage = null;
             this.btnDanhSachSanPham.OnPressedColor = System.Drawing.Color.Black;
             this.btnDanhSachSanPham.Size = new System.Drawing.Size(187, 34);
-            this.btnDanhSachSanPham.TabIndex = 10;
-            this.btnDanhSachSanPham.Text = "Hóa đơn sửa";
+            this.btnDanhSachSanPham.TabIndex = 7;
+            this.btnDanhSachSanPham.Text = "Danh sách sản phẩm";
             this.btnDanhSachSanPham.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btnDanhSachSanPham.Click += new System.EventHandler(this.btnDanhSachSanPham_Click_1);
+            this.btnDanhSachSanPham.Click += new System.EventHandler(this.btnDanhSachSanPham_Click);
             // 
-            // gunaButton5
+            // txtSearch
             // 
-            this.gunaButton5.AnimationHoverSpeed = 0.07F;
-            this.gunaButton5.AnimationSpeed = 0.03F;
-            this.gunaButton5.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton5.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton5, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton5.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton5.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton5.ForeColor = System.Drawing.Color.White;
-            this.gunaButton5.Image = null;
-            this.gunaButton5.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton5.Location = new System.Drawing.Point(0, 0);
-            this.gunaButton5.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton5.Name = "gunaButton5";
-            this.gunaButton5.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton5.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton5.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton5.OnHoverImage = null;
-            this.gunaButton5.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton5.Size = new System.Drawing.Size(187, 34);
-            this.gunaButton5.TabIndex = 9;
-            this.gunaButton5.Text = "Danh sách sửa chữa";
-            this.gunaButton5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSearch.BackColor = System.Drawing.Color.Transparent;
+            this.txtSearch.BaseColor = System.Drawing.Color.White;
+            this.txtSearch.BorderColor = System.Drawing.Color.Silver;
+            this.txtSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTran.SetDecoration(this.txtSearch, Guna.UI.Animation.DecorationType.None);
+            this.txtSearch.FocusedBaseColor = System.Drawing.Color.White;
+            this.txtSearch.FocusedBorderColor = System.Drawing.Color.Silver;
+            this.txtSearch.FocusedForeColor = System.Drawing.Color.Silver;
+            this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.txtSearch.Location = new System.Drawing.Point(440, 13);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.PasswordChar = '\0';
+            this.txtSearch.Radius = 18;
+            this.txtSearch.SelectedText = "";
+            this.txtSearch.Size = new System.Drawing.Size(200, 37);
+            this.txtSearch.TabIndex = 1;
+            this.txtSearch.TextOffsetX = 7;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
-            // subQuanLySuaChua
+            // lblSearch
             // 
-            this.subQuanLySuaChua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(121)))), ((int)(((byte)(218)))));
-            this.gunaTran.SetDecoration(this.subQuanLySuaChua, Guna.UI.Animation.DecorationType.None);
-            this.subQuanLySuaChua.Dock = System.Windows.Forms.DockStyle.Top;
-            this.subQuanLySuaChua.FlatAppearance.BorderSize = 0;
-            this.subQuanLySuaChua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.subQuanLySuaChua.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subQuanLySuaChua.ForeColor = System.Drawing.Color.White;
-            this.subQuanLySuaChua.IconChar = FontAwesome.Sharp.IconChar.Wrench;
-            this.subQuanLySuaChua.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(178)))), ((int)(((byte)(223)))));
-            this.subQuanLySuaChua.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.subQuanLySuaChua.IconSize = 32;
-            this.subQuanLySuaChua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLySuaChua.Location = new System.Drawing.Point(0, 473);
-            this.subQuanLySuaChua.Margin = new System.Windows.Forms.Padding(2);
-            this.subQuanLySuaChua.Name = "subQuanLySuaChua";
-            this.subQuanLySuaChua.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
-            this.subQuanLySuaChua.Size = new System.Drawing.Size(187, 41);
-            this.subQuanLySuaChua.TabIndex = 5;
-            this.subQuanLySuaChua.Text = "Quản lý sửa chữa";
-            this.subQuanLySuaChua.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLySuaChua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.subQuanLySuaChua.UseVisualStyleBackColor = false;
-            this.subQuanLySuaChua.Click += new System.EventHandler(this.subQuanLySuaChua_Click);
-
+            this.lblSearch.AutoSize = true;
+            this.gunaTran.SetDecoration(this.lblSearch, Guna.UI.Animation.DecorationType.None);
+            this.lblSearch.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(214)))), ((int)(((byte)(214)))));
+            this.lblSearch.Location = new System.Drawing.Point(462, 20);
+            this.lblSearch.Name = "lblSearch";
+            this.lblSearch.Size = new System.Drawing.Size(57, 21);
+            this.lblSearch.TabIndex = 2;
+            this.lblSearch.Text = "Search";
             // 
-            // panelsubQuanLyBanTraHang
+            // pbSearch
             // 
-            this.panelsubQuanLyBanTraHang.AutoSize = true;
-            this.panelsubQuanLyBanTraHang.Controls.Add(this.gunaButton9);
-            this.panelsubQuanLyBanTraHang.Controls.Add(this.gunaButton8);
-            this.panelsubQuanLyBanTraHang.Controls.Add(this.gunaButton7);
-            this.panelsubQuanLyBanTraHang.Controls.Add(this.gunaButton6);
-            this.panelsubQuanLyBanTraHang.Controls.Add(this.gunaButton4);
-            this.panelsubQuanLyBanTraHang.Controls.Add(this.btnDanhSachDonGiaoHang);
-            this.gunaTran.SetDecoration(this.panelsubQuanLyBanTraHang, Guna.UI.Animation.DecorationType.None);
-            this.panelsubQuanLyBanTraHang.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelsubQuanLyBanTraHang.Location = new System.Drawing.Point(0, 215);
-            this.panelsubQuanLyBanTraHang.Margin = new System.Windows.Forms.Padding(2);
-            this.panelsubQuanLyBanTraHang.Name = "panelsubQuanLyBanTraHang";
-            this.panelsubQuanLyBanTraHang.Size = new System.Drawing.Size(187, 258);
-            this.panelsubQuanLyBanTraHang.TabIndex = 7;
-            // 
-            // gunaButton9
-            // 
-            this.gunaButton9.AnimationHoverSpeed = 0.07F;
-            this.gunaButton9.AnimationSpeed = 0.03F;
-            this.gunaButton9.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton9.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton9, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton9.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton9.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton9.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton9.ForeColor = System.Drawing.Color.White;
-            this.gunaButton9.Image = null;
-            this.gunaButton9.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton9.Location = new System.Drawing.Point(0, 217);
-            this.gunaButton9.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton9.Name = "gunaButton9";
-            this.gunaButton9.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton9.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton9.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton9.OnHoverImage = null;
-            this.gunaButton9.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton9.Size = new System.Drawing.Size(187, 41);
-            this.gunaButton9.TabIndex = 12;
-            this.gunaButton9.Text = "Hàng trả lại";
-            this.gunaButton9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton8
-            // 
-            this.gunaButton8.AnimationHoverSpeed = 0.07F;
-            this.gunaButton8.AnimationSpeed = 0.03F;
-            this.gunaButton8.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton8.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton8, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton8.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton8.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton8.ForeColor = System.Drawing.Color.White;
-            this.gunaButton8.Image = null;
-            this.gunaButton8.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton8.Location = new System.Drawing.Point(0, 176);
-            this.gunaButton8.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton8.Name = "gunaButton8";
-            this.gunaButton8.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton8.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton8.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton8.OnHoverImage = null;
-            this.gunaButton8.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton8.Size = new System.Drawing.Size(187, 41);
-            this.gunaButton8.TabIndex = 11;
-            this.gunaButton8.Text = "Hóa đơn dặt cọc";
-            this.gunaButton8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton7
-            // 
-            this.gunaButton7.AnimationHoverSpeed = 0.07F;
-            this.gunaButton7.AnimationSpeed = 0.03F;
-            this.gunaButton7.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton7.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton7, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton7.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton7.ForeColor = System.Drawing.Color.White;
-            this.gunaButton7.Image = null;
-            this.gunaButton7.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton7.Location = new System.Drawing.Point(0, 135);
-            this.gunaButton7.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton7.Name = "gunaButton7";
-            this.gunaButton7.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton7.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton7.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton7.OnHoverImage = null;
-            this.gunaButton7.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton7.Size = new System.Drawing.Size(187, 41);
-            this.gunaButton7.TabIndex = 10;
-            this.gunaButton7.Text = "Các khoản thanh toán đã nhận";
-            this.gunaButton7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton6
-            // 
-            this.gunaButton6.AnimationHoverSpeed = 0.07F;
-            this.gunaButton6.AnimationSpeed = 0.03F;
-            this.gunaButton6.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton6.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton6, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton6.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton6.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton6.ForeColor = System.Drawing.Color.White;
-            this.gunaButton6.Image = null;
-            this.gunaButton6.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton6.Location = new System.Drawing.Point(0, 90);
-            this.gunaButton6.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton6.Name = "gunaButton6";
-            this.gunaButton6.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton6.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton6.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton6.OnHoverImage = null;
-            this.gunaButton6.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton6.Size = new System.Drawing.Size(187, 45);
-            this.gunaButton6.TabIndex = 9;
-            this.gunaButton6.Text = "Hóa đơn";
-            this.gunaButton6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton4
-            // 
-            this.gunaButton4.AnimationHoverSpeed = 0.07F;
-            this.gunaButton4.AnimationSpeed = 0.03F;
-            this.gunaButton4.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton4.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.gunaButton4, Guna.UI.Animation.DecorationType.None);
-            this.gunaButton4.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaButton4.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton4.ForeColor = System.Drawing.Color.White;
-            this.gunaButton4.Image = null;
-            this.gunaButton4.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton4.Location = new System.Drawing.Point(0, 45);
-            this.gunaButton4.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaButton4.Name = "gunaButton4";
-            this.gunaButton4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton4.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton4.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton4.OnHoverImage = null;
-            this.gunaButton4.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton4.Size = new System.Drawing.Size(187, 45);
-            this.gunaButton4.TabIndex = 8;
-            this.gunaButton4.Text = "Đơn hàng người mua";
-            this.gunaButton4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btnDanhSachDonGiaoHang
-            // 
-            this.btnDanhSachDonGiaoHang.AnimationHoverSpeed = 0.07F;
-            this.btnDanhSachDonGiaoHang.AnimationSpeed = 0.03F;
-            this.btnDanhSachDonGiaoHang.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.btnDanhSachDonGiaoHang.BorderColor = System.Drawing.Color.Black;
-            this.gunaTran.SetDecoration(this.btnDanhSachDonGiaoHang, Guna.UI.Animation.DecorationType.None);
-            this.btnDanhSachDonGiaoHang.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnDanhSachDonGiaoHang.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDanhSachDonGiaoHang.FocusedColor = System.Drawing.Color.Empty;
-            this.btnDanhSachDonGiaoHang.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnDanhSachDonGiaoHang.ForeColor = System.Drawing.Color.White;
-            this.btnDanhSachDonGiaoHang.Image = null;
-            this.btnDanhSachDonGiaoHang.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnDanhSachDonGiaoHang.Location = new System.Drawing.Point(0, 0);
-            this.btnDanhSachDonGiaoHang.Margin = new System.Windows.Forms.Padding(2);
-            this.btnDanhSachDonGiaoHang.Name = "btnDanhSachDonGiaoHang";
-            this.btnDanhSachDonGiaoHang.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.btnDanhSachDonGiaoHang.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnDanhSachDonGiaoHang.OnHoverForeColor = System.Drawing.Color.White;
-            this.btnDanhSachDonGiaoHang.OnHoverImage = null;
-            this.btnDanhSachDonGiaoHang.OnPressedColor = System.Drawing.Color.Black;
-            this.btnDanhSachDonGiaoHang.Size = new System.Drawing.Size(187, 45);
-            this.btnDanhSachDonGiaoHang.TabIndex = 6;
-            this.btnDanhSachDonGiaoHang.Text = "Kiện hàng";
-            this.btnDanhSachDonGiaoHang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btnDanhSachDonGiaoHang.Click += new System.EventHandler(this.gunaButton1_Click);
-            // 
-            // subQuanLyBanTraHang
-            // 
-            this.subQuanLyBanTraHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(121)))), ((int)(((byte)(218)))));
-            this.gunaTran.SetDecoration(this.subQuanLyBanTraHang, Guna.UI.Animation.DecorationType.None);
-            this.subQuanLyBanTraHang.Dock = System.Windows.Forms.DockStyle.Top;
-            this.subQuanLyBanTraHang.FlatAppearance.BorderSize = 0;
-            this.subQuanLyBanTraHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.subQuanLyBanTraHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subQuanLyBanTraHang.ForeColor = System.Drawing.Color.White;
-            this.subQuanLyBanTraHang.IconChar = FontAwesome.Sharp.IconChar.ShoppingCart;
-            this.subQuanLyBanTraHang.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(178)))), ((int)(((byte)(223)))));
-            this.subQuanLyBanTraHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.subQuanLyBanTraHang.IconSize = 32;
-            this.subQuanLyBanTraHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLyBanTraHang.Location = new System.Drawing.Point(0, 170);
-            this.subQuanLyBanTraHang.Margin = new System.Windows.Forms.Padding(2);
-            this.subQuanLyBanTraHang.Name = "subQuanLyBanTraHang";
-            this.subQuanLyBanTraHang.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
-            this.subQuanLyBanTraHang.Size = new System.Drawing.Size(187, 45);
-            this.subQuanLyBanTraHang.TabIndex = 4;
-            this.subQuanLyBanTraHang.Text = "Quản lý Bán - trả hàng";
-            this.subQuanLyBanTraHang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLyBanTraHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.subQuanLyBanTraHang.UseVisualStyleBackColor = false;
-            this.subQuanLyBanTraHang.Click += new System.EventHandler(this.subQuanLyBanTraHang_Click);
-            // 
-            // iconButton1
-            // 
-            this.iconButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(121)))), ((int)(((byte)(218)))));
-            this.gunaTran.SetDecoration(this.iconButton1, Guna.UI.Animation.DecorationType.None);
-            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton1.FlatAppearance.BorderSize = 0;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton1.ForeColor = System.Drawing.Color.White;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Napster;
-            this.iconButton1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(178)))), ((int)(((byte)(223)))));
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 32;
-            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(0, 125);
-            this.iconButton1.Margin = new System.Windows.Forms.Padding(2);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
-            this.iconButton1.Size = new System.Drawing.Size(187, 45);
-            this.iconButton1.TabIndex = 3;
-            this.iconButton1.Text = "iconbutton";
-            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton1.UseVisualStyleBackColor = false;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.gunaPictureBox1);
-            this.panel1.Controls.Add(this.gunaLabel1);
-            this.gunaTran.SetDecoration(this.panel1, Guna.UI.Animation.DecorationType.None);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(187, 125);
-            this.panel1.TabIndex = 2;
-            // 
-            // gunaPictureBox1
-            // 
-            this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaTran.SetDecoration(this.gunaPictureBox1, Guna.UI.Animation.DecorationType.None);
-            this.gunaPictureBox1.Image = global::DuAnMain.Properties.Resources.tải_xuống__2_1;
-            this.gunaPictureBox1.Location = new System.Drawing.Point(52, 19);
-            this.gunaPictureBox1.Name = "gunaPictureBox1";
-            this.gunaPictureBox1.Size = new System.Drawing.Size(85, 45);
-            this.gunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.gunaPictureBox1.TabIndex = 2;
-            this.gunaPictureBox1.TabStop = false;
-            // 
-            // gunaLabel1
-            // 
-            this.gunaLabel1.AutoSize = true;
-            this.gunaTran.SetDecoration(this.gunaLabel1, Guna.UI.Animation.DecorationType.None);
-            this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel1.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel1.Location = new System.Drawing.Point(19, 74);
-            this.gunaLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(150, 15);
-            this.gunaLabel1.TabIndex = 1;
-            this.gunaLabel1.Text = "WAC - We are connecting";
-            // 
-            // realclock
-            // 
-            this.realclock.Tick += new System.EventHandler(this.realclock_Tick);
-            // 
-            // gunaTran
-            // 
-            this.gunaTran.AnimationType = Guna.UI.Animation.AnimationType.VertSlide;
-            this.gunaTran.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.gunaTran.DefaultAnimation = animation1;
+            this.pbSearch.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTran.SetDecoration(this.pbSearch, Guna.UI.Animation.DecorationType.None);
+            this.pbSearch.Image = ((System.Drawing.Image)(resources.GetObject("pbSearch.Image")));
+            this.pbSearch.Location = new System.Drawing.Point(599, 18);
+            this.pbSearch.Name = "pbSearch";
+            this.pbSearch.ShadowDecoration.Parent = this.pbSearch;
+            this.pbSearch.Size = new System.Drawing.Size(29, 29);
+            this.pbSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbSearch.TabIndex = 5;
+            this.pbSearch.TabStop = false;
             // 
             // FormStaffs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(975, 749);
+            this.ClientSize = new System.Drawing.Size(975, 832);
             this.Controls.Add(this.gunaElipsePanel1);
             this.gunaTran.SetDecoration(this, Guna.UI.Animation.DecorationType.None);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormStaffs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormStaffs";
             this.gunaElipsePanel1.ResumeLayout(false);
             this.panelDesktop.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.panelMenuControl.ResumeLayout(false);
             this.panelMenuControl.PerformLayout();
             this.panelSubMenuThongKe.ResumeLayout(false);
@@ -2164,7 +1595,8 @@
             this.panelsubQuanLyBanTraHang.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSearch)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2188,6 +1620,7 @@
         private FontAwesome.Sharp.IconButton subQuanLyBanTraHang;
         private FontAwesome.Sharp.IconButton subTroGiup;
         private System.Windows.Forms.Panel panelTitleBar;
+        private FontAwesome.Sharp.IconPictureBox pbLogo;
         private Guna.UI.WinForms.GunaGradientPanel gunaGradientPanel1;
         private System.Windows.Forms.Panel panelDesktop;
         private Guna.UI.WinForms.GunaLabel lblTime;
@@ -2198,9 +1631,14 @@
         private Guna.UI.WinForms.GunaButton btnDanhSachDonGiaoHang;
         private Guna.UI.WinForms.GunaPanel panelsubQuanLyBanTraHang;
         private Guna.UI.WinForms.GunaPanel panelSubMenuQuanLyKhoHang;
+        private Guna.UI.WinForms.GunaButton btnDanhSachKhoSanPham;
         private Guna.UI.WinForms.GunaButton btnNhaCungCap;
         private Guna.UI.WinForms.GunaPanel panelSubMenuQuanLySuaChua;
         private Guna.UI.WinForms.GunaButton gunaButton5;
+        private Guna.UI.WinForms.GunaButton gunaButton3;
+        private Guna.UI.WinForms.GunaButton gunaButton14;
+        private Guna.UI.WinForms.GunaButton gunaButton13;
+        private Guna.UI.WinForms.GunaButton gunaButton10;
         private Guna.UI.WinForms.GunaPanel panelSubMenuCongTy;
         private Guna.UI.WinForms.GunaButton gunaButton42;
         private Guna.UI.WinForms.GunaButton gunaButton43;
@@ -2225,36 +1663,9 @@
         private Guna.UI.WinForms.GunaButton btnThongKeBangLuong;
         private FontAwesome.Sharp.IconButton subThongKe;
         private FontAwesome.Sharp.IconButton subQuanLyCongViec;
+        private Guna.UI.WinForms.GunaButton btnDanhSachSanPham;
         private Guna.UI.WinForms.GunaTextBox txtSearch;
         private Guna.UI.WinForms.GunaLabel lblSearch;
         private Guna.UI2.WinForms.Guna2PictureBox pbSearch;
-        private Guna.UI.WinForms.GunaButton gunaButton18;
-        private Guna.UI.WinForms.GunaButton gunaButton17;
-        private Guna.UI.WinForms.GunaButton gunaButton16;
-        private Guna.UI.WinForms.GunaButton gunaButton15;
-        private Guna.UI.WinForms.GunaButton gunaButton13;
-        private Guna.UI.WinForms.GunaButton gunaButton12;
-        private Guna.UI.WinForms.GunaButton gunaButton11;
-        private Guna.UI.WinForms.GunaButton gunaButton3;
-        private Guna.UI.WinForms.GunaButton gunaButton10;
-        private Guna.UI.WinForms.GunaButton gunaButton2;
-        private Guna.UI.WinForms.GunaButton btnnhomSP;
-        private Guna.UI.WinForms.GunaButton gunaButton1;
-        private Guna.UI.WinForms.GunaButton btnDanhSachSanPham;
-        private Guna.UI.WinForms.GunaButton gunaButton9;
-        private Guna.UI.WinForms.GunaButton gunaButton8;
-        private Guna.UI.WinForms.GunaButton gunaButton7;
-        private Guna.UI.WinForms.GunaButton gunaButton6;
-        private Guna.UI.WinForms.GunaButton gunaButton4;
-        private Guna.UI.WinForms.GunaButton gunaButton19;
-        private Guna.UI.WinForms.GunaButton gunaButton20;
-        private Guna.UI.WinForms.GunaButton gunaButton21;
-        private Guna.UI.WinForms.GunaButton gunaButton24;
-        private Guna.UI.WinForms.GunaButton gunaButton23;
-        private Guna.UI.WinForms.GunaButton gunaButton22;
-        private Guna.UI.WinForms.GunaButton gunaButton25;
-        private Guna.UI.WinForms.GunaButton gunaButton27;
-        private Bunifu.Framework.UI.BunifuCustomDataGrid bunifuCustomDataGrid1;
-        private Guna.UI.WinForms.GunaPictureBox gunaPictureBox1;
     }
 }
