@@ -536,7 +536,7 @@
             this.subTroGiup.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subTroGiup.IconSize = 32;
             this.subTroGiup.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subTroGiup.Location = new System.Drawing.Point(0, 2019);
+            this.subTroGiup.Location = new System.Drawing.Point(0, 2015);
             this.subTroGiup.Margin = new System.Windows.Forms.Padding(2);
             this.subTroGiup.Name = "subTroGiup";
             this.subTroGiup.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
@@ -562,7 +562,7 @@
             this.subCaiDat.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subCaiDat.IconSize = 32;
             this.subCaiDat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subCaiDat.Location = new System.Drawing.Point(0, 1978);
+            this.subCaiDat.Location = new System.Drawing.Point(0, 1974);
             this.subCaiDat.Margin = new System.Windows.Forms.Padding(2);
             this.subCaiDat.Name = "subCaiDat";
             this.subCaiDat.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
@@ -580,7 +580,7 @@
             this.panelSubMenuThongKe.Controls.Add(this.btnThongKeBangLuong);
             this.gunaTran.SetDecoration(this.panelSubMenuThongKe, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuThongKe.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuThongKe.Location = new System.Drawing.Point(0, 1944);
+            this.panelSubMenuThongKe.Location = new System.Drawing.Point(0, 1940);
             this.panelSubMenuThongKe.Margin = new System.Windows.Forms.Padding(2);
             this.panelSubMenuThongKe.Name = "panelSubMenuThongKe";
             this.panelSubMenuThongKe.Size = new System.Drawing.Size(187, 34);
@@ -626,7 +626,7 @@
             this.subThongKe.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subThongKe.IconSize = 32;
             this.subThongKe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subThongKe.Location = new System.Drawing.Point(0, 1903);
+            this.subThongKe.Location = new System.Drawing.Point(0, 1899);
             this.subThongKe.Margin = new System.Windows.Forms.Padding(2);
             this.subThongKe.Name = "subThongKe";
             this.subThongKe.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
@@ -652,7 +652,7 @@
             this.subQuanLyCongViec.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subQuanLyCongViec.IconSize = 32;
             this.subQuanLyCongViec.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLyCongViec.Location = new System.Drawing.Point(0, 1862);
+            this.subQuanLyCongViec.Location = new System.Drawing.Point(0, 1858);
             this.subQuanLyCongViec.Margin = new System.Windows.Forms.Padding(2);
             this.subQuanLyCongViec.Name = "subQuanLyCongViec";
             this.subQuanLyCongViec.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
@@ -673,7 +673,7 @@
             this.panelSubMenuCongTy.Controls.Add(this.gunaButton45);
             this.gunaTran.SetDecoration(this.panelSubMenuCongTy, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuCongTy.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuCongTy.Location = new System.Drawing.Point(0, 1726);
+            this.panelSubMenuCongTy.Location = new System.Drawing.Point(0, 1722);
             this.panelSubMenuCongTy.Margin = new System.Windows.Forms.Padding(2);
             this.panelSubMenuCongTy.Name = "panelSubMenuCongTy";
             this.panelSubMenuCongTy.Size = new System.Drawing.Size(187, 136);
@@ -801,7 +801,7 @@
             this.subCongTy.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subCongTy.IconSize = 32;
             this.subCongTy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subCongTy.Location = new System.Drawing.Point(0, 1685);
+            this.subCongTy.Location = new System.Drawing.Point(0, 1681);
             this.subCongTy.Margin = new System.Windows.Forms.Padding(2);
             this.subCongTy.Name = "subCongTy";
             this.subCongTy.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
@@ -825,7 +825,7 @@
             this.panelSubMenuBaoCaoDoanhSo.Controls.Add(this.btnDoanhSoBanHang);
             this.gunaTran.SetDecoration(this.panelSubMenuBaoCaoDoanhSo, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuBaoCaoDoanhSo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuBaoCaoDoanhSo.Location = new System.Drawing.Point(0, 1447);
+            this.panelSubMenuBaoCaoDoanhSo.Location = new System.Drawing.Point(0, 1443);
             this.panelSubMenuBaoCaoDoanhSo.Margin = new System.Windows.Forms.Padding(2);
             this.panelSubMenuBaoCaoDoanhSo.Name = "panelSubMenuBaoCaoDoanhSo";
             this.panelSubMenuBaoCaoDoanhSo.Size = new System.Drawing.Size(187, 238);
@@ -1035,7 +1035,7 @@
             this.subBaoCaoDoanhSo.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subBaoCaoDoanhSo.IconSize = 32;
             this.subBaoCaoDoanhSo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subBaoCaoDoanhSo.Location = new System.Drawing.Point(0, 1406);
+            this.subBaoCaoDoanhSo.Location = new System.Drawing.Point(0, 1402);
             this.subBaoCaoDoanhSo.Margin = new System.Windows.Forms.Padding(2);
             this.subBaoCaoDoanhSo.Name = "subBaoCaoDoanhSo";
             this.subBaoCaoDoanhSo.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
@@ -1056,7 +1056,7 @@
             this.panelSubMenuQuanLyCongNo.Controls.Add(this.gunaButton37);
             this.gunaTran.SetDecoration(this.panelSubMenuQuanLyCongNo, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuQuanLyCongNo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuQuanLyCongNo.Location = new System.Drawing.Point(0, 1270);
+            this.panelSubMenuQuanLyCongNo.Location = new System.Drawing.Point(0, 1266);
             this.panelSubMenuQuanLyCongNo.Margin = new System.Windows.Forms.Padding(2);
             this.panelSubMenuQuanLyCongNo.Name = "panelSubMenuQuanLyCongNo";
             this.panelSubMenuQuanLyCongNo.Size = new System.Drawing.Size(187, 136);
@@ -1184,7 +1184,7 @@
             this.subQuanLyCongNo.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subQuanLyCongNo.IconSize = 32;
             this.subQuanLyCongNo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLyCongNo.Location = new System.Drawing.Point(0, 1229);
+            this.subQuanLyCongNo.Location = new System.Drawing.Point(0, 1225);
             this.subQuanLyCongNo.Margin = new System.Windows.Forms.Padding(2);
             this.subQuanLyCongNo.Name = "subQuanLyCongNo";
             this.subQuanLyCongNo.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
@@ -1202,7 +1202,7 @@
             this.panelSubMenuQuanLyTaiSan.Controls.Add(this.gunaButton32);
             this.gunaTran.SetDecoration(this.panelSubMenuQuanLyTaiSan, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuQuanLyTaiSan.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuQuanLyTaiSan.Location = new System.Drawing.Point(0, 1195);
+            this.panelSubMenuQuanLyTaiSan.Location = new System.Drawing.Point(0, 1191);
             this.panelSubMenuQuanLyTaiSan.Margin = new System.Windows.Forms.Padding(2);
             this.panelSubMenuQuanLyTaiSan.Name = "panelSubMenuQuanLyTaiSan";
             this.panelSubMenuQuanLyTaiSan.Size = new System.Drawing.Size(187, 34);
@@ -1249,7 +1249,7 @@
             this.subQuanLyTaiSan.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subQuanLyTaiSan.IconSize = 32;
             this.subQuanLyTaiSan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLyTaiSan.Location = new System.Drawing.Point(0, 1154);
+            this.subQuanLyTaiSan.Location = new System.Drawing.Point(0, 1150);
             this.subQuanLyTaiSan.Margin = new System.Windows.Forms.Padding(2);
             this.subQuanLyTaiSan.Name = "subQuanLyTaiSan";
             this.subQuanLyTaiSan.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
@@ -1269,7 +1269,7 @@
             this.panelSubMenuQuanLyKhachHang.Controls.Add(this.gunaButton26);
             this.gunaTran.SetDecoration(this.panelSubMenuQuanLyKhachHang, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuQuanLyKhachHang.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuQuanLyKhachHang.Location = new System.Drawing.Point(0, 1052);
+            this.panelSubMenuQuanLyKhachHang.Location = new System.Drawing.Point(0, 1048);
             this.panelSubMenuQuanLyKhachHang.Margin = new System.Windows.Forms.Padding(2);
             this.panelSubMenuQuanLyKhachHang.Name = "panelSubMenuQuanLyKhachHang";
             this.panelSubMenuQuanLyKhachHang.Size = new System.Drawing.Size(187, 102);
@@ -1371,7 +1371,7 @@
             this.subQuanLyKhachHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subQuanLyKhachHang.IconSize = 32;
             this.subQuanLyKhachHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLyKhachHang.Location = new System.Drawing.Point(0, 1011);
+            this.subQuanLyKhachHang.Location = new System.Drawing.Point(0, 1007);
             this.subQuanLyKhachHang.Margin = new System.Windows.Forms.Padding(2);
             this.subQuanLyKhachHang.Name = "subQuanLyKhachHang";
             this.subQuanLyKhachHang.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
@@ -1391,7 +1391,7 @@
             this.panelSubMenuQuanLyThuChi.Controls.Add(this.btnThongKeThuChi);
             this.gunaTran.SetDecoration(this.panelSubMenuQuanLyThuChi, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuQuanLyThuChi.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuQuanLyThuChi.Location = new System.Drawing.Point(0, 909);
+            this.panelSubMenuQuanLyThuChi.Location = new System.Drawing.Point(0, 905);
             this.panelSubMenuQuanLyThuChi.Margin = new System.Windows.Forms.Padding(2);
             this.panelSubMenuQuanLyThuChi.Name = "panelSubMenuQuanLyThuChi";
             this.panelSubMenuQuanLyThuChi.Size = new System.Drawing.Size(187, 102);
@@ -1493,7 +1493,7 @@
             this.subQuanLyThuChi.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subQuanLyThuChi.IconSize = 32;
             this.subQuanLyThuChi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLyThuChi.Location = new System.Drawing.Point(0, 868);
+            this.subQuanLyThuChi.Location = new System.Drawing.Point(0, 864);
             this.subQuanLyThuChi.Margin = new System.Windows.Forms.Padding(2);
             this.subQuanLyThuChi.Name = "subQuanLyThuChi";
             this.subQuanLyThuChi.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
@@ -1519,7 +1519,7 @@
             this.subQuanLyNhanSu.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subQuanLyNhanSu.IconSize = 32;
             this.subQuanLyNhanSu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLyNhanSu.Location = new System.Drawing.Point(0, 827);
+            this.subQuanLyNhanSu.Location = new System.Drawing.Point(0, 823);
             this.subQuanLyNhanSu.Margin = new System.Windows.Forms.Padding(2);
             this.subQuanLyNhanSu.Name = "subQuanLyNhanSu";
             this.subQuanLyNhanSu.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
@@ -1542,7 +1542,7 @@
             this.panelSubMenuQuanLyKhoHang.Controls.Add(this.btnNhaCungCap);
             this.gunaTran.SetDecoration(this.panelSubMenuQuanLyKhoHang, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuQuanLyKhoHang.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuQuanLyKhoHang.Location = new System.Drawing.Point(0, 623);
+            this.panelSubMenuQuanLyKhoHang.Location = new System.Drawing.Point(0, 619);
             this.panelSubMenuQuanLyKhoHang.Margin = new System.Windows.Forms.Padding(2);
             this.panelSubMenuQuanLyKhoHang.Name = "panelSubMenuQuanLyKhoHang";
             this.panelSubMenuQuanLyKhoHang.Size = new System.Drawing.Size(187, 204);
@@ -1727,7 +1727,7 @@
             this.subQuanLyKhoHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subQuanLyKhoHang.IconSize = 32;
             this.subQuanLyKhoHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLyKhoHang.Location = new System.Drawing.Point(0, 582);
+            this.subQuanLyKhoHang.Location = new System.Drawing.Point(0, 578);
             this.subQuanLyKhoHang.Margin = new System.Windows.Forms.Padding(2);
             this.subQuanLyKhoHang.Name = "subQuanLyKhoHang";
             this.subQuanLyKhoHang.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
@@ -1746,7 +1746,7 @@
             this.panelSubMenuQuanLySuaChua.Controls.Add(this.gunaButton5);
             this.gunaTran.SetDecoration(this.panelSubMenuQuanLySuaChua, Guna.UI.Animation.DecorationType.None);
             this.panelSubMenuQuanLySuaChua.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuQuanLySuaChua.Location = new System.Drawing.Point(0, 514);
+            this.panelSubMenuQuanLySuaChua.Location = new System.Drawing.Point(0, 510);
             this.panelSubMenuQuanLySuaChua.Margin = new System.Windows.Forms.Padding(2);
             this.panelSubMenuQuanLySuaChua.Name = "panelSubMenuQuanLySuaChua";
             this.panelSubMenuQuanLySuaChua.Size = new System.Drawing.Size(187, 68);
@@ -1821,7 +1821,7 @@
             this.subQuanLySuaChua.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subQuanLySuaChua.IconSize = 32;
             this.subQuanLySuaChua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subQuanLySuaChua.Location = new System.Drawing.Point(0, 473);
+            this.subQuanLySuaChua.Location = new System.Drawing.Point(0, 469);
             this.subQuanLySuaChua.Margin = new System.Windows.Forms.Padding(2);
             this.subQuanLySuaChua.Name = "subQuanLySuaChua";
             this.subQuanLySuaChua.Padding = new System.Windows.Forms.Padding(15, 0, 0, 2);
@@ -1847,7 +1847,7 @@
             this.panelsubQuanLyBanTraHang.Location = new System.Drawing.Point(0, 215);
             this.panelsubQuanLyBanTraHang.Margin = new System.Windows.Forms.Padding(2);
             this.panelsubQuanLyBanTraHang.Name = "panelsubQuanLyBanTraHang";
-            this.panelsubQuanLyBanTraHang.Size = new System.Drawing.Size(187, 258);
+            this.panelsubQuanLyBanTraHang.Size = new System.Drawing.Size(187, 254);
             this.panelsubQuanLyBanTraHang.TabIndex = 7;
             // 
             // gunaButton9
@@ -1864,7 +1864,7 @@
             this.gunaButton9.ForeColor = System.Drawing.Color.White;
             this.gunaButton9.Image = null;
             this.gunaButton9.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton9.Location = new System.Drawing.Point(0, 217);
+            this.gunaButton9.Location = new System.Drawing.Point(0, 213);
             this.gunaButton9.Margin = new System.Windows.Forms.Padding(2);
             this.gunaButton9.Name = "gunaButton9";
             this.gunaButton9.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
@@ -1891,7 +1891,7 @@
             this.gunaButton8.ForeColor = System.Drawing.Color.White;
             this.gunaButton8.Image = null;
             this.gunaButton8.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton8.Location = new System.Drawing.Point(0, 176);
+            this.gunaButton8.Location = new System.Drawing.Point(0, 172);
             this.gunaButton8.Margin = new System.Windows.Forms.Padding(2);
             this.gunaButton8.Name = "gunaButton8";
             this.gunaButton8.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
@@ -1918,7 +1918,7 @@
             this.gunaButton7.ForeColor = System.Drawing.Color.White;
             this.gunaButton7.Image = null;
             this.gunaButton7.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton7.Location = new System.Drawing.Point(0, 135);
+            this.gunaButton7.Location = new System.Drawing.Point(0, 131);
             this.gunaButton7.Margin = new System.Windows.Forms.Padding(2);
             this.gunaButton7.Name = "gunaButton7";
             this.gunaButton7.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
@@ -1945,7 +1945,7 @@
             this.gunaButton6.ForeColor = System.Drawing.Color.White;
             this.gunaButton6.Image = null;
             this.gunaButton6.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton6.Location = new System.Drawing.Point(0, 90);
+            this.gunaButton6.Location = new System.Drawing.Point(0, 86);
             this.gunaButton6.Margin = new System.Windows.Forms.Padding(2);
             this.gunaButton6.Name = "gunaButton6";
             this.gunaButton6.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
@@ -1972,7 +1972,7 @@
             this.gunaButton4.ForeColor = System.Drawing.Color.White;
             this.gunaButton4.Image = null;
             this.gunaButton4.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton4.Location = new System.Drawing.Point(0, 45);
+            this.gunaButton4.Location = new System.Drawing.Point(0, 41);
             this.gunaButton4.Margin = new System.Windows.Forms.Padding(2);
             this.gunaButton4.Name = "gunaButton4";
             this.gunaButton4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
@@ -2007,7 +2007,7 @@
             this.btnDanhSachDonGiaoHang.OnHoverForeColor = System.Drawing.Color.White;
             this.btnDanhSachDonGiaoHang.OnHoverImage = null;
             this.btnDanhSachDonGiaoHang.OnPressedColor = System.Drawing.Color.Black;
-            this.btnDanhSachDonGiaoHang.Size = new System.Drawing.Size(187, 45);
+            this.btnDanhSachDonGiaoHang.Size = new System.Drawing.Size(187, 41);
             this.btnDanhSachDonGiaoHang.TabIndex = 6;
             this.btnDanhSachDonGiaoHang.Text = "Kiện hàng";
             this.btnDanhSachDonGiaoHang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
