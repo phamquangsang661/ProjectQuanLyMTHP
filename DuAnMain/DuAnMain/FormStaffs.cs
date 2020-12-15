@@ -271,12 +271,14 @@ namespace DuAnMain
 
         private void gunaButton1_Click_1(object sender, EventArgs e)
         {
-            OpenChildForm(new frmQuanLyKhoSP());
+            panelDesktop.Controls.Clear();
+            panelDesktop.Controls.Add(new fmQuanLyKhoSP());
         }
 
         private void btnnhomSP_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new frmNhomSP());
+            panelDesktop.Controls.Clear();
+            panelDesktop.Controls.Add(new fmNhomSP());
         }
 
      //// ////////////////////////////////////////////////////////

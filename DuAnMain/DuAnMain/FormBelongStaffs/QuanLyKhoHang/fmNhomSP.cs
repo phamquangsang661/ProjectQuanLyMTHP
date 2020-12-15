@@ -10,25 +10,25 @@ using System.Windows.Forms;
 
 namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
 {
-    public partial class frmNhomSP : Form
+    public partial class fmNhomSP : UserControl
     {
-        public frmNhomSP()
+        public fmNhomSP()
         {
             InitializeComponent();
         }
 
-        private void frmQuanLyKhoSP_Load(object sender, EventArgs e)
+        private void fmNhomSP_Load(object sender, EventArgs e)
         {
             List<string> ts = new List<string>()
             {
                 { "Tất cả các nhóm mặt hàng"},
                 { "Nhóm mặt hàng có hiệu lực"},
-                { "Nhóm mặt hàng không có hiệu lực"}
+                { "Nhóm mặt hàng  không có hiệu lực"}
             };
-            cmbnhommathang.DataSource = ts;
+            cmbnhomSP.DataSource = ts;
         }
 
-        private void cmbnhommathang_DropDown(object sender, EventArgs e)
+        private void cmbNCC_DropDown(object sender, EventArgs e)
         {
             ComboBox senderComboBox = (ComboBox)sender;
             int width = senderComboBox.DropDownWidth;
@@ -54,6 +54,11 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
                 }
             }
             senderComboBox.DropDownWidth = width;
+        }
+
+        private void pagethem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

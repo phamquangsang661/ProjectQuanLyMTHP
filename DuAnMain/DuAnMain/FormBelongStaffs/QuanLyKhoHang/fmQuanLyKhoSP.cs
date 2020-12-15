@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Drawing;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,45 +10,14 @@ using System.Windows.Forms;
 
 namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
 {
-    public partial class fmNCC : UserControl
+    public partial class fmQuanLyKhoSP : UserControl
     {
-        public fmNCC()
+        public fmQuanLyKhoSP()
         {
             InitializeComponent();
         }
 
-        private void fmNCC_Load(object sender, EventArgs e)
-        {
-            List<string> ts = new List<string>()
-            {
-                { "Tất cả nhà cung cấp"},
-                { "Các nhà cung cấp máy tính"},
-                { "Các nhà cung cấp phụ kiện"},
-            };
-            cmbNCC.DataSource = ts;
-        }
-
-        private void gunabtnthemNCC_Click(object sender, EventArgs e)
-        {
-            pageNCC.PageIndex = 1;
-        }
-
-        private void btncancel_Click(object sender, EventArgs e)
-        {
-            pageNCC.PageIndex = 0;
-        }
-
-        private void gunaButton1_Click(object sender, EventArgs e)
-        {
-            pageNCC.PageIndex = 0;
-        }
-
-        private void gunaButton2_Click(object sender, EventArgs e)
-        {
-            pageNCC.PageIndex = 2;
-        }
-
-        private void cmbNCC_DropDown(object sender, EventArgs e)
+        private void cmbSP_DropDown(object sender, EventArgs e)
         {
             ComboBox senderComboBox = (ComboBox)sender;
             int width = senderComboBox.DropDownWidth;
@@ -76,9 +45,22 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
             senderComboBox.DropDownWidth = width;
         }
 
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        private void fmQuanLyKhoSP_Load(object sender, EventArgs e)
         {
-
+            List<string> ts = new List<string>()
+            {
+                { "Tất cả các mặt hàng"},
+                { "Các mặt hàng có hiệu lực"},
+                { "Các mặt hàng chưa nhóm"},
+                { "Các mặt hàng cạn hàng"},
+                { "Các mặt hàng tồn kho"},
+                { "Các mặt hàng ngoài tồn kho"},
+                { "Các mặt hàng đã bán"},
+                { "Các mặt hàng có thể trả lại"},
+                { "Các mặt hàng không thể trả lại"},
+                { "Nhóm mặt hàng không có hiệu lực"}
+            };
+            cmbSP.DataSource = ts;
         }
     }
 }
