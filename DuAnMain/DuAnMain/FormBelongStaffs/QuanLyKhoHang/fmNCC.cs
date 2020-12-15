@@ -37,5 +37,43 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
         {
             pageNCC.PageIndex = 0;
         }
+
+        private void gunaButton1_Click(object sender, EventArgs e)
+        {
+            pageNCC.PageIndex = 0;
+        }
+
+        private void gunaButton2_Click(object sender, EventArgs e)
+        {
+            pageNCC.PageIndex = 2;
+        }
+
+        private void cmbNCC_DropDown(object sender, EventArgs e)
+        {
+            ComboBox senderComboBox = (ComboBox)sender;
+            int width = senderComboBox.DropDownWidth;
+            Graphics g = senderComboBox.CreateGraphics();
+            Font font = senderComboBox.Font;
+            int vertScrollBarWidth =
+                (senderComboBox.Items.Count > senderComboBox.MaxDropDownItems)
+                ? SystemInformation.VerticalScrollBarWidth : 0;
+
+            int newWidth;
+            foreach (string s in ((ComboBox)sender).Items)
+            {
+                newWidth = (int)g.MeasureString(s, font).Width
+                    + vertScrollBarWidth;
+                if (width < newWidth)
+                {
+                    width = newWidth;
+                }
+
+                if (senderComboBox.Width < newWidth)
+                {
+                    senderComboBox.Width = newWidth + SystemInformation.VerticalScrollBarWidth;
+                }
+            }
+            senderComboBox.DropDownWidth = width;
+        }
     }
 }

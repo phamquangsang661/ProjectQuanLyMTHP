@@ -224,12 +224,6 @@
     <Compile Include="FormBelongStaffs\QuanLyKhoHang\fmNCC.Designer.cs">
       <DependentUpon>fmNCC.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormBelongStaffs\QuanLyKhoHang\frmNCC.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormBelongStaffs\QuanLyKhoHang\frmNCC.Designer.cs">
-      <DependentUpon>frmNCC.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormBelongStaffs\QuanLyKhoHang\frmQuanLyKhoSP.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -270,9 +264,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\fmNCC.resx">
       <DependentUpon>fmNCC.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\frmNCC.resx">
-      <DependentUpon>frmNCC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\frmNhomSP.resx">
       <DependentUpon>frmNhomSP.cs</DependentUpon>
