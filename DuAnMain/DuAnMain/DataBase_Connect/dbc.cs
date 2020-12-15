@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,12 +9,16 @@ using System.Windows.Forms;
 
 namespace DuAnMain.DataBase_Connect
 {
-    
+
     class dbc
     {
         private static dbc instance;
-        public static string cnn = @"Data Source =.; Initial Catalog = QL_TT_TOEIC_MY; Integrated Security = True";
-        public static SqlConnection sql = null;
+        public static string cnn = "Server=" + Properties.Settings.Default.host + ";Database=" + Properties.Settings.Default.database +
+        ";port=" + Properties.Settings.Default.port + ";User Id=" + Properties.Settings.Default.username + ";password=" + Properties.Settings.Default.password + ";Convert Zero Datetime=True";
+        //public static string cnn = "Server=" + Properties.Settings.Default.host + ";Database=" + Properties.Settings.Default.database+
+        //";User Id=" + Properties.Settings.Default.username + ";password=" + Properties.Settings.Default.password+ "; Connection Timeout=30";
+
+        public static MySqlConnection sql = null;
         public static dbc Instance
         {
             get { if (instance == null) instance = new dbc(); return dbc.instance; }
@@ -28,11 +32,16 @@ namespace DuAnMain.DataBase_Connect
         {
             try
             {
-                
-                sql = new SqlConnection(cnn);
+
+                sql = new MySqlConnection(cnn);
+                DataTable dt = get(@"SELECT * FROM `taikhoan` ");
+                if (dt != null)
+                    MessageBox.Show("Kết nối thành công");
+                else
+                    MessageBox.Show("Kết nối không thành công");
                 return true;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
                 return false;
@@ -47,9 +56,9 @@ namespace DuAnMain.DataBase_Connect
         {
             try
             {
-                Clipboard.SetText(query);
+                //Clipboard.SetText(query);
                 sql.Open();
-                SqlDataAdapter sqld = new SqlDataAdapter(query, sql);
+                MySqlDataAdapter sqld = new MySqlDataAdapter(query, sql);
                 DataTable dt = new DataTable();
                 sqld.Fill(dt);
                 return dt;
@@ -89,7 +98,7 @@ namespace DuAnMain.DataBase_Connect
                 }
                 query = query.Remove(query.LastIndexOf(","), 1);
                 Clipboard.SetText(query);
-                SqlDataAdapter sqld = new SqlDataAdapter(query, sql);
+                MySqlDataAdapter sqld = new MySqlDataAdapter(query, sql);
                 DataTable dt = new DataTable();
                 sqld.Fill(dt);
                 return dt;
@@ -116,7 +125,7 @@ namespace DuAnMain.DataBase_Connect
             {
                 sql.Open();
                 Clipboard.SetText(query);
-                SqlCommand cmd = new SqlCommand(query, sql);
+                MySqlCommand cmd = new MySqlCommand(query, sql);
                 cmd.ExecuteNonQuery();
                 return true;
             }
@@ -152,7 +161,7 @@ namespace DuAnMain.DataBase_Connect
                 }
                 query = query.Remove(query.LastIndexOf(","), 1);
                 Clipboard.SetText(query);
-                SqlCommand cmd = new SqlCommand(query, sql);
+                MySqlCommand cmd = new MySqlCommand(query, sql);
                 cmd.ExecuteNonQuery();
                 return true;
             }

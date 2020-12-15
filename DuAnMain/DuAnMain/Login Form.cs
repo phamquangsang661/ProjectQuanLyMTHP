@@ -22,7 +22,7 @@ namespace DuAnMain
         
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            dbc.Instance.Con();
         }
 
         private void lblCreateAcc_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
