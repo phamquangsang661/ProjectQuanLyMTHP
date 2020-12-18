@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DuAnMain.FormBelongStaffs
+namespace DuAnMain.FormBelongStaffs.QuanLyBanTraHang
 {
-    public partial class testForm : Form
+    public partial class frmCacHoaDonDaThanhToan : Form
     {
-        public testForm()
+        public frmCacHoaDonDaThanhToan()
         {
             InitializeComponent();
         }
