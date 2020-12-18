@@ -1,5 +1,4 @@
-﻿using DevExpress.XtraGrid.Views.Grid;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,15 +10,11 @@ using System.Windows.Forms;
 
 namespace DuAnMain.FormBelongStaffs.QuanLyBanTraHang
 {
-    public partial class frmDanhSachSanPham : Form
+    public partial class frmHoaDonDatCoc : Form
     {
-        public frmDanhSachSanPham()
+        public frmHoaDonDatCoc()
         {
             InitializeComponent();
-        }
-
-        private void frmDanhSachSanPham_Load(object sender, EventArgs e)
-        {
         }
     }
 }

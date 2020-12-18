@@ -30,7 +30,6 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fmQuanLyKhoSP));
-            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation1 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
@@ -57,7 +56,6 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
             this.pagethem = new System.Windows.Forms.TabPage();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.gunaPanel2 = new Guna.UI.WinForms.GunaPanel();
-            this.pageNCC = new Bunifu.UI.WinForms.BunifuPages();
             this.pagemainNCC = new System.Windows.Forms.TabPage();
             this.gridSplitContainer1 = new DevExpress.XtraGrid.GridSplitContainer();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
@@ -78,7 +76,6 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
             this.tabControl1.SuspendLayout();
             this.pagethem.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
-            this.pageNCC.SuspendLayout();
             this.pagemainNCC.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridSplitContainer1)).BeginInit();
             this.gridSplitContainer1.SuspendLayout();
@@ -449,7 +446,6 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
             this.guna2Panel2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.guna2Panel2.BorderThickness = 1;
             this.guna2Panel2.Controls.Add(this.gunaPanel2);
-            this.guna2Panel2.Controls.Add(this.pageNCC);
             this.guna2Panel2.CustomBorderColor = System.Drawing.Color.Black;
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
@@ -466,42 +462,6 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
             this.gunaPanel2.Name = "gunaPanel2";
             this.gunaPanel2.Size = new System.Drawing.Size(64, 728);
             this.gunaPanel2.TabIndex = 1;
-            // 
-            // pageNCC
-            // 
-            this.pageNCC.Alignment = System.Windows.Forms.TabAlignment.Bottom;
-            this.pageNCC.AllowTransitions = true;
-            this.pageNCC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.pageNCC.Controls.Add(this.pagemainNCC);
-            this.pageNCC.Controls.Add(this.pagethem);
-            this.pageNCC.Controls.Add(this.pagechitiet);
-            this.pageNCC.Location = new System.Drawing.Point(83, 89);
-            this.pageNCC.Multiline = true;
-            this.pageNCC.Name = "pageNCC";
-            this.pageNCC.Page = this.pagethem;
-            this.pageNCC.PageIndex = 1;
-            this.pageNCC.PageName = "pagethem";
-            this.pageNCC.PageTitle = "themnhomSP";
-            this.pageNCC.SelectedIndex = 0;
-            this.pageNCC.Size = new System.Drawing.Size(1041, 636);
-            this.pageNCC.TabIndex = 0;
-            animation1.AnimateOnlyDifferences = false;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.pageNCC.Transition = animation1;
-            this.pageNCC.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Custom;
             // 
             // pagemainNCC
             // 
@@ -663,7 +623,6 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
             this.pagethem.ResumeLayout(false);
             this.pagethem.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
-            this.pageNCC.ResumeLayout(false);
             this.pagemainNCC.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridSplitContainer1)).EndInit();
             this.gridSplitContainer1.ResumeLayout(false);

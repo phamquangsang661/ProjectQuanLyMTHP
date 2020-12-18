@@ -198,7 +198,8 @@ namespace DuAnMain
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FormBelongStaffs.testForm());
+            frmKienHang f = new frmKienHang();
+            f.Show();
         }
 
         private void subQuanLyCongViec_Click(object sender, EventArgs e)
@@ -216,7 +217,7 @@ namespace DuAnMain
 
         private void btnDanhSachSanPham_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new frmDanhSachSanPham());
+            OpenChildForm(new frmKienHang());
         }
 
         private void btnNhaCungCap_Click(object sender, EventArgs e)
@@ -266,7 +267,7 @@ namespace DuAnMain
 
         private void gunaButton10_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new testForm());
+  
         }
 
         private void gunaButton1_Click_1(object sender, EventArgs e)
@@ -294,6 +295,12 @@ namespace DuAnMain
         private void gunaButton6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void gunaButton4_Click(object sender, EventArgs e)
+        {
+            frmKienHang f = new frmKienHang();
+            f.Show();
         }
     }
 }

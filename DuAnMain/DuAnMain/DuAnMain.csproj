@@ -37,79 +37,82 @@
       <HintPath>..\packages\AutoMapper.6.1.1\lib\net45\AutoMapper.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.Core">
-      <HintPath>E:\bunifu\Bunifu.Core.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.Json">
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.Json.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuButton">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuColorTransition">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuColorTransition.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuColorTransition.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuFormDock">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuGauge">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuGauge.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuGauge.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuPages">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuSlider">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuToolTip">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuToolTip.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuToolTip.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuTransition">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuUserControl">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.ToggleSwitch">
-      <HintPath>E:\bunifu\Bunifu.UI.WinForms.ToggleSwitch.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.ToggleSwitch.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu_UI_v1.5.3">
-      <HintPath>E:\bunifu\Bunifu_UI_v1.5.3.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Charts.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.CodeParser.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -164,15 +167,15 @@
       <HintPath>..\packages\FrontSharp.1.1.0\lib\net45\FrontSharp.dll</HintPath>
     </Reference>
     <Reference Include="Guna.UI">
-      <HintPath>E:\Guna_UI_Framework_Ultimate_2.0.0.1_Downloadly.ir\Guna UI Framework Ultimate 2.0.0.1\Guna UI Framework Ultimate v2.0.0.1 Lib-Master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Guna Framework UI Lastest Version + Cracked\Guna Framework UI Lastest Version + Cracked\Guna_UI_Framework_Ultimate_2.0.0.1_Downloadly.ir\Guna_UI_v2.0.0.6\Guna.UI.WinForms_v1.0.0.9\.net 2.0\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="Guna.UI2">
-      <HintPath>E:\Guna_UI_Framework_Ultimate_2.0.0.1_Downloadly.ir\Guna UI Framework Ultimate 2.0.0.1\Guna UI Framework Ultimate v2.0.0.1 Lib-Master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Guna Framework UI Lastest Version + Cracked\Guna Framework UI Lastest Version + Cracked\Guna_UI_Framework_Ultimate_2.0.0.1_Downloadly.ir\Guna_UI_v2.0.0.6\Guna.UI2.WinForms_v2.0.0.6\.net 2.0\Guna.UI2.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="MySql.Data, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>E:\SQ\v4.5.2\MySql.Data.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\mysql-connector-net-8.0.22-noinstall\v4.5.2\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -210,11 +213,41 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataBase_Connect\dbc.cs" />
-    <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmDanhSachSanPham.cs">
+    <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmDonHangNguoiMua.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmDanhSachSanPham.Designer.cs">
-      <DependentUpon>frmDanhSachSanPham.cs</DependentUpon>
+    <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmDonHangNguoiMua.Designer.cs">
+      <DependentUpon>frmDonHangNguoiMua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmHangTraLai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmHangTraLai.Designer.cs">
+      <DependentUpon>frmHangTraLai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmHoaDonDatCoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmHoaDonDatCoc.Designer.cs">
+      <DependentUpon>frmHoaDonDatCoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmTatCaCach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmTatCaCach.Designer.cs">
+      <DependentUpon>frmTatCaCach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmKienHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmKienHang.Designer.cs">
+      <DependentUpon>frmKienHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmHoaDon.Designer.cs">
+      <DependentUpon>frmHoaDon.cs</DependentUpon>
     </Compile>
     <Compile Include="FormBelongStaffs\QuanLyKhachHang\optional\uskhachhangkhaiquat.cs">
       <SubType>UserControl</SubType>
@@ -264,12 +297,6 @@
     <Compile Include="FormBelongStaffs\QuanLyKhoHang\frmQuanLyKhoSP.Designer.cs">
       <DependentUpon>frmQuanLyKhoSP.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormBelongStaffs\testForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormBelongStaffs\testForm.Designer.cs">
-      <DependentUpon>testForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormStaffs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -284,8 +311,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormBelongStaffs\QuanLyBanTraHang\frmDanhSachSanPham.resx">
-      <DependentUpon>frmDanhSachSanPham.cs</DependentUpon>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyBanTraHang\frmDonHangNguoiMua.resx">
+      <DependentUpon>frmDonHangNguoiMua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyBanTraHang\frmHangTraLai.resx">
+      <DependentUpon>frmHangTraLai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyBanTraHang\frmHoaDon.resx">
+      <DependentUpon>frmHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyBanTraHang\frmHoaDonDatCoc.resx">
+      <DependentUpon>frmHoaDonDatCoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyBanTraHang\frmKienHang.resx">
+      <DependentUpon>frmKienHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\optional\uskhachhangkhaiquat.resx">
       <DependentUpon>uskhachhangkhaiquat.cs</DependentUpon>
@@ -310,9 +349,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\frmQuanLyKhoSP.resx">
       <DependentUpon>frmQuanLyKhoSP.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBelongStaffs\testForm.resx">
-      <DependentUpon>testForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormStaffs.resx">
       <DependentUpon>FormStaffs.cs</DependentUpon>
