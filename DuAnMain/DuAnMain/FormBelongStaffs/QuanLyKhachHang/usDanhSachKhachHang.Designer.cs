@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.pnlKhachHang = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlToolLeft = new Guna.UI2.WinForms.Guna2Panel();
             this.pnllstKhachHang = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlToolLeft = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlCenter = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlKhachHang.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,14 +46,15 @@
             this.pnlKhachHang.Size = new System.Drawing.Size(215, 521);
             this.pnlKhachHang.TabIndex = 0;
             // 
-            // guna2Panel2
+            // pnllstKhachHang
             // 
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel2.Location = new System.Drawing.Point(215, 0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(653, 521);
-            this.guna2Panel2.TabIndex = 1;
+            this.pnllstKhachHang.AutoScroll = true;
+            this.pnllstKhachHang.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnllstKhachHang.Location = new System.Drawing.Point(0, 66);
+            this.pnllstKhachHang.Name = "pnllstKhachHang";
+            this.pnllstKhachHang.ShadowDecoration.Parent = this.pnllstKhachHang;
+            this.pnllstKhachHang.Size = new System.Drawing.Size(215, 455);
+            this.pnllstKhachHang.TabIndex = 1;
             // 
             // pnlToolLeft
             // 
@@ -65,21 +66,20 @@
             this.pnlToolLeft.Size = new System.Drawing.Size(215, 66);
             this.pnlToolLeft.TabIndex = 0;
             // 
-            // pnllstKhachHang
+            // pnlCenter
             // 
-            this.pnllstKhachHang.AutoScroll = true;
-            this.pnllstKhachHang.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnllstKhachHang.Location = new System.Drawing.Point(0, 66);
-            this.pnllstKhachHang.Name = "pnllstKhachHang";
-            this.pnllstKhachHang.ShadowDecoration.Parent = this.pnllstKhachHang;
-            this.pnllstKhachHang.Size = new System.Drawing.Size(215, 455);
-            this.pnllstKhachHang.TabIndex = 1;
+            this.pnlCenter.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlCenter.Location = new System.Drawing.Point(215, 0);
+            this.pnlCenter.Name = "pnlCenter";
+            this.pnlCenter.ShadowDecoration.Parent = this.pnlCenter;
+            this.pnlCenter.Size = new System.Drawing.Size(653, 521);
+            this.pnlCenter.TabIndex = 1;
             // 
             // usDanhSachKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.guna2Panel2);
+            this.Controls.Add(this.pnlCenter);
             this.Controls.Add(this.pnlKhachHang);
             this.Name = "usDanhSachKhachHang";
             this.Size = new System.Drawing.Size(868, 521);
@@ -92,7 +92,7 @@
 
         private Guna.UI2.WinForms.Guna2Panel pnlKhachHang;
         private Guna.UI2.WinForms.Guna2Panel pnlToolLeft;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Guna.UI2.WinForms.Guna2Panel pnlCenter;
         private Guna.UI2.WinForms.Guna2Panel pnllstKhachHang;
     }
 }

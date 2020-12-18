@@ -212,6 +212,7 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataBase_Connect\getData.cs" />
     <Compile Include="DataBase_Connect\dbc.cs" />
     <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmDonHangNguoiMua.cs">
       <SubType>Form</SubType>
@@ -413,6 +414,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FormBelongStaffs\BaoCaoDoanhSo\" />
+    <Folder Include="FormBelongStaffs\QuanLyKhachHang\detail\" />
     <Folder Include="FormBelongStaffs\QuanLyNhanSu\" />
     <Folder Include="FormBelongStaffs\QuanLySuaChua\" />
     <Folder Include="FormBelongStaffs\QuanLyThongKe\" />

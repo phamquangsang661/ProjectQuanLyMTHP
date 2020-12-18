@@ -16,11 +16,12 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang
         public usDanhSachKhachHang()
         {
             InitializeComponent();
+            pnlCenter.Controls.Add(new KhachHangChiTiet() { Dock=DockStyle.Fill});
             updatePanelLeft();
         }
         public void updateDataPanelLeft()
         {
-            DataTable dt = DataBase_Connect.dbc.Instance.get("select * from khachhang");
+            DataTable dt = DataBase_Connect.getData.getDsKhachHang();
             foreach (DataRow r in dt.Rows)
             {
 

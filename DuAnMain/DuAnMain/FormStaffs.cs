@@ -31,6 +31,7 @@ namespace DuAnMain
             this.ControlBox = false;
             this.DoubleBuffered = true;
             this.Text = String.Empty;
+           
             realclock.Start();
             DisableAllSubMenu();
         }
