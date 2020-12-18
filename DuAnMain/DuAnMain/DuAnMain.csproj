@@ -216,6 +216,30 @@
     <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmDanhSachSanPham.Designer.cs">
       <DependentUpon>frmDanhSachSanPham.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\optional\uskhachhangkhaiquat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\optional\uskhachhangkhaiquat.Designer.cs">
+      <DependentUpon>uskhachhangkhaiquat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\optional\usTopLeft.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\optional\usTopLeft.Designer.cs">
+      <DependentUpon>usTopLeft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\optional\usTopLeftTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\optional\usTopLeftTool.Designer.cs">
+      <DependentUpon>usTopLeftTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\usDanhSachKhachHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\usDanhSachKhachHang.Designer.cs">
+      <DependentUpon>usDanhSachKhachHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormBelongStaffs\QuanLyKhoHang\fmNCC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -262,6 +286,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormBelongStaffs\QuanLyBanTraHang\frmDanhSachSanPham.resx">
       <DependentUpon>frmDanhSachSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\optional\uskhachhangkhaiquat.resx">
+      <DependentUpon>uskhachhangkhaiquat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\optional\usTopLeft.resx">
+      <DependentUpon>usTopLeft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\optional\usTopLeftTool.resx">
+      <DependentUpon>usTopLeftTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\usDanhSachKhachHang.resx">
+      <DependentUpon>usDanhSachKhachHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\fmNCC.resx">
       <DependentUpon>fmNCC.cs</DependentUpon>
@@ -314,7 +350,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FormBelongStaffs\BaoCaoDoanhSo\" />
-    <Folder Include="FormBelongStaffs\QuanLyKhachHang\" />
     <Folder Include="FormBelongStaffs\QuanLyNhanSu\" />
     <Folder Include="FormBelongStaffs\QuanLySuaChua\" />
     <Folder Include="FormBelongStaffs\QuanLyThongKe\" />

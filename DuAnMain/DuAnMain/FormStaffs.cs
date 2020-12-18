@@ -233,6 +233,9 @@ namespace DuAnMain
 
         private void btnDanhSachKhachHang_Click(object sender, EventArgs e)
         {
+            panelDesktop.Controls.Clear();
+            panelDesktop.Controls.Add(new FormBelongStaffs.QuanLyKhachHang.usDanhSachKhachHang() { Dock=DockStyle.Fill });
+            
             
         }
 

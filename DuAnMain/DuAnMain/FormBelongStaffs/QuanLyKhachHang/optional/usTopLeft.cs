@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang
+namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.optional
 {
-    public partial class tevv : UserControl
+    public partial class usTopLeft : UserControl
     {
-        public tevv()
+        public usTopLeft()
         {
             InitializeComponent();
         }
