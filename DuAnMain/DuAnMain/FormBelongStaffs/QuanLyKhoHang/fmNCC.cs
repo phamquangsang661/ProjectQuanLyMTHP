@@ -80,5 +80,13 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
         {
 
         }
+
+        private void gunabtnmenu_Click(object sender, EventArgs e)
+        {
+            Panel pn = new Panel();
+            pn.Size = new Size(200, 255);
+            pn.Location = new Point(793, 6);
+            pn.Controls.Add(new Button());
+        }
     }
 }

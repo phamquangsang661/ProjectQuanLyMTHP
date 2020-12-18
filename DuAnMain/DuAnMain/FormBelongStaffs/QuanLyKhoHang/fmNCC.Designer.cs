@@ -65,7 +65,6 @@
             this.gunabtnthemNCC = new Guna.UI.WinForms.GunaButton();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.gunaPanel2 = new Guna.UI.WinForms.GunaPanel();
             this.pageNCC = new Bunifu.UI.WinForms.BunifuPages();
             this.pagemainNCC = new System.Windows.Forms.TabPage();
             this.gridSplitContainer1 = new DevExpress.XtraGrid.GridSplitContainer();
@@ -74,15 +73,10 @@
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
             this.pagethem = new System.Windows.Forms.TabPage();
-            this.gunaLabel13 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel10 = new Guna.UI.WinForms.GunaLabel();
             this.gunaTextBox8 = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaTextBox7 = new Guna.UI.WinForms.GunaTextBox();
             this.gunaTextBox6 = new Guna.UI.WinForms.GunaTextBox();
             this.gunaLabel12 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel11 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaTextBox5 = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaLabel9 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel7 = new Guna.UI.WinForms.GunaLabel();
             this.gunaTextBox3 = new Guna.UI.WinForms.GunaTextBox();
             this.gunaLabel8 = new Guna.UI.WinForms.GunaLabel();
@@ -140,7 +134,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1020, 290);
+            this.tabPage3.Size = new System.Drawing.Size(1088, 290);
             this.tabPage3.TabIndex = 1;
             this.tabPage3.Text = "Địa chỉ";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -149,7 +143,7 @@
             // 
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1032, 291);
+            this.tabPage4.Size = new System.Drawing.Size(1020, 290);
             this.tabPage4.TabIndex = 2;
             this.tabPage4.Text = "Người liên hệ";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -158,7 +152,7 @@
             // 
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(1032, 291);
+            this.tabPage5.Size = new System.Drawing.Size(1020, 290);
             this.tabPage5.TabIndex = 3;
             this.tabPage5.Text = "Các trường tùy chỉnh";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -167,7 +161,7 @@
             // 
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(1032, 291);
+            this.tabPage6.Size = new System.Drawing.Size(1020, 290);
             this.tabPage6.TabIndex = 4;
             this.tabPage6.Text = "Tag báo cáo";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -176,7 +170,7 @@
             // 
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(1032, 291);
+            this.tabPage7.Size = new System.Drawing.Size(1020, 290);
             this.tabPage7.TabIndex = 5;
             this.tabPage7.Text = "Nhận xét";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -195,7 +189,7 @@
             this.btncancel.ForeColor = System.Drawing.Color.White;
             this.btncancel.Image = global::DuAnMain.Properties.Resources.icons_exit_256;
             this.btncancel.ImageSize = new System.Drawing.Size(20, 20);
-            this.btncancel.Location = new System.Drawing.Point(993, 0);
+            this.btncancel.Location = new System.Drawing.Point(1061, 0);
             this.btncancel.Name = "btncancel";
             this.btncancel.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btncancel.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -211,7 +205,7 @@
             this.gunaLabel5.AutoSize = true;
             this.gunaLabel5.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel5.Location = new System.Drawing.Point(531, 57);
+            this.gunaLabel5.Location = new System.Drawing.Point(540, 57);
             this.gunaLabel5.Name = "gunaLabel5";
             this.gunaLabel5.Size = new System.Drawing.Size(29, 20);
             this.gunaLabel5.TabIndex = 20;
@@ -319,7 +313,7 @@
             this.pagechitiet.Location = new System.Drawing.Point(4, 4);
             this.pagechitiet.Name = "pagechitiet";
             this.pagechitiet.Padding = new System.Windows.Forms.Padding(3);
-            this.pagechitiet.Size = new System.Drawing.Size(1046, 609);
+            this.pagechitiet.Size = new System.Drawing.Size(1102, 608);
             this.pagechitiet.TabIndex = 2;
             this.pagechitiet.Text = "chitiet";
             this.pagechitiet.UseVisualStyleBackColor = true;
@@ -335,21 +329,22 @@
             this.guna2Panel3.Location = new System.Drawing.Point(303, 3);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
-            this.guna2Panel3.Size = new System.Drawing.Size(740, 603);
+            this.guna2Panel3.Size = new System.Drawing.Size(796, 602);
             this.guna2Panel3.TabIndex = 3;
             // 
             // tabPane1
             // 
             this.tabPane1.Controls.Add(this.tabNavigationPage1);
             this.tabPane1.Controls.Add(this.tabNavigationPage2);
-            this.tabPane1.Location = new System.Drawing.Point(9, 46);
+            this.tabPane1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabPane1.Location = new System.Drawing.Point(0, 40);
             this.tabPane1.Name = "tabPane1";
             this.tabPane1.Pages.AddRange(new DevExpress.XtraBars.Navigation.NavigationPageBase[] {
             this.tabNavigationPage1,
             this.tabNavigationPage2});
-            this.tabPane1.RegularSize = new System.Drawing.Size(719, 545);
+            this.tabPane1.RegularSize = new System.Drawing.Size(796, 562);
             this.tabPane1.SelectedPage = this.tabNavigationPage2;
-            this.tabPane1.Size = new System.Drawing.Size(719, 545);
+            this.tabPane1.Size = new System.Drawing.Size(796, 562);
             this.tabPane1.TabIndex = 5;
             this.tabPane1.Text = "tabPane1";
             // 
@@ -363,7 +358,7 @@
             // 
             this.tabNavigationPage2.Caption = "tabNavigationPage2";
             this.tabNavigationPage2.Name = "tabNavigationPage2";
-            this.tabNavigationPage2.Size = new System.Drawing.Size(719, 516);
+            this.tabNavigationPage2.Size = new System.Drawing.Size(796, 533);
             // 
             // guna2Panel6
             // 
@@ -377,7 +372,7 @@
             this.guna2Panel6.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel6.Name = "guna2Panel6";
             this.guna2Panel6.ShadowDecoration.Parent = this.guna2Panel6;
-            this.guna2Panel6.Size = new System.Drawing.Size(740, 40);
+            this.guna2Panel6.Size = new System.Drawing.Size(796, 40);
             this.guna2Panel6.TabIndex = 4;
             // 
             // gunaButton1
@@ -394,7 +389,7 @@
             this.gunaButton1.ForeColor = System.Drawing.Color.White;
             this.gunaButton1.Image = global::DuAnMain.Properties.Resources.icons_exit_256;
             this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton1.Location = new System.Drawing.Point(699, 1);
+            this.gunaButton1.Location = new System.Drawing.Point(755, 1);
             this.gunaButton1.Name = "gunaButton1";
             this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -426,7 +421,7 @@
             this.guna2Panel4.Location = new System.Drawing.Point(3, 3);
             this.guna2Panel4.Name = "guna2Panel4";
             this.guna2Panel4.ShadowDecoration.Parent = this.guna2Panel4;
-            this.guna2Panel4.Size = new System.Drawing.Size(300, 603);
+            this.guna2Panel4.Size = new System.Drawing.Size(300, 602);
             this.guna2Panel4.TabIndex = 2;
             // 
             // guna2Panel5
@@ -534,13 +529,14 @@
             this.gunabtnmenu.OnPressedColor = System.Drawing.Color.Black;
             this.gunabtnmenu.Size = new System.Drawing.Size(40, 42);
             this.gunabtnmenu.TabIndex = 4;
+            this.gunabtnmenu.Click += new System.EventHandler(this.gunabtnmenu_Click);
             // 
             // tabPage2
             // 
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1032, 291);
+            this.tabPage2.Size = new System.Drawing.Size(1088, 290);
             this.tabPage2.TabIndex = 0;
             this.tabPage2.Text = "Chi tiết khác";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -582,7 +578,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1028, 316);
+            this.tabControl1.Size = new System.Drawing.Size(1096, 316);
             this.tabControl1.TabIndex = 0;
             // 
             // guna2Panel2
@@ -591,7 +587,6 @@
             this.guna2Panel2.BorderColor = System.Drawing.Color.Black;
             this.guna2Panel2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.guna2Panel2.BorderThickness = 1;
-            this.guna2Panel2.Controls.Add(this.gunaPanel2);
             this.guna2Panel2.Controls.Add(this.pageNCC);
             this.guna2Panel2.CustomBorderColor = System.Drawing.Color.Black;
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -601,24 +596,17 @@
             this.guna2Panel2.Size = new System.Drawing.Size(1136, 657);
             this.guna2Panel2.TabIndex = 5;
             // 
-            // gunaPanel2
-            // 
-            this.gunaPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(48)))), ((int)(((byte)(110)))));
-            this.gunaPanel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaPanel2.Location = new System.Drawing.Point(0, 0);
-            this.gunaPanel2.Name = "gunaPanel2";
-            this.gunaPanel2.Size = new System.Drawing.Size(64, 657);
-            this.gunaPanel2.TabIndex = 1;
-            // 
             // pageNCC
             // 
             this.pageNCC.Alignment = System.Windows.Forms.TabAlignment.Bottom;
             this.pageNCC.AllowTransitions = true;
-            this.pageNCC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.pageNCC.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pageNCC.Controls.Add(this.pagemainNCC);
             this.pageNCC.Controls.Add(this.pagethem);
             this.pageNCC.Controls.Add(this.pagechitiet);
-            this.pageNCC.Location = new System.Drawing.Point(82, 20);
+            this.pageNCC.Location = new System.Drawing.Point(12, 20);
             this.pageNCC.Multiline = true;
             this.pageNCC.Name = "pageNCC";
             this.pageNCC.Page = this.pagethem;
@@ -626,7 +614,7 @@
             this.pageNCC.PageName = "pagethem";
             this.pageNCC.PageTitle = "themNCC";
             this.pageNCC.SelectedIndex = 0;
-            this.pageNCC.Size = new System.Drawing.Size(1042, 634);
+            this.pageNCC.Size = new System.Drawing.Size(1110, 634);
             this.pageNCC.TabIndex = 0;
             animation1.AnimateOnlyDifferences = false;
             animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
@@ -652,7 +640,7 @@
             this.pagemainNCC.Location = new System.Drawing.Point(4, 4);
             this.pagemainNCC.Name = "pagemainNCC";
             this.pagemainNCC.Padding = new System.Windows.Forms.Padding(3);
-            this.pagemainNCC.Size = new System.Drawing.Size(1046, 609);
+            this.pagemainNCC.Size = new System.Drawing.Size(1034, 608);
             this.pagemainNCC.TabIndex = 0;
             this.pagemainNCC.Text = "mainNCC";
             this.pagemainNCC.UseVisualStyleBackColor = true;
@@ -665,7 +653,7 @@
             this.gridSplitContainer1.Name = "gridSplitContainer1";
             this.gridSplitContainer1.Panel1.Controls.Add(this.gunaButton2);
             this.gridSplitContainer1.Panel1.Controls.Add(this.gridControl1);
-            this.gridSplitContainer1.Size = new System.Drawing.Size(1040, 603);
+            this.gridSplitContainer1.Size = new System.Drawing.Size(1028, 602);
             this.gridSplitContainer1.TabIndex = 0;
             // 
             // gridControl1
@@ -677,7 +665,7 @@
             this.gridControl1.Location = new System.Drawing.Point(0, 0);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1040, 603);
+            this.gridControl1.Size = new System.Drawing.Size(1028, 602);
             this.gridControl1.TabIndex = 1;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -709,7 +697,7 @@
             this.gunaButton2.ForeColor = System.Drawing.Color.White;
             this.gunaButton2.Image = global::DuAnMain.Properties.Resources.rounded__menu_256;
             this.gunaButton2.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton2.Location = new System.Drawing.Point(468, 182);
+            this.gunaButton2.Location = new System.Drawing.Point(456, 182);
             this.gunaButton2.Name = "gunaButton2";
             this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -722,15 +710,10 @@
             // 
             // pagethem
             // 
-            this.pagethem.Controls.Add(this.gunaLabel13);
-            this.pagethem.Controls.Add(this.gunaLabel10);
             this.pagethem.Controls.Add(this.gunaTextBox8);
-            this.pagethem.Controls.Add(this.gunaTextBox7);
             this.pagethem.Controls.Add(this.gunaTextBox6);
             this.pagethem.Controls.Add(this.gunaLabel12);
             this.pagethem.Controls.Add(this.gunaLabel11);
-            this.pagethem.Controls.Add(this.gunaTextBox5);
-            this.pagethem.Controls.Add(this.gunaLabel9);
             this.pagethem.Controls.Add(this.gunaLabel7);
             this.pagethem.Controls.Add(this.gunaTextBox3);
             this.pagethem.Controls.Add(this.gunaLabel8);
@@ -749,34 +732,10 @@
             this.pagethem.Location = new System.Drawing.Point(4, 4);
             this.pagethem.Name = "pagethem";
             this.pagethem.Padding = new System.Windows.Forms.Padding(3);
-            this.pagethem.Size = new System.Drawing.Size(1034, 608);
+            this.pagethem.Size = new System.Drawing.Size(1102, 608);
             this.pagethem.TabIndex = 1;
             this.pagethem.Text = "themNCC";
             this.pagethem.UseVisualStyleBackColor = true;
-            // 
-            // gunaLabel13
-            // 
-            this.gunaLabel13.AutoSize = true;
-            this.gunaLabel13.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel13.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel13.Location = new System.Drawing.Point(511, 246);
-            this.gunaLabel13.Name = "gunaLabel13";
-            this.gunaLabel13.Size = new System.Drawing.Size(135, 20);
-            this.gunaLabel13.TabIndex = 38;
-            this.gunaLabel13.Text = "Số điện thoại riêng";
-            this.gunaLabel13.UseWaitCursor = true;
-            // 
-            // gunaLabel10
-            // 
-            this.gunaLabel10.AutoSize = true;
-            this.gunaLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel10.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel10.Location = new System.Drawing.Point(181, 246);
-            this.gunaLabel10.Name = "gunaLabel10";
-            this.gunaLabel10.Size = new System.Drawing.Size(150, 20);
-            this.gunaLabel10.TabIndex = 37;
-            this.gunaLabel10.Text = "Số điện thoại công ty";
-            this.gunaLabel10.UseWaitCursor = true;
             // 
             // gunaTextBox8
             // 
@@ -787,28 +746,12 @@
             this.gunaTextBox8.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaTextBox8.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox8.Location = new System.Drawing.Point(503, 241);
+            this.gunaTextBox8.Location = new System.Drawing.Point(173, 213);
             this.gunaTextBox8.Name = "gunaTextBox8";
             this.gunaTextBox8.PasswordChar = '\0';
             this.gunaTextBox8.SelectedText = "";
             this.gunaTextBox8.Size = new System.Drawing.Size(235, 30);
             this.gunaTextBox8.TabIndex = 36;
-            // 
-            // gunaTextBox7
-            // 
-            this.gunaTextBox7.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox7.BorderColor = System.Drawing.Color.Silver;
-            this.gunaTextBox7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaTextBox7.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox7.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaTextBox7.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.gunaTextBox7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox7.Location = new System.Drawing.Point(173, 241);
-            this.gunaTextBox7.Name = "gunaTextBox7";
-            this.gunaTextBox7.PasswordChar = '\0';
-            this.gunaTextBox7.SelectedText = "";
-            this.gunaTextBox7.Size = new System.Drawing.Size(300, 30);
-            this.gunaTextBox7.TabIndex = 35;
             // 
             // gunaTextBox6
             // 
@@ -819,7 +762,7 @@
             this.gunaTextBox6.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaTextBox6.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox6.Location = new System.Drawing.Point(172, 190);
+            this.gunaTextBox6.Location = new System.Drawing.Point(172, 154);
             this.gunaTextBox6.Name = "gunaTextBox6";
             this.gunaTextBox6.PasswordChar = '\0';
             this.gunaTextBox6.SelectedText = "";
@@ -830,7 +773,7 @@
             // 
             this.gunaLabel12.AutoSize = true;
             this.gunaLabel12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel12.Location = new System.Drawing.Point(52, 250);
+            this.gunaLabel12.Location = new System.Drawing.Point(52, 222);
             this.gunaLabel12.Name = "gunaLabel12";
             this.gunaLabel12.Size = new System.Drawing.Size(104, 21);
             this.gunaLabel12.TabIndex = 32;
@@ -840,37 +783,11 @@
             // 
             this.gunaLabel11.AutoSize = true;
             this.gunaLabel11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel11.Location = new System.Drawing.Point(105, 199);
+            this.gunaLabel11.Location = new System.Drawing.Point(105, 163);
             this.gunaLabel11.Name = "gunaLabel11";
             this.gunaLabel11.Size = new System.Drawing.Size(51, 21);
             this.gunaLabel11.TabIndex = 31;
             this.gunaLabel11.Text = "Email:";
-            // 
-            // gunaTextBox5
-            // 
-            this.gunaTextBox5.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox5.BorderColor = System.Drawing.Color.Silver;
-            this.gunaTextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaTextBox5.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox5.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaTextBox5.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.gunaTextBox5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox5.Location = new System.Drawing.Point(171, 143);
-            this.gunaTextBox5.Name = "gunaTextBox5";
-            this.gunaTextBox5.PasswordChar = '\0';
-            this.gunaTextBox5.SelectedText = "";
-            this.gunaTextBox5.Size = new System.Drawing.Size(365, 30);
-            this.gunaTextBox5.TabIndex = 29;
-            // 
-            // gunaLabel9
-            // 
-            this.gunaLabel9.AutoSize = true;
-            this.gunaLabel9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel9.Location = new System.Drawing.Point(7, 152);
-            this.gunaLabel9.Name = "gunaLabel9";
-            this.gunaLabel9.Size = new System.Drawing.Size(158, 21);
-            this.gunaLabel9.TabIndex = 28;
-            this.gunaLabel9.Text = "Tên công ty ( Nếu có):";
             // 
             // gunaLabel7
             // 
@@ -946,7 +863,7 @@
             this.gunaPanel1.Controls.Add(this.tabControl1);
             this.gunaPanel1.Location = new System.Drawing.Point(3, 289);
             this.gunaPanel1.Name = "gunaPanel1";
-            this.gunaPanel1.Size = new System.Drawing.Size(1028, 316);
+            this.gunaPanel1.Size = new System.Drawing.Size(1096, 316);
             this.gunaPanel1.TabIndex = 22;
             // 
             // guna2Panel1
@@ -1037,15 +954,10 @@
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private System.Windows.Forms.TabPage pagethem;
-        private Guna.UI.WinForms.GunaLabel gunaLabel13;
-        private Guna.UI.WinForms.GunaLabel gunaLabel10;
         private Guna.UI.WinForms.GunaTextBox gunaTextBox8;
-        private Guna.UI.WinForms.GunaTextBox gunaTextBox7;
         private Guna.UI.WinForms.GunaTextBox gunaTextBox6;
         private Guna.UI.WinForms.GunaLabel gunaLabel12;
         private Guna.UI.WinForms.GunaLabel gunaLabel11;
-        private Guna.UI.WinForms.GunaTextBox gunaTextBox5;
-        private Guna.UI.WinForms.GunaLabel gunaLabel9;
         private Guna.UI.WinForms.GunaLabel gunaLabel7;
         private Guna.UI.WinForms.GunaTextBox gunaTextBox3;
         private Guna.UI.WinForms.GunaLabel gunaLabel8;
@@ -1053,7 +965,6 @@
         private Guna.UI.WinForms.GunaLabel gunaLabel6;
         private Guna.UI.WinForms.GunaPanel gunaPanel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI.WinForms.GunaPanel gunaPanel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private DevExpress.XtraBars.Navigation.TabPane tabPane1;
         private DevExpress.XtraBars.Navigation.TabNavigationPage tabNavigationPage1;
