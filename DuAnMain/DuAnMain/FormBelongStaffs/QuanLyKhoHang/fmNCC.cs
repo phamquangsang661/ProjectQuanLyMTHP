@@ -15,6 +15,31 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
         public fmNCC()
         {
             InitializeComponent();
+            updatedata();
+        }
+        private void updatedata()
+        {
+            DataTable dt = DataBase_Connect.dbc.Instance.get("select * from khachhang");
+            foreach (DataRow r in dt.Rows)
+            {
+
+               NCC.usDSNCC us = new NCC.usDSNCC(r);
+                us.MouseHover += Us_MouseHover;
+                us.MouseLeave += Us_MouseLeave;
+                us.Dock = DockStyle.Top;
+                pagemainNCC.Controls.Add(us);
+            }
+
+        }
+
+        private void Us_MouseLeave(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Us_MouseHover(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         private void fmNCC_Load(object sender, EventArgs e)
@@ -87,6 +112,16 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
             pn.Size = new Size(200, 255);
             pn.Location = new Point(793, 6);
             pn.Controls.Add(new Button());
+        }
+
+        private void pagethem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

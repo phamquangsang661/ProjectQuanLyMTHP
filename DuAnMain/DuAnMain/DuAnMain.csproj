@@ -297,6 +297,18 @@
     <Compile Include="FormBelongStaffs\QuanLyKhoHang\frmQuanLyKhoSP.Designer.cs">
       <DependentUpon>frmQuanLyKhoSP.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\uschitiet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\uschitiet.Designer.cs">
+      <DependentUpon>uschitiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\usthemNCC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\usthemNCC.Designer.cs">
+      <DependentUpon>usthemNCC.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormStaffs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -349,6 +361,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\frmQuanLyKhoSP.resx">
       <DependentUpon>frmQuanLyKhoSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\NCC\uschitiet.resx">
+      <DependentUpon>uschitiet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\NCC\usthemNCC.resx">
+      <DependentUpon>usthemNCC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormStaffs.resx">
       <DependentUpon>FormStaffs.cs</DependentUpon>
