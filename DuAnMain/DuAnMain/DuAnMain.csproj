@@ -249,6 +249,12 @@
     <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmHoaDon.Designer.cs">
       <DependentUpon>frmHoaDon.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\KhachHangChiTiet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\KhachHangChiTiet.Designer.cs">
+      <DependentUpon>KhachHangChiTiet.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormBelongStaffs\QuanLyKhachHang\optional\uskhachhangkhaiquat.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -325,6 +331,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyBanTraHang\frmKienHang.resx">
       <DependentUpon>frmKienHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\KhachHangChiTiet.resx">
+      <DependentUpon>KhachHangChiTiet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\optional\uskhachhangkhaiquat.resx">
       <DependentUpon>uskhachhangkhaiquat.cs</DependentUpon>

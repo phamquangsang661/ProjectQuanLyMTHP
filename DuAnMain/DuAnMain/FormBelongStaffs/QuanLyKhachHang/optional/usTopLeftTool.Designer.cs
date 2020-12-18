@@ -29,29 +29,30 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(usTopLeftTool));
-            this.guna2CheckBox2 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.cbkAll = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.lblSec = new Guna.UI.WinForms.GunaLabel();
             this.SuspendLayout();
             // 
-            // guna2CheckBox2
+            // cbkAll
             // 
-            this.guna2CheckBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.guna2CheckBox2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox2.CheckedState.BorderRadius = 2;
-            this.guna2CheckBox2.CheckedState.BorderThickness = 0;
-            this.guna2CheckBox2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox2.Location = new System.Drawing.Point(3, 15);
-            this.guna2CheckBox2.Name = "guna2CheckBox2";
-            this.guna2CheckBox2.Size = new System.Drawing.Size(21, 20);
-            this.guna2CheckBox2.TabIndex = 1;
-            this.guna2CheckBox2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.guna2CheckBox2.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(79)))), ((int)(((byte)(79)))));
-            this.guna2CheckBox2.UncheckedState.BorderRadius = 2;
-            this.guna2CheckBox2.UncheckedState.BorderThickness = 1;
-            this.guna2CheckBox2.UncheckedState.FillColor = System.Drawing.Color.White;
-            this.guna2CheckBox2.UseVisualStyleBackColor = false;
+            this.cbkAll.BackColor = System.Drawing.SystemColors.Control;
+            this.cbkAll.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbkAll.CheckedState.BorderRadius = 2;
+            this.cbkAll.CheckedState.BorderThickness = 0;
+            this.cbkAll.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbkAll.Location = new System.Drawing.Point(3, 15);
+            this.cbkAll.Name = "cbkAll";
+            this.cbkAll.Size = new System.Drawing.Size(21, 20);
+            this.cbkAll.TabIndex = 1;
+            this.cbkAll.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.cbkAll.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(79)))), ((int)(((byte)(79)))));
+            this.cbkAll.UncheckedState.BorderRadius = 2;
+            this.cbkAll.UncheckedState.BorderThickness = 1;
+            this.cbkAll.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.cbkAll.UseVisualStyleBackColor = false;
+            this.cbkAll.CheckedChanged += new System.EventHandler(this.cbkAll_CheckedChanged);
             // 
             // guna2Button1
             // 
@@ -107,7 +108,7 @@
             this.Controls.Add(this.lblSec);
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.guna2Button1);
-            this.Controls.Add(this.guna2CheckBox2);
+            this.Controls.Add(this.cbkAll);
             this.Name = "usTopLeftTool";
             this.Size = new System.Drawing.Size(220, 51);
             this.ResumeLayout(false);
@@ -117,7 +118,7 @@
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox2;
+        private Guna.UI2.WinForms.Guna2CheckBox cbkAll;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI.WinForms.GunaLabel lblSec;

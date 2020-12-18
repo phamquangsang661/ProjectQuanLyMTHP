@@ -17,18 +17,24 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.optional
         {
             InitializeComponent();
             lblTenKH.Text = r["TenKhachhang"].ToString();
-
+            virtualCbk = cbkKH;
+            //self = this;
         }
-
+       
+        public   Guna.UI2.WinForms.Guna2CheckBox virtualCbk;
+        //public static uskhachhangkhaiquat self;
         private void cbkKH_CheckedChanged(object sender, EventArgs e)
         {
+
             if(cbkKH.Checked)
             {
                 usDanhSachKhachHang.realSeclectLeft += 1;
+             
             }    
             else
             {
                 usDanhSachKhachHang.realSeclectLeft -= 1;
+           
             }    
             AnotherUS t = new AnotherUS(usDanhSachKhachHang.changeStateLeft);
             

@@ -25,12 +25,35 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang
             {
 
                 optional.uskhachhangkhaiquat us = new optional.uskhachhangkhaiquat(r);
+               
                 us.MouseHover += Us_MouseHover;
                 us.MouseLeave += Us_MouseLeave;
                 us.Dock = DockStyle.Top;
                 pnllstKhachHang.Controls.Add(us);
             }
 
+        }
+        public static Guna.UI2.WinForms.Guna2Panel VirtualpnllstKH;
+        public static void chooseAllLeft()
+        {
+           
+            foreach(object obj in VirtualpnllstKH.Controls)
+            {
+                optional.uskhachhangkhaiquat r = obj as optional.uskhachhangkhaiquat;
+
+                r.virtualCbk.Checked = true;
+                
+            }
+            
+        }
+        public static void unchooseAllLeft()
+        {
+            foreach (object obj in VirtualpnllstKH.Controls)
+            {
+                optional.uskhachhangkhaiquat r = obj as optional.uskhachhangkhaiquat;
+                r.virtualCbk.Checked = false;
+
+            }
         }
         public static Guna.UI2.WinForms.Guna2Panel VirtualpnlToolLeft;
         public static void changeStateLeft()
@@ -44,13 +67,16 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang
             if (realSeclectLeft==1)
             {
                 VirtualpnlToolLeft.Controls.Clear();
-                VirtualpnlToolLeft.Controls.Add(new optional.usTopLeftTool() { Dock=DockStyle.Fill});
-
-            }    
-       
+                VirtualpnlToolLeft.Controls.Add(new optional.usTopLeftTool() { Dock=DockStyle.Fill });
+                
+            }
+            optional.usTopLeftTool temp = VirtualpnlToolLeft.Controls[0] as optional.usTopLeftTool;
+            temp.updateState();
+           
         }
         public void updatePanelLeft()
         {
+            VirtualpnllstKH = pnllstKhachHang;
             VirtualpnlToolLeft = pnlToolLeft;
             pnlToolLeft.Controls.Add(new optional.usTopLeft() { Dock=DockStyle.Fill});
             updateDataPanelLeft();
