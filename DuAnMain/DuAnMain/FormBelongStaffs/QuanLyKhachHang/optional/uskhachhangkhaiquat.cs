@@ -13,10 +13,12 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.optional
     public partial class uskhachhangkhaiquat : UserControl
     {
         delegate void AnotherUS();
+        public  int MaKH;
         public uskhachhangkhaiquat(DataRow r)
         {
             InitializeComponent();
             lblTenKH.Text = r["TenKhachhang"].ToString();
+            MaKH = int.Parse(r["MaKhachHang"].ToString());
             virtualCbk = cbkKH;
             //self = this;
         }

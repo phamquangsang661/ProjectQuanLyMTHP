@@ -34,9 +34,10 @@
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Guna.UI.Animation.Animation animation2 = new Guna.UI.Animation.Animation();
             Guna.UI.Animation.Animation animation1 = new Guna.UI.Animation.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KhachHangChiTiet));
-            this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
+            this.lblTenKhachHang = new Guna.UI.WinForms.GunaLabel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlMid = new Guna.UI2.WinForms.Guna2Panel();
             this.btnBaoCao = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
@@ -44,28 +45,31 @@
             this.btnBanHang = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnGhiChu = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnTongQuan = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlBot = new Guna.UI2.WinForms.Guna2Panel();
             this.gtran = new Guna.UI.WinForms.GunaTransition(this.components);
+            this.gtranpnl = new Guna.UI.WinForms.GunaTransition(this.components);
             this.guna2Panel1.SuspendLayout();
             this.pnlMid.SuspendLayout();
             this.SuspendLayout();
             // 
-            // gunaLabel1
+            // lblTenKhachHang
             // 
-            this.gunaLabel1.AutoSize = true;
-            this.gtran.SetDecoration(this.gunaLabel1, Guna.UI.Animation.DecorationType.None);
-            this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 13F);
-            this.gunaLabel1.Location = new System.Drawing.Point(16, 13);
-            this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(59, 25);
-            this.gunaLabel1.TabIndex = 0;
-            this.gunaLabel1.Text = "Name";
+            this.lblTenKhachHang.AutoSize = true;
+            this.gtranpnl.SetDecoration(this.lblTenKhachHang, Guna.UI.Animation.DecorationType.None);
+            this.gtran.SetDecoration(this.lblTenKhachHang, Guna.UI.Animation.DecorationType.None);
+            this.lblTenKhachHang.Font = new System.Drawing.Font("Segoe UI", 13F);
+            this.lblTenKhachHang.Location = new System.Drawing.Point(16, 13);
+            this.lblTenKhachHang.Name = "lblTenKhachHang";
+            this.lblTenKhachHang.Size = new System.Drawing.Size(59, 25);
+            this.lblTenKhachHang.TabIndex = 0;
+            this.lblTenKhachHang.Text = "Name";
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.White;
             this.guna2Panel1.Controls.Add(this.pnlMid);
-            this.guna2Panel1.Controls.Add(this.gunaLabel1);
+            this.guna2Panel1.Controls.Add(this.lblTenKhachHang);
+            this.gtranpnl.SetDecoration(this.guna2Panel1, Guna.UI.Animation.DecorationType.None);
             this.gtran.SetDecoration(this.guna2Panel1, Guna.UI.Animation.DecorationType.None);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
@@ -81,6 +85,7 @@
             this.pnlMid.Controls.Add(this.btnBanHang);
             this.pnlMid.Controls.Add(this.btnGhiChu);
             this.pnlMid.Controls.Add(this.btnTongQuan);
+            this.gtranpnl.SetDecoration(this.pnlMid, Guna.UI.Animation.DecorationType.None);
             this.gtran.SetDecoration(this.pnlMid, Guna.UI.Animation.DecorationType.None);
             this.pnlMid.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnlMid.Location = new System.Drawing.Point(0, 68);
@@ -108,6 +113,7 @@
             borderEdges1.TopLeft = true;
             borderEdges1.TopRight = true;
             this.btnBaoCao.CustomizableEdges = borderEdges1;
+            this.gtranpnl.SetDecoration(this.btnBaoCao, Guna.UI.Animation.DecorationType.None);
             this.gtran.SetDecoration(this.btnBaoCao, Guna.UI.Animation.DecorationType.None);
             this.btnBaoCao.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnBaoCao.DisabledBorderColor = System.Drawing.Color.Empty;
@@ -180,6 +186,7 @@
             borderEdges2.TopLeft = true;
             borderEdges2.TopRight = true;
             this.btnDanhSachLienQuan.CustomizableEdges = borderEdges2;
+            this.gtranpnl.SetDecoration(this.btnDanhSachLienQuan, Guna.UI.Animation.DecorationType.None);
             this.gtran.SetDecoration(this.btnDanhSachLienQuan, Guna.UI.Animation.DecorationType.None);
             this.btnDanhSachLienQuan.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnDanhSachLienQuan.DisabledBorderColor = System.Drawing.Color.Empty;
@@ -252,6 +259,7 @@
             borderEdges3.TopLeft = true;
             borderEdges3.TopRight = true;
             this.btnBanHang.CustomizableEdges = borderEdges3;
+            this.gtranpnl.SetDecoration(this.btnBanHang, Guna.UI.Animation.DecorationType.None);
             this.gtran.SetDecoration(this.btnBanHang, Guna.UI.Animation.DecorationType.None);
             this.btnBanHang.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnBanHang.DisabledBorderColor = System.Drawing.Color.Empty;
@@ -324,6 +332,7 @@
             borderEdges4.TopLeft = true;
             borderEdges4.TopRight = true;
             this.btnGhiChu.CustomizableEdges = borderEdges4;
+            this.gtranpnl.SetDecoration(this.btnGhiChu, Guna.UI.Animation.DecorationType.None);
             this.gtran.SetDecoration(this.btnGhiChu, Guna.UI.Animation.DecorationType.None);
             this.btnGhiChu.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnGhiChu.DisabledBorderColor = System.Drawing.Color.Empty;
@@ -396,6 +405,7 @@
             borderEdges5.TopLeft = true;
             borderEdges5.TopRight = true;
             this.btnTongQuan.CustomizableEdges = borderEdges5;
+            this.gtranpnl.SetDecoration(this.btnTongQuan, Guna.UI.Animation.DecorationType.None);
             this.gtran.SetDecoration(this.btnTongQuan, Guna.UI.Animation.DecorationType.None);
             this.btnTongQuan.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnTongQuan.DisabledBorderColor = System.Drawing.Color.Empty;
@@ -449,21 +459,46 @@
             this.btnTongQuan.UseDefaultRadiusAndThickness = true;
             this.btnTongQuan.Click += new System.EventHandler(this.btnTongQuan_Click);
             // 
-            // guna2Panel2
+            // pnlBot
             // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.White;
-            this.gtran.SetDecoration(this.guna2Panel2, Guna.UI.Animation.DecorationType.None);
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel2.Location = new System.Drawing.Point(0, 100);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(916, 357);
-            this.guna2Panel2.TabIndex = 2;
+            this.pnlBot.BackColor = System.Drawing.Color.White;
+            this.gtranpnl.SetDecoration(this.pnlBot, Guna.UI.Animation.DecorationType.None);
+            this.gtran.SetDecoration(this.pnlBot, Guna.UI.Animation.DecorationType.None);
+            this.pnlBot.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlBot.Location = new System.Drawing.Point(0, 100);
+            this.pnlBot.Name = "pnlBot";
+            this.pnlBot.ShadowDecoration.Parent = this.pnlBot;
+            this.pnlBot.Size = new System.Drawing.Size(916, 357);
+            this.pnlBot.TabIndex = 2;
             // 
             // gtran
             // 
             this.gtran.AnimationType = Guna.UI.Animation.AnimationType.HorizSlide;
             this.gtran.Cursor = null;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 0F;
+            this.gtran.DefaultAnimation = animation2;
+            this.gtran.Interval = 1;
+            this.gtran.MaxAnimationTime = 500;
+            this.gtran.TimeStep = 0.04F;
+            // 
+            // gtranpnl
+            // 
+            this.gtranpnl.AnimationType = Guna.UI.Animation.AnimationType.Transparent;
+            this.gtranpnl.Cursor = null;
             animation1.AnimateOnlyDifferences = true;
             animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
             animation1.LeafCoeff = 0F;
@@ -478,19 +513,17 @@
             animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
             animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
             animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.gtran.DefaultAnimation = animation1;
-            this.gtran.Interval = 1;
-            this.gtran.MaxAnimationTime = 500;
-            this.gtran.TimeStep = 0.04F;
+            animation1.TransparencyCoeff = 1F;
+            this.gtranpnl.DefaultAnimation = animation1;
             // 
             // KhachHangChiTiet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.guna2Panel2);
+            this.Controls.Add(this.pnlBot);
             this.Controls.Add(this.guna2Panel1);
             this.gtran.SetDecoration(this, Guna.UI.Animation.DecorationType.None);
+            this.gtranpnl.SetDecoration(this, Guna.UI.Animation.DecorationType.None);
             this.Name = "KhachHangChiTiet";
             this.Size = new System.Drawing.Size(916, 457);
             this.guna2Panel1.ResumeLayout(false);
@@ -502,15 +535,16 @@
 
         #endregion
 
-        private Guna.UI.WinForms.GunaLabel gunaLabel1;
+        private Guna.UI.WinForms.GunaLabel lblTenKhachHang;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Panel pnlMid;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Guna.UI2.WinForms.Guna2Panel pnlBot;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnBaoCao;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnDanhSachLienQuan;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnBanHang;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnGhiChu;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnTongQuan;
         private Guna.UI.WinForms.GunaTransition gtran;
+        private Guna.UI.WinForms.GunaTransition gtranpnl;
     }
 }

@@ -13,12 +13,26 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang
 
     public partial class KhachHangChiTiet : UserControl
     {
-        public KhachHangChiTiet()
+        public int MaKH;
+        public DataRow info;
+        public KhachHangChiTiet(int MaKH)
         {
             InitializeComponent();
+            this.MaKH = MaKH;
+            info = DataBase_Connect.getData.getKhachHangTheoMa(MaKH);
+            createControl();
+        }
+        public void createControl()
+        {
+
+
+            lblTenKhachHang.Text = info["TenKhachHang"].ToString();
+
+            //pnl effect
             pnlHover = new Panel();
             pnlMid.Controls.Add(pnlHover);
             gtran.Hide(pnlHover);
+
         }
         Bunifu.UI.WinForms.BunifuButton.BunifuButton onAcBtn=null;
         Panel pnlHover = null;
@@ -54,7 +68,7 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang
         }
         private void btnTongQuan_Click(object sender, EventArgs e)
         {
-
+            
             if (onAcBtn != null)
             {
                 if (onAcBtn==btnTongQuan)
@@ -64,11 +78,15 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang
 
                 ChangeOldStateBtn(onAcBtn);
             }
+            gtranpnl.Hide(pnlBot);
             ChangeNewStateBtn(btnTongQuan);
             addPnlHover(btnTongQuan);
 
             onAcBtn = btnTongQuan;
-
+            
+            pnlBot.Controls.Clear();
+            pnlBot.Controls.Add(new detail.Overview(MaKH) { Dock=DockStyle.Fill});
+            gtranpnl.ShowSync(pnlBot);
         }
 
         private void btnGhiChu_Click(object sender, EventArgs e)

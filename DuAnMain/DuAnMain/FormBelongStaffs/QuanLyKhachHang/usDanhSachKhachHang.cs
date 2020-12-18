@@ -16,7 +16,7 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang
         public usDanhSachKhachHang()
         {
             InitializeComponent();
-            pnlCenter.Controls.Add(new KhachHangChiTiet() { Dock=DockStyle.Fill});
+            
             updatePanelLeft();
         }
         public void updateDataPanelLeft()
@@ -29,11 +29,31 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang
                
                 us.MouseHover += Us_MouseHover;
                 us.MouseLeave += Us_MouseLeave;
+                us.MouseClick += Us_MouseClick;
                 us.Dock = DockStyle.Top;
                 pnllstKhachHang.Controls.Add(us);
             }
 
         }
+
+        private void Us_MouseClick(object sender, MouseEventArgs e)
+        {
+                optional.uskhachhangkhaiquat us = sender as optional.uskhachhangkhaiquat;
+                if (pnlCenter.Controls.Count==0)
+                    pnlCenter.Controls.Add(new KhachHangChiTiet(us.MaKH) { Dock = DockStyle.Fill });
+                else
+                {
+                    if ((pnlCenter.Controls[0] as KhachHangChiTiet).MaKH == us.MaKH)
+                        return;
+                    else
+                    {
+                        pnlCenter.Controls.Clear();
+                        pnlCenter.Controls.Add(new KhachHangChiTiet(us.MaKH) { Dock = DockStyle.Fill });
+
+                    }    
+                }    
+        }
+
         public static Guna.UI2.WinForms.Guna2Panel VirtualpnllstKH;
         public static void chooseAllLeft()
         {
