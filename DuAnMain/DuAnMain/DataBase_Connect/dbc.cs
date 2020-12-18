@@ -46,6 +46,10 @@ namespace DuAnMain.DataBase_Connect
                 throw ex;
                 return false;
             }
+            finally
+            {
+                sql.Close();
+            }
         }
         /// <summary>
         /// Đây là hàm trả về DataTable(Bảng) từ câu lệnh query(câu lệnh sql)
