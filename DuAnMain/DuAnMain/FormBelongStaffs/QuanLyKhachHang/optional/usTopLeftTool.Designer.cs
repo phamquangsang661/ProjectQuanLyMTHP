@@ -86,6 +86,7 @@
             this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
             this.guna2Button2.Size = new System.Drawing.Size(37, 32);
             this.guna2Button2.TabIndex = 2;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // lblSec
             // 
