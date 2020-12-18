@@ -19,16 +19,8 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
         }
         private void updatedata()
         {
-            DataTable dt = DataBase_Connect.dbc.Instance.get("select * from khachhang");
-            foreach (DataRow r in dt.Rows)
-            {
-
-               NCC.usDSNCC us = new NCC.usDSNCC(r);
-                us.MouseHover += Us_MouseHover;
-                us.MouseLeave += Us_MouseLeave;
-                us.Dock = DockStyle.Top;
-                pagemainNCC.Controls.Add(us);
-            }
+            DataTable dt = DataBase_Connect.dbc.Instance.get("select * from nhacungcap");
+            grncc.DataSource = dt;
 
         }
 
