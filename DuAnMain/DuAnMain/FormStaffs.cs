@@ -303,5 +303,10 @@ namespace DuAnMain
             frmKienHang f = new frmKienHang();
             f.Show();
         }
+
+        private void gunaButton12_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
