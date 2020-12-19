@@ -27,6 +27,7 @@ namespace DuAnMain.DataBase_Connect
         {
             DataRow r = dbc.Instance.get("select * from khachhang where MaKhachHang=" + MaKH).Rows[0];
             return r;
-        }    
+        }
+        
     }
 }

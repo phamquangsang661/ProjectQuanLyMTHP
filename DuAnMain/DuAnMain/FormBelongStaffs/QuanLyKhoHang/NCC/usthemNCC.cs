@@ -16,10 +16,5 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC
         {
             InitializeComponent();
         }
-
-        private void btncancel_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

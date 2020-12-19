@@ -29,16 +29,8 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // uschitiet
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "uschitiet";
-            this.Size = new System.Drawing.Size(711, 414);
-            this.ResumeLayout(false);
-
         }
 
         #endregion
