@@ -38,6 +38,5 @@ namespace DuAnMain.DataBase_Connect
             DataTable r = dbc.Instance.get("Select * from GhiChuKhachHang where MaKhachhang=" + MaKH);
             return r;
         }
-
     }
 }

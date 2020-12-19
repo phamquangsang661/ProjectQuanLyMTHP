@@ -466,7 +466,7 @@
         private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox4;
         private Guna.UI.WinForms.GunaTransition animateLogin;
         private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox6;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;   
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
     }
 }
