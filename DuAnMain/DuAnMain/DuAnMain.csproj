@@ -335,9 +335,7 @@
     <Compile Include="FormBelongStaffs\QuanLyKhoHang\fmQuanLyKhoSP.Designer.cs">
       <DependentUpon>fmQuanLyKhoSP.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\Ds.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\Ds.cs" />
     <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\Ds.Designer.cs">
       <DependentUpon>Ds.cs</DependentUpon>
     </Compile>
@@ -444,6 +442,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\Ds.resx">
       <DependentUpon>Ds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\topleft.resx">
+      <DependentUpon>topleft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\ustoplefttool.resx">
+      <DependentUpon>ustoplefttool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\NCC\uschitiet.resx">
+      <DependentUpon>uschitiet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\NCC\usDsconNCC.resx">
       <DependentUpon>usDsconNCC.cs</DependentUpon>

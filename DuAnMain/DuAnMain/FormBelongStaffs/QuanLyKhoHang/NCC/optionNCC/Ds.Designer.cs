@@ -1,4 +1,6 @@
 ﻿
+using System.Data;
+
 namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC.optionNCC
 {
     partial class Ds
@@ -12,6 +14,8 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC.optionNCC
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// 
+        /*
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,6 +24,7 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC.optionNCC
             }
             base.Dispose(disposing);
         }
+        */
 
         #region Component Designer generated code
 
@@ -29,69 +34,77 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC.optionNCC
         /// </summary>
         private void InitializeComponent()
         {
-            this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
-            this.lblTenKH = new Guna.UI.WinForms.GunaLabel();
-            this.cbkKH = new Guna.UI2.WinForms.Guna2CheckBox();
+            /*
+            this.lbduno = new Guna.UI.WinForms.GunaLabel();
+            this.lblTenNCC = new Guna.UI.WinForms.GunaLabel();
+            this.cbkNCC = new Guna.UI2.WinForms.Guna2CheckBox();
             this.SuspendLayout();
             // 
-            // gunaLabel1
+            // lbduno
             // 
-            this.gunaLabel1.AutoSize = true;
-            this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.gunaLabel1.ForeColor = System.Drawing.Color.Gray;
-            this.gunaLabel1.Location = new System.Drawing.Point(42, 29);
-            this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(69, 19);
-            this.gunaLabel1.TabIndex = 5;
-            this.gunaLabel1.Text = "VND 0.00";
+            this.lbduno.AutoSize = true;
+            this.lbduno.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.lbduno.ForeColor = System.Drawing.Color.Gray;
+            this.lbduno.Location = new System.Drawing.Point(42, 29);
+            this.lbduno.Name = "lbduno";
+            this.lbduno.Size = new System.Drawing.Size(69, 19);
+            this.lbduno.TabIndex = 5;
+            this.lbduno.Text = "VND 0.00";
             // 
-            // lblTenKH
+            // lblTenNCC
             // 
-            this.lblTenKH.AutoSize = true;
-            this.lblTenKH.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.lblTenKH.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(116)))), ((int)(((byte)(199)))));
-            this.lblTenKH.Location = new System.Drawing.Point(42, 5);
-            this.lblTenKH.Name = "lblTenKH";
-            this.lblTenKH.Size = new System.Drawing.Size(81, 17);
-            this.lblTenKH.TabIndex = 4;
-            this.lblTenKH.Text = "Nhacungcap";
+            this.lblTenNCC.AutoSize = true;
+            this.lblTenNCC.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lblTenNCC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(116)))), ((int)(((byte)(199)))));
+            this.lblTenNCC.Location = new System.Drawing.Point(42, 5);
+            this.lblTenNCC.Name = "lblTenNCC";
+            this.lblTenNCC.Size = new System.Drawing.Size(81, 17);
+            this.lblTenNCC.TabIndex = 4;
+            this.lblTenNCC.Text = "Nhacungcap";
             // 
-            // cbkKH
+            // cbkNCC
             // 
-            this.cbkKH.BackColor = System.Drawing.SystemColors.Control;
-            this.cbkKH.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbkKH.CheckedState.BorderRadius = 2;
-            this.cbkKH.CheckedState.BorderThickness = 0;
-            this.cbkKH.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbkKH.Location = new System.Drawing.Point(15, 8);
-            this.cbkKH.Name = "cbkKH";
-            this.cbkKH.Size = new System.Drawing.Size(21, 20);
-            this.cbkKH.TabIndex = 3;
-            this.cbkKH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbkKH.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(79)))), ((int)(((byte)(79)))));
-            this.cbkKH.UncheckedState.BorderRadius = 2;
-            this.cbkKH.UncheckedState.BorderThickness = 1;
-            this.cbkKH.UncheckedState.FillColor = System.Drawing.Color.White;
-            this.cbkKH.UseVisualStyleBackColor = false;
+            this.cbkNCC.BackColor = System.Drawing.SystemColors.Control;
+            this.cbkNCC.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbkNCC.CheckedState.BorderRadius = 2;
+            this.cbkNCC.CheckedState.BorderThickness = 0;
+            this.cbkNCC.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbkNCC.Location = new System.Drawing.Point(15, 8);
+            this.cbkNCC.Name = "cbkNCC";
+            this.cbkNCC.Size = new System.Drawing.Size(21, 20);
+            this.cbkNCC.TabIndex = 3;
+            this.cbkNCC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.cbkNCC.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(79)))), ((int)(((byte)(79)))));
+            this.cbkNCC.UncheckedState.BorderRadius = 2;
+            this.cbkNCC.UncheckedState.BorderThickness = 1;
+            this.cbkNCC.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.cbkNCC.UseVisualStyleBackColor = false;
+            this.cbkNCC.CheckedChanged += new System.EventHandler(this.cbkNCC_CheckedChanged);
             // 
             // Ds
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.gunaLabel1);
-            this.Controls.Add(this.lblTenKH);
-            this.Controls.Add(this.cbkKH);
+            this.Controls.Add(this.lbduno);
+            this.Controls.Add(this.lblTenNCC);
+            this.Controls.Add(this.cbkNCC);
             this.Name = "Ds";
             this.Size = new System.Drawing.Size(201, 57);
             this.ResumeLayout(false);
             this.PerformLayout();
-
+            */
         }
 
         #endregion
 
-        private Guna.UI.WinForms.GunaLabel gunaLabel1;
-        private Guna.UI.WinForms.GunaLabel lblTenKH;
-        private Guna.UI2.WinForms.Guna2CheckBox cbkKH;
+        private Guna.UI.WinForms.GunaLabel lbduno;
+        private Guna.UI.WinForms.GunaLabel lblTenNCC;
+        private Guna.UI2.WinForms.Guna2CheckBox cbkNCC;
+        private DataRow r;
+
+        public Ds(DataRow r)
+        {
+            this.r = r;
+        }
     }
 }
