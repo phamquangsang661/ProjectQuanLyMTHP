@@ -39,9 +39,6 @@
     <Reference Include="Bunifu.Core">
       <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Bunifu.Json">
-      <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel">
       <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
     </Reference>
@@ -170,10 +167,10 @@
       <HintPath>..\packages\FrontSharp.1.1.0\lib\net45\FrontSharp.dll</HintPath>
     </Reference>
     <Reference Include="Guna.UI">
-      <HintPath>..\..\..\..\..\Desktop\Guna Framework UI Lastest Version + Cracked\Guna Framework UI Lastest Version + Cracked\Guna_UI_Framework_Ultimate_2.0.0.1_Downloadly.ir\Guna_UI_v2.0.0.6\Guna.UI.WinForms_v1.0.0.9\.net 2.0\Guna.UI.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Guna_UI_Framework_Ultimate_2.0.0.1_Downloadly.ir\Guna UI Framework Ultimate 2.0.0.1\Guna UI Framework Ultimate v2.0.0.1 Lib-Master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="Guna.UI2">
-      <HintPath>..\..\..\..\..\Desktop\Guna Framework UI Lastest Version + Cracked\Guna Framework UI Lastest Version + Cracked\Guna_UI_Framework_Ultimate_2.0.0.1_Downloadly.ir\Guna_UI_v2.0.0.6\Guna.UI2.WinForms_v2.0.0.6\.net 2.0\Guna.UI2.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Guna_UI_Framework_Ultimate_2.0.0.1_Downloadly.ir\Guna UI Framework Ultimate 2.0.0.1\Guna UI Framework Ultimate v2.0.0.1 Lib-Master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="MySql.Data, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
@@ -218,6 +215,12 @@
   <ItemGroup>
     <Compile Include="DataBase_Connect\getData.cs" />
     <Compile Include="DataBase_Connect\dbc.cs" />
+    <Compile Include="FormBelongStaffs\BaoCaoDoanhSo\frmBaoCaoBanHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\BaoCaoDoanhSo\frmBaoCaoBanHang.Designer.cs">
+      <DependentUpon>frmBaoCaoBanHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmDonHangNguoiMua.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -364,6 +367,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormBelongStaffs\BaoCaoDoanhSo\frmBaoCaoBanHang.resx">
+      <DependentUpon>frmBaoCaoBanHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyBanTraHang\frmDonHangNguoiMua.resx">
       <DependentUpon>frmDonHangNguoiMua.cs</DependentUpon>
     </EmbeddedResource>
@@ -462,7 +468,6 @@
     <None Include="Resources\enter_32px.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="FormBelongStaffs\BaoCaoDoanhSo\" />
     <Folder Include="FormBelongStaffs\QuanLyKhachHang\MyControl\" />
     <Folder Include="FormBelongStaffs\QuanLyNhanSu\" />
     <Folder Include="FormBelongStaffs\QuanLySuaChua\" />

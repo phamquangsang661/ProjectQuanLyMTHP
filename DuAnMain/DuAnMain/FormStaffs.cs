@@ -1,4 +1,5 @@
 ﻿using DuAnMain.FormBelongStaffs;
+using DuAnMain.FormBelongStaffs.BaoCaoDoanhSo;
 using DuAnMain.FormBelongStaffs.QuanLyBanTraHang;
 using DuAnMain.FormBelongStaffs.QuanLyKhoHang;
 using FontAwesome.Sharp;
@@ -302,6 +303,12 @@ namespace DuAnMain
         {
             frmKienHang f = new frmKienHang();
             f.Show();
+        }
+
+        private void gunaButton12_Click(object sender, EventArgs e)
+        {
+            panelDesktop.Controls.Clear();
+            panelDesktop.Controls.Add(new frmBaoCaoBanHang() { Dock = DockStyle.Fill });
         }
     }
 }
