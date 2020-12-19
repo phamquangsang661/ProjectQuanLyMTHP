@@ -111,6 +111,9 @@
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>..\..\..\..\..\Desktop\Bunifu UI WinForms 1.11.5.21\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>C:\Users\Admin\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
     <Reference Include="DevExpress.Charts.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.CodeParser.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Dashboard.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -260,6 +263,18 @@
     <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Comment.Designer.cs">
       <DependentUpon>Comment.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Comment_detail\usCommentDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Comment_detail\usCommentDetail.Designer.cs">
+      <DependentUpon>usCommentDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Comment_detail\usCommentWrite.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Comment_detail\usCommentWrite.Designer.cs">
+      <DependentUpon>usCommentWrite.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Overview.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -366,6 +381,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\detail\Comment.resx">
       <DependentUpon>Comment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\detail\Comment_detail\usCommentDetail.resx">
+      <DependentUpon>usCommentDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\detail\Comment_detail\usCommentWrite.resx">
+      <DependentUpon>usCommentWrite.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\detail\Overview.resx">
       <DependentUpon>Overview.cs</DependentUpon>
