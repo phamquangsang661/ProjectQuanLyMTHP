@@ -332,17 +332,35 @@
     <Compile Include="FormBelongStaffs\QuanLyKhoHang\fmQuanLyKhoSP.Designer.cs">
       <DependentUpon>fmQuanLyKhoSP.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormBelongStaffs\QuanLyKhoHang\frmQuanLyKhoSP.cs">
-      <SubType>Form</SubType>
+    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\Ds.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="FormBelongStaffs\QuanLyKhoHang\frmQuanLyKhoSP.Designer.cs">
-      <DependentUpon>frmQuanLyKhoSP.cs</DependentUpon>
+    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\Ds.Designer.cs">
+      <DependentUpon>Ds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\topleft.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\topleft.Designer.cs">
+      <DependentUpon>topleft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\ustoplefttool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\ustoplefttool.Designer.cs">
+      <DependentUpon>ustoplefttool.cs</DependentUpon>
     </Compile>
     <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\uschitiet.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\uschitiet.Designer.cs">
       <DependentUpon>uschitiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\usDsconNCC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\usDsconNCC.Designer.cs">
+      <DependentUpon>usDsconNCC.cs</DependentUpon>
     </Compile>
     <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\usthemNCC.cs">
       <SubType>UserControl</SubType>
@@ -421,11 +439,11 @@
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\fmQuanLyKhoSP.resx">
       <DependentUpon>fmQuanLyKhoSP.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\frmQuanLyKhoSP.resx">
-      <DependentUpon>frmQuanLyKhoSP.cs</DependentUpon>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\Ds.resx">
+      <DependentUpon>Ds.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\NCC\uschitiet.resx">
-      <DependentUpon>uschitiet.cs</DependentUpon>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\NCC\usDsconNCC.resx">
+      <DependentUpon>usDsconNCC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\NCC\usthemNCC.resx">
       <DependentUpon>usthemNCC.cs</DependentUpon>

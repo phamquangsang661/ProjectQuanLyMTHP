@@ -231,7 +231,7 @@ namespace DuAnMain
 
         private void btnDanhSachKhoSanPham_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new frmQuanLyKhoSP());
+           
         }
 
         private void btnDanhSachKhachHang_Click(object sender, EventArgs e)
@@ -304,7 +304,7 @@ namespace DuAnMain
             frmKienHang f = new frmKienHang();
             f.Show();
         }
-
+        
         private void gunaButton12_Click(object sender, EventArgs e)
         {
             panelDesktop.Controls.Clear();

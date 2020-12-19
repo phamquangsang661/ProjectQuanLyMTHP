@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC
 {
-    public partial class usthemNCC : UserControl
+    public partial class usDsconNCC : UserControl
     {
-        public usthemNCC()
+        public usDsconNCC()
         {
             InitializeComponent();
         }

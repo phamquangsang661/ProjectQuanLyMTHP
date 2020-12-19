@@ -29,32 +29,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fmNCC));
-            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation1 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             this.gunabtncaidatNCC = new Guna.UI.WinForms.GunaButton();
-            this.pagechitiet = new System.Windows.Forms.TabPage();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.cmbNCC = new Guna.UI.WinForms.GunaComboBox();
             this.pbLogo = new FontAwesome.Sharp.IconPictureBox();
             this.gunaButton4 = new Guna.UI.WinForms.GunaButton();
             this.gunabtnmenu = new Guna.UI.WinForms.GunaButton();
             this.gunabtnthemNCC = new Guna.UI.WinForms.GunaButton();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.pageNCC = new Bunifu.UI.WinForms.BunifuPages();
-            this.pagemainNCC = new System.Windows.Forms.TabPage();
-            this.pagethem = new System.Windows.Forms.TabPage();
-            this.btncancel = new Guna.UI.WinForms.GunaButton();
+            this.pnlmainNCC = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.grncc = new DevExpress.XtraGrid.GridControl();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.pagechitiet.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
-            this.guna2Panel2.SuspendLayout();
-            this.pageNCC.SuspendLayout();
-            this.pagemainNCC.SuspendLayout();
-            this.pagethem.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grncc)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // gunabtncaidatNCC
@@ -80,30 +64,6 @@
             this.gunabtncaidatNCC.OnPressedColor = System.Drawing.Color.Black;
             this.gunabtncaidatNCC.Size = new System.Drawing.Size(40, 42);
             this.gunabtncaidatNCC.TabIndex = 3;
-            // 
-            // pagechitiet
-            // 
-            this.pagechitiet.Controls.Add(this.guna2Panel3);
-            this.pagechitiet.Location = new System.Drawing.Point(4, 4);
-            this.pagechitiet.Name = "pagechitiet";
-            this.pagechitiet.Padding = new System.Windows.Forms.Padding(3);
-            this.pagechitiet.Size = new System.Drawing.Size(1102, 608);
-            this.pagechitiet.TabIndex = 2;
-            this.pagechitiet.Text = "chitiet";
-            this.pagechitiet.UseVisualStyleBackColor = true;
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.BorderColor = System.Drawing.Color.Black;
-            this.guna2Panel3.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            this.guna2Panel3.BorderThickness = 2;
-            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel3.Location = new System.Drawing.Point(3, 3);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
-            this.guna2Panel3.Size = new System.Drawing.Size(1096, 602);
-            this.guna2Panel3.TabIndex = 3;
-            this.guna2Panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel3_Paint);
             // 
             // cmbNCC
             // 
@@ -212,106 +172,19 @@
             this.gunabtnthemNCC.Text = "Mới";
             this.gunabtnthemNCC.Click += new System.EventHandler(this.gunabtnthemNCC_Click);
             // 
-            // guna2Panel2
+            // pnlmainNCC
             // 
-            this.guna2Panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2Panel2.BorderColor = System.Drawing.Color.Black;
-            this.guna2Panel2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            this.guna2Panel2.BorderThickness = 1;
-            this.guna2Panel2.Controls.Add(this.pageNCC);
-            this.guna2Panel2.CustomBorderColor = System.Drawing.Color.Black;
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel2.Location = new System.Drawing.Point(0, 71);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(1136, 657);
-            this.guna2Panel2.TabIndex = 5;
-            // 
-            // pageNCC
-            // 
-            this.pageNCC.Alignment = System.Windows.Forms.TabAlignment.Bottom;
-            this.pageNCC.AllowTransitions = true;
-            this.pageNCC.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pageNCC.Controls.Add(this.pagemainNCC);
-            this.pageNCC.Controls.Add(this.pagethem);
-            this.pageNCC.Controls.Add(this.pagechitiet);
-            this.pageNCC.Location = new System.Drawing.Point(12, 20);
-            this.pageNCC.Multiline = true;
-            this.pageNCC.Name = "pageNCC";
-            this.pageNCC.Page = this.pagemainNCC;
-            this.pageNCC.PageIndex = 0;
-            this.pageNCC.PageName = "pagemainNCC";
-            this.pageNCC.PageTitle = "mainNCC";
-            this.pageNCC.SelectedIndex = 0;
-            this.pageNCC.Size = new System.Drawing.Size(1110, 634);
-            this.pageNCC.TabIndex = 0;
-            animation1.AnimateOnlyDifferences = false;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.pageNCC.Transition = animation1;
-            this.pageNCC.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Custom;
-            // 
-            // pagemainNCC
-            // 
-            this.pagemainNCC.Controls.Add(this.grncc);
-            this.pagemainNCC.Location = new System.Drawing.Point(4, 4);
-            this.pagemainNCC.Name = "pagemainNCC";
-            this.pagemainNCC.Padding = new System.Windows.Forms.Padding(3);
-            this.pagemainNCC.Size = new System.Drawing.Size(1102, 608);
-            this.pagemainNCC.TabIndex = 0;
-            this.pagemainNCC.Text = "mainNCC";
-            this.pagemainNCC.UseVisualStyleBackColor = true;
-            // 
-            // pagethem
-            // 
-            this.pagethem.Controls.Add(this.btncancel);
-            this.pagethem.Location = new System.Drawing.Point(4, 4);
-            this.pagethem.Name = "pagethem";
-            this.pagethem.Padding = new System.Windows.Forms.Padding(3);
-            this.pagethem.Size = new System.Drawing.Size(1102, 608);
-            this.pagethem.TabIndex = 1;
-            this.pagethem.Text = "themNCC";
-            this.pagethem.UseVisualStyleBackColor = true;
-            this.pagethem.Click += new System.EventHandler(this.pagethem_Click);
-            // 
-            // btncancel
-            // 
-            this.btncancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btncancel.AnimationHoverSpeed = 0.07F;
-            this.btncancel.AnimationSpeed = 0.03F;
-            this.btncancel.BaseColor = System.Drawing.Color.Transparent;
-            this.btncancel.BorderColor = System.Drawing.Color.DimGray;
-            this.btncancel.BorderSize = 1;
-            this.btncancel.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btncancel.FocusedColor = System.Drawing.Color.Empty;
-            this.btncancel.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btncancel.ForeColor = System.Drawing.Color.White;
-            this.btncancel.Image = global::DuAnMain.Properties.Resources.icons_exit_256;
-            this.btncancel.ImageSize = new System.Drawing.Size(20, 20);
-            this.btncancel.Location = new System.Drawing.Point(1061, 0);
-            this.btncancel.Name = "btncancel";
-            this.btncancel.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.btncancel.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btncancel.OnHoverForeColor = System.Drawing.Color.White;
-            this.btncancel.OnHoverImage = null;
-            this.btncancel.OnPressedColor = System.Drawing.Color.Black;
-            this.btncancel.Size = new System.Drawing.Size(41, 36);
-            this.btncancel.TabIndex = 21;
-            this.btncancel.Click += new System.EventHandler(this.btncancel_Click);
+            this.pnlmainNCC.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pnlmainNCC.BorderColor = System.Drawing.Color.Black;
+            this.pnlmainNCC.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
+            this.pnlmainNCC.BorderThickness = 1;
+            this.pnlmainNCC.CustomBorderColor = System.Drawing.Color.Black;
+            this.pnlmainNCC.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlmainNCC.Location = new System.Drawing.Point(0, 71);
+            this.pnlmainNCC.Name = "pnlmainNCC";
+            this.pnlmainNCC.ShadowDecoration.Parent = this.pnlmainNCC;
+            this.pnlmainNCC.Size = new System.Drawing.Size(1136, 657);
+            this.pnlmainNCC.TabIndex = 5;
             // 
             // guna2Panel1
             // 
@@ -334,40 +207,18 @@
             this.guna2Panel1.TabIndex = 4;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
-            // grncc
-            // 
-            this.grncc.Location = new System.Drawing.Point(132, 283);
-            this.grncc.MainView = this.gridView1;
-            this.grncc.Name = "grncc";
-            this.grncc.Size = new System.Drawing.Size(657, 260);
-            this.grncc.TabIndex = 0;
-            this.grncc.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
-            // 
-            // gridView1
-            // 
-            this.gridView1.GridControl = this.grncc;
-            this.gridView1.Name = "gridView1";
-            // 
             // fmNCC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.Controls.Add(this.guna2Panel2);
+            this.Controls.Add(this.pnlmainNCC);
             this.Controls.Add(this.guna2Panel1);
             this.Name = "fmNCC";
             this.Size = new System.Drawing.Size(1136, 728);
             this.Load += new System.EventHandler(this.fmNCC_Load);
-            this.pagechitiet.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
-            this.guna2Panel2.ResumeLayout(false);
-            this.pageNCC.ResumeLayout(false);
-            this.pagemainNCC.ResumeLayout(false);
-            this.pagethem.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.grncc)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -375,20 +226,12 @@
         #endregion
 
         private Guna.UI.WinForms.GunaButton gunabtncaidatNCC;
-        private System.Windows.Forms.TabPage pagechitiet;
         private Guna.UI.WinForms.GunaComboBox cmbNCC;
         private FontAwesome.Sharp.IconPictureBox pbLogo;
         private Guna.UI.WinForms.GunaButton gunaButton4;
         private Guna.UI.WinForms.GunaButton gunabtnmenu;
         private Guna.UI.WinForms.GunaButton gunabtnthemNCC;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Bunifu.UI.WinForms.BunifuPages pageNCC;
-        private System.Windows.Forms.TabPage pagemainNCC;
+        private Guna.UI2.WinForms.Guna2Panel pnlmainNCC;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private System.Windows.Forms.TabPage pagethem;
-        private Guna.UI.WinForms.GunaButton btncancel;
-        private DevExpress.XtraGrid.GridControl grncc;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
     }
 }

@@ -27,7 +27,7 @@ namespace DuAnMain.DataBase_Connect
         {
             DataRow r = dbc.Instance.get("select * from khachhang where MaKhachHang=" + MaKH).Rows[0];
             return r;
-        }    
+        }
         /// <summary>
         /// Đây là hàm lấy ghi chú theo mã 
         /// </summary>
@@ -36,22 +36,6 @@ namespace DuAnMain.DataBase_Connect
         public static DataTable getGhiChuKhachHangTheoMa(int MaKH)
         {
             DataTable r = dbc.Instance.get("Select * from GhiChuKhachHang where MaKhachhang=" + MaKH);
-            return r; 
-        }
-        
-        /// <summary>
-        /// Đây là hàm lấy danh sách nhân viên
-        /// </summary>
-        /// <returns>Trả về một bảng</returns>
-        public static DataTable getDanhSachNhanVien()
-        {
-            DataTable dt = dbc.Instance.get("Select * from nhanvien");
-            return dt;
-        }
-
-        public static DataRow getTaiKhoanTheoMaTaiKhoan(int MaTK)
-        {
-            DataRow r = dbc.Instance.getParam("select * from taikhoan where ", MaTK).Rows[0];
             return r;
         }
     }

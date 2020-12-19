@@ -1,7 +1,7 @@
 ﻿
-namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC
+namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC.optionNCC
 {
-    partial class uschitiet
+    partial class topleft
     {
         /// <summary> 
         /// Required designer variable.

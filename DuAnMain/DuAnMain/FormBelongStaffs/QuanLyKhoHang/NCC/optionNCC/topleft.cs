@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC
+namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC.optionNCC
 {
-    public partial class usthemNCC : UserControl
+    public partial class topleft : UserControl
     {
-        public usthemNCC()
+        public topleft()
         {
             InitializeComponent();
         }
