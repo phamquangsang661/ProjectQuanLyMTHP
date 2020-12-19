@@ -28,11 +28,13 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail
                 foreach(DataRow r in dt.Rows)
                 {
                     Comment_detail.usCommentDetail us = new Comment_detail.usCommentDetail();
-                    
+                    us.virtualtxtComment.Text = r["GhiChuKhachHang"].ToString();
+                    us.virtualLblTime.Text = r["ThoiGian"].ToString();
+                    //us.virtualLblBy.Text=
                 }
             }
         }
-        public static void UpdateState()
+        public  void UpdateState()
         {
             DataTable dt = DataBase_Connect.getData.getGhiChuKhachHangTheoMa(this.MaKH);
         }

@@ -15,11 +15,16 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail.Comment_detail
         public usCommentDetail()
         {
             InitializeComponent();
+            virtualBtnDelete = btnDelete;
+            virtualLblTime = lblTime;
+            virtualLblBy = lblByName;
+            virtualtxtComment = txtComment;
         }
         public  Guna.UI.WinForms.GunaLabel virtualLblTime;
         public Guna.UI.WinForms.GunaLabel virtualLblBy;
         public Guna.UI2.WinForms.Guna2PictureBox virtualBtnDelete;
-        public static void changeAll()
+        public Guna.UI2.WinForms.Guna2TextBox virtualtxtComment;
+        public  void changeAll()
         {
 
         }
