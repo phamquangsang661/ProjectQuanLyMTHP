@@ -29,20 +29,16 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Guna.UI.Animation.Animation animation3 = new Guna.UI.Animation.Animation();
+            Guna.UI.Animation.Animation animation1 = new Guna.UI.Animation.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Overview));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pnlDiaChi = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlChiTietKhac = new Guna.UI2.WinForms.Guna2Panel();
-            this.gtranpnl = new Guna.UI.WinForms.GunaTransition(this.components);
+            this.panel2 = new System.Windows.Forms.Panel();
             this.btnChiTietKhac = new Guna.UI2.WinForms.Guna2Button();
+            this.pnlDiaChi = new Guna.UI2.WinForms.Guna2Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.btnDiaChi = new Guna.UI2.WinForms.Guna2Button();
-            this.imgl = new System.Windows.Forms.ImageList(this.components);
-            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.gunaLabel7 = new Guna.UI.WinForms.GunaLabel();
@@ -55,7 +51,10 @@
             this.lblEmail = new Guna.UI.WinForms.GunaLabel();
             this.lblTen = new Guna.UI.WinForms.GunaLabel();
             this.lblNameMain = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.gtranpnl = new Guna.UI.WinForms.GunaTransition(this.components);
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.imgl = new System.Windows.Forms.ImageList(this.components);
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
@@ -76,17 +75,6 @@
             this.guna2Panel1.Size = new System.Drawing.Size(237, 487);
             this.guna2Panel1.TabIndex = 1;
             // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(251)))), ((int)(((byte)(251)))));
-            this.gtranpnl.SetDecoration(this.guna2Panel2, Guna.UI.Animation.DecorationType.None);
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel2.Location = new System.Drawing.Point(237, 0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(724, 487);
-            this.guna2Panel2.TabIndex = 2;
-            // 
             // guna2Panel3
             // 
             this.guna2Panel3.Controls.Add(this.pnlChiTietKhac);
@@ -103,37 +91,6 @@
             this.guna2Panel3.Size = new System.Drawing.Size(237, 289);
             this.guna2Panel3.TabIndex = 9;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.gtranpnl.SetDecoration(this.panel1, Guna.UI.Animation.DecorationType.None);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 34);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(237, 1);
-            this.panel1.TabIndex = 1;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.gtranpnl.SetDecoration(this.panel2, Guna.UI.Animation.DecorationType.None);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 69);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(237, 1);
-            this.panel2.TabIndex = 3;
-            // 
-            // pnlDiaChi
-            // 
-            this.pnlDiaChi.AutoSize = true;
-            this.gtranpnl.SetDecoration(this.pnlDiaChi, Guna.UI.Animation.DecorationType.None);
-            this.pnlDiaChi.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlDiaChi.Location = new System.Drawing.Point(0, 35);
-            this.pnlDiaChi.Name = "pnlDiaChi";
-            this.pnlDiaChi.ShadowDecoration.Parent = this.pnlDiaChi;
-            this.pnlDiaChi.Size = new System.Drawing.Size(237, 0);
-            this.pnlDiaChi.TabIndex = 4;
-            // 
             // pnlChiTietKhac
             // 
             this.pnlChiTietKhac.AutoSize = true;
@@ -145,26 +102,15 @@
             this.pnlChiTietKhac.Size = new System.Drawing.Size(237, 0);
             this.pnlChiTietKhac.TabIndex = 5;
             // 
-            // gtranpnl
+            // panel2
             // 
-            this.gtranpnl.AnimationType = Guna.UI.Animation.AnimationType.VertSlide;
-            this.gtranpnl.Cursor = null;
-            animation3.AnimateOnlyDifferences = true;
-            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
-            animation3.LeafCoeff = 0F;
-            animation3.MaxTime = 1F;
-            animation3.MinTime = 0F;
-            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
-            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
-            animation3.MosaicSize = 0;
-            animation3.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
-            animation3.RotateCoeff = 0F;
-            animation3.RotateLimit = 0F;
-            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
-            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
-            animation3.TimeCoeff = 0F;
-            animation3.TransparencyCoeff = 0F;
-            this.gtranpnl.DefaultAnimation = animation3;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.gtranpnl.SetDecoration(this.panel2, Guna.UI.Animation.DecorationType.None);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 69);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(237, 1);
+            this.panel2.TabIndex = 3;
             // 
             // btnChiTietKhac
             // 
@@ -191,6 +137,27 @@
             this.btnChiTietKhac.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnChiTietKhac.Click += new System.EventHandler(this.btnChiTietKhac_Click);
             // 
+            // pnlDiaChi
+            // 
+            this.pnlDiaChi.AutoSize = true;
+            this.gtranpnl.SetDecoration(this.pnlDiaChi, Guna.UI.Animation.DecorationType.None);
+            this.pnlDiaChi.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlDiaChi.Location = new System.Drawing.Point(0, 35);
+            this.pnlDiaChi.Name = "pnlDiaChi";
+            this.pnlDiaChi.ShadowDecoration.Parent = this.pnlDiaChi;
+            this.pnlDiaChi.Size = new System.Drawing.Size(237, 0);
+            this.pnlDiaChi.TabIndex = 4;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.gtranpnl.SetDecoration(this.panel1, Guna.UI.Animation.DecorationType.None);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 34);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(237, 1);
+            this.panel1.TabIndex = 1;
+            // 
             // btnDiaChi
             // 
             this.btnDiaChi.AutoRoundedCorners = true;
@@ -215,24 +182,6 @@
             this.btnDiaChi.Text = "ĐỊA CHỈ";
             this.btnDiaChi.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnDiaChi.Click += new System.EventHandler(this.btnDiaChi_Click);
-            // 
-            // imgl
-            // 
-            this.imgl.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imgl.ImageStream")));
-            this.imgl.TransparentColor = System.Drawing.Color.Transparent;
-            this.imgl.Images.SetKeyName(0, "collapse_arrow_104px.png");
-            this.imgl.Images.SetKeyName(1, "expand_arrow_104px.png");
-            // 
-            // guna2Panel4
-            // 
-            this.guna2Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.gtranpnl.SetDecoration(this.guna2Panel4, Guna.UI.Animation.DecorationType.None);
-            this.guna2Panel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Panel4.Location = new System.Drawing.Point(237, 0);
-            this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.ShadowDecoration.Parent = this.guna2Panel4;
-            this.guna2Panel4.Size = new System.Drawing.Size(2, 487);
-            this.guna2Panel4.TabIndex = 3;
             // 
             // guna2Panel5
             // 
@@ -411,6 +360,56 @@
             this.lblNameMain.Text = "Name";
             this.lblNameMain.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(251)))), ((int)(((byte)(251)))));
+            this.gtranpnl.SetDecoration(this.guna2Panel2, Guna.UI.Animation.DecorationType.None);
+            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2Panel2.Location = new System.Drawing.Point(237, 0);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
+            this.guna2Panel2.Size = new System.Drawing.Size(724, 487);
+            this.guna2Panel2.TabIndex = 2;
+            // 
+            // gtranpnl
+            // 
+            this.gtranpnl.AnimationType = Guna.UI.Animation.AnimationType.VertSlide;
+            this.gtranpnl.Cursor = null;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.gtranpnl.DefaultAnimation = animation1;
+            // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.gtranpnl.SetDecoration(this.guna2Panel4, Guna.UI.Animation.DecorationType.None);
+            this.guna2Panel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2Panel4.Location = new System.Drawing.Point(237, 0);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.ShadowDecoration.Parent = this.guna2Panel4;
+            this.guna2Panel4.Size = new System.Drawing.Size(2, 487);
+            this.guna2Panel4.TabIndex = 3;
+            // 
+            // imgl
+            // 
+            this.imgl.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imgl.ImageStream")));
+            this.imgl.TransparentColor = System.Drawing.Color.Transparent;
+            this.imgl.Images.SetKeyName(0, "collapse_arrow_104px.png");
+            this.imgl.Images.SetKeyName(1, "expand_arrow_104px.png");
+            // 
             // Overview
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -458,6 +457,5 @@
         private Guna.UI.WinForms.GunaLabel lblEmail;
         private Guna.UI.WinForms.GunaLabel lblTen;
         private Bunifu.Framework.UI.BunifuMaterialTextbox lblNameMain;
-        private System.DirectoryServices.DirectoryEntry directoryEntry1;
     }
 }

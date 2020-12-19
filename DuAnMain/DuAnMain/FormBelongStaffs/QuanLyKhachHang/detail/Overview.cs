@@ -30,6 +30,10 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail
             DataRow r = DataBase_Connect.getData.getKhachHangTheoMa(MaKH);
             lblTen.Text = r["TenKhachHang"].ToString();
             lblEmail.Text = r["Email"].ToString();
+            if(lblEmail.Text=="")
+            {
+                lblEmail.Text = "No Email";
+            }
             lblphone.Text = r["SoDienThoai"].ToString();
             lblNameMain.Text= r["TenKhachHang"].ToString();
         }
