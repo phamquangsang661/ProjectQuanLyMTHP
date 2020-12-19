@@ -15,14 +15,9 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
         public fmNCC()
         {
             InitializeComponent();
-            updatedata();
+            
         }
-        private void updatedata()
-        {
-            DataTable dt = DataBase_Connect.dbc.Instance.get("select * from nhacungcap");
-            grncc.DataSource = dt;
-
-        }
+        
 
         private void Us_MouseLeave(object sender, EventArgs e)
         {
@@ -47,22 +42,22 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
 
         private void gunabtnthemNCC_Click(object sender, EventArgs e)
         {
-            pageNCC.PageIndex = 1;
+            
         }
 
         private void btncancel_Click(object sender, EventArgs e)
         {
-            pageNCC.PageIndex = 0;
+            
         }
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-            pageNCC.PageIndex = 0;
+            
         }
 
         private void gunaButton2_Click(object sender, EventArgs e)
         {
-            pageNCC.PageIndex = 2;
+            
         }
 
         private void cmbNCC_DropDown(object sender, EventArgs e)
