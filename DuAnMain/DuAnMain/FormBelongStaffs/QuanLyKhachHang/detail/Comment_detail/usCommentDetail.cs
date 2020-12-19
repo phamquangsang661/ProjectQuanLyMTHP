@@ -24,9 +24,6 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail.Comment_detail
         public Guna.UI.WinForms.GunaLabel virtualLblBy;
         public Guna.UI2.WinForms.Guna2PictureBox virtualBtnDelete;
         public Guna.UI2.WinForms.Guna2TextBox virtualtxtComment;
-        public  void changeAll()
-        {
-
-        }
+       
     }
 }

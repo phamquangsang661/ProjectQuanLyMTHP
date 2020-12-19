@@ -42,12 +42,17 @@ namespace DuAnMain.DataBase_Connect
         /// <summary>
         /// Đây là hàm lấy danh sách nhân viên
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Trả về một bảng</returns>
         public static DataTable getDanhSachNhanVien()
         {
             DataTable dt = dbc.Instance.get("Select * from nhanvien");
             return dt;
         }
 
+        public static DataRow getTaiKhoanTheoMaTaiKhoan(int MaTK)
+        {
+            DataRow r = dbc.Instance.getParam("select * from taikhoan where ", MaTK).Rows[0];
+            return r;
+        }
     }
 }

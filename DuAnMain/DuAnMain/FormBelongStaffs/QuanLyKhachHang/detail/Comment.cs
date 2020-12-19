@@ -28,8 +28,13 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail
                 foreach(DataRow r in dt.Rows)
                 {
                     Comment_detail.usCommentDetail us = new Comment_detail.usCommentDetail();
-                    us.virtualtxtComment.Text = r["GhiChuKhachHang"].ToString();
+                    us.virtualtxtComment.Text = r["GhiChu"].ToString();
                     us.virtualLblTime.Text = r["ThoiGian"].ToString();
+                    string TenND = DataBase_Connect.getData.getTaiKhoanTheoMaTaiKhoan(int.Parse(r["MaTaiKhoan"].ToString()))["TenNguoiDung"].ToString();
+                    us.virtualLblBy.Text = TenND;
+                    us.Dock = DockStyle.Top;
+                    pnlComment.Controls.Add(us);
+
                     //us.virtualLblBy.Text=
                 }
             }

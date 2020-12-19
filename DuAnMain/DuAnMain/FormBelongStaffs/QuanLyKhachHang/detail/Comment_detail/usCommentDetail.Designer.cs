@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(usCommentDetail));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.lblByName = new Guna.UI.WinForms.GunaLabel();
-            this.btnDelete = new Guna.UI2.WinForms.Guna2PictureBox();
             this.txtComment = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnDelete = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lblTime = new Guna.UI.WinForms.GunaLabel();
+            this.lblByName = new Guna.UI.WinForms.GunaLabel();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnDelete)).BeginInit();
             this.SuspendLayout();
@@ -52,33 +52,10 @@
             this.guna2Panel1.Size = new System.Drawing.Size(715, 118);
             this.guna2Panel1.TabIndex = 0;
             // 
-            // lblByName
-            // 
-            this.lblByName.AutoSize = true;
-            this.lblByName.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.lblByName.ForeColor = System.Drawing.Color.DimGray;
-            this.lblByName.Location = new System.Drawing.Point(623, 90);
-            this.lblByName.Name = "lblByName";
-            this.lblByName.Size = new System.Drawing.Size(64, 19);
-            this.lblByName.TabIndex = 0;
-            this.lblByName.Text = "by Name";
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
-            this.btnDelete.Location = new System.Drawing.Point(680, 14);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.ShadowDecoration.Parent = this.btnDelete;
-            this.btnDelete.Size = new System.Drawing.Size(22, 22);
-            this.btnDelete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnDelete.TabIndex = 2;
-            this.btnDelete.TabStop = false;
-            // 
             // txtComment
             // 
-            this.txtComment.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtComment.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.txtComment.BorderColor = System.Drawing.Color.White;
             this.txtComment.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtComment.DefaultText = "";
@@ -87,6 +64,7 @@
             this.txtComment.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtComment.DisabledState.Parent = this.txtComment;
             this.txtComment.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtComment.Enabled = false;
             this.txtComment.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtComment.FocusedState.Parent = this.txtComment;
             this.txtComment.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -100,6 +78,17 @@
             this.txtComment.Size = new System.Drawing.Size(653, 63);
             this.txtComment.TabIndex = 4;
             // 
+            // btnDelete
+            // 
+            this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
+            this.btnDelete.Location = new System.Drawing.Point(680, 14);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.ShadowDecoration.Parent = this.btnDelete;
+            this.btnDelete.Size = new System.Drawing.Size(22, 22);
+            this.btnDelete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnDelete.TabIndex = 2;
+            this.btnDelete.TabStop = false;
+            // 
             // lblTime
             // 
             this.lblTime.AutoSize = true;
@@ -110,6 +99,17 @@
             this.lblTime.Size = new System.Drawing.Size(42, 20);
             this.lblTime.TabIndex = 0;
             this.lblTime.Text = "Time";
+            // 
+            // lblByName
+            // 
+            this.lblByName.AutoSize = true;
+            this.lblByName.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.lblByName.ForeColor = System.Drawing.Color.DimGray;
+            this.lblByName.Location = new System.Drawing.Point(623, 90);
+            this.lblByName.Name = "lblByName";
+            this.lblByName.Size = new System.Drawing.Size(64, 19);
+            this.lblByName.TabIndex = 0;
+            this.lblByName.Text = "by Name";
             // 
             // usCommentDetail
             // 
