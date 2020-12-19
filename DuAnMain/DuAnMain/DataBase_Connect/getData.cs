@@ -40,7 +40,6 @@ namespace DuAnMain.DataBase_Connect
         }
         
 =======
-        }    
         /// <summary>
         /// Đây là hàm lấy ghi chú theo mã 
         /// </summary>
@@ -51,6 +50,6 @@ namespace DuAnMain.DataBase_Connect
             DataTable r = dbc.Instance.get("Select * from GhiChuKhachHang where MaKhachhang=" + MaKH);
             return r; 
         }
->>>>>>> 923616a73aa8dbee5939da5b4b1d5de4a0ece196
+
     }
 }
