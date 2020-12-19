@@ -100,11 +100,15 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang
 
                 ChangeOldStateBtn(onAcBtn);
             }
-
+            gtranpnl.Hide(pnlBot);
             ChangeNewStateBtn(btnGhiChu);
             addPnlHover(btnGhiChu);
 
             onAcBtn = btnGhiChu;
+
+            pnlBot.Controls.Clear();
+            pnlBot.Controls.Add(new detail.Comment(MaKH) { Dock = DockStyle.Fill });
+            gtranpnl.ShowSync(pnlBot);
         }
 
         private void btnBanHang_Click(object sender, EventArgs e)

@@ -254,6 +254,12 @@
     <Compile Include="FormBelongStaffs\QuanLyBanTraHang\frmHoaDon.Designer.cs">
       <DependentUpon>frmHoaDon.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Comment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Comment.Designer.cs">
+      <DependentUpon>Comment.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Overview.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -363,6 +369,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyBanTraHang\frmKienHang.resx">
       <DependentUpon>frmKienHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\detail\Comment.resx">
+      <DependentUpon>Comment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\detail\Overview.resx">
       <DependentUpon>Overview.cs</DependentUpon>
