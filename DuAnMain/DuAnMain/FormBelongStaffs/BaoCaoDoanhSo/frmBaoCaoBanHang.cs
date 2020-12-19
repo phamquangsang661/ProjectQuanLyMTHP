@@ -16,5 +16,17 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
         {
             InitializeComponent();
         }
+
+        private void frmBaoCaoBanHang_Load(object sender, EventArgs e)
+        {
+            List<string> ts = new List<string>()
+            {
+                { "Doanh thu theo khách hàng" },
+                { "Doanh thu theo mặt hàng" },
+                { "Doanh thu theo nhân viên bán hàng" },
+                { "Lịch sử đóng gói" },
+            };
+            cmbBaoCaoBanHang.DataSource = ts;
+        }
     }
 }

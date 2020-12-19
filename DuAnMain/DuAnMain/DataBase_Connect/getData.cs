@@ -38,5 +38,16 @@ namespace DuAnMain.DataBase_Connect
             DataTable r = dbc.Instance.get("Select * from GhiChuKhachHang where MaKhachhang=" + MaKH);
             return r; 
         }
+        
+        /// <summary>
+        /// Đây là hàm lấy danh sách nhân viên
+        /// </summary>
+        /// <returns></returns>
+        public static DataTable getDanhSachNhanVien()
+        {
+            DataTable dt = dbc.Instance.get("Select * from nhanvien");
+            return dt;
+        }
+
     }
 }

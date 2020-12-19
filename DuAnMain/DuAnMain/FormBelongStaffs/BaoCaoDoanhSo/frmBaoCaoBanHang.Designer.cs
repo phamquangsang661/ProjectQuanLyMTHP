@@ -31,11 +31,13 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBaoCaoBanHang));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.cmbNCC = new Guna.UI.WinForms.GunaComboBox();
+            this.cmbBaoCaoBanHang = new Guna.UI.WinForms.GunaComboBox();
             this.gunaButton4 = new Guna.UI.WinForms.GunaButton();
             this.gunabtnmenu = new Guna.UI.WinForms.GunaButton();
             this.gunabtncaidatNCC = new Guna.UI.WinForms.GunaButton();
+            this.pbLogo = new FontAwesome.Sharp.IconPictureBox();
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -44,7 +46,8 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
             this.guna2Panel1.BorderColor = System.Drawing.Color.Black;
             this.guna2Panel1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.guna2Panel1.BorderThickness = 1;
-            this.guna2Panel1.Controls.Add(this.cmbNCC);
+            this.guna2Panel1.Controls.Add(this.pbLogo);
+            this.guna2Panel1.Controls.Add(this.cmbBaoCaoBanHang);
             this.guna2Panel1.Controls.Add(this.gunaButton4);
             this.guna2Panel1.Controls.Add(this.gunabtnmenu);
             this.guna2Panel1.Controls.Add(this.gunabtncaidatNCC);
@@ -57,24 +60,24 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
             this.guna2Panel1.Size = new System.Drawing.Size(1515, 87);
             this.guna2Panel1.TabIndex = 5;
             // 
-            // cmbNCC
+            // cmbBaoCaoBanHang
             // 
-            this.cmbNCC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(48)))), ((int)(((byte)(110)))));
-            this.cmbNCC.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(48)))), ((int)(((byte)(110)))));
-            this.cmbNCC.BorderColor = System.Drawing.Color.Silver;
-            this.cmbNCC.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmbNCC.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbNCC.FocusedColor = System.Drawing.Color.Empty;
-            this.cmbNCC.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbNCC.ForeColor = System.Drawing.Color.White;
-            this.cmbNCC.FormattingEnabled = true;
-            this.cmbNCC.Location = new System.Drawing.Point(92, 32);
-            this.cmbNCC.Margin = new System.Windows.Forms.Padding(4);
-            this.cmbNCC.Name = "cmbNCC";
-            this.cmbNCC.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.cmbNCC.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.cmbNCC.Size = new System.Drawing.Size(341, 43);
-            this.cmbNCC.TabIndex = 15;
+            this.cmbBaoCaoBanHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(48)))), ((int)(((byte)(110)))));
+            this.cmbBaoCaoBanHang.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(48)))), ((int)(((byte)(110)))));
+            this.cmbBaoCaoBanHang.BorderColor = System.Drawing.Color.Silver;
+            this.cmbBaoCaoBanHang.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbBaoCaoBanHang.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbBaoCaoBanHang.FocusedColor = System.Drawing.Color.Empty;
+            this.cmbBaoCaoBanHang.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbBaoCaoBanHang.ForeColor = System.Drawing.Color.White;
+            this.cmbBaoCaoBanHang.FormattingEnabled = true;
+            this.cmbBaoCaoBanHang.Location = new System.Drawing.Point(92, 32);
+            this.cmbBaoCaoBanHang.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbBaoCaoBanHang.Name = "cmbBaoCaoBanHang";
+            this.cmbBaoCaoBanHang.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.cmbBaoCaoBanHang.OnHoverItemForeColor = System.Drawing.Color.White;
+            this.cmbBaoCaoBanHang.Size = new System.Drawing.Size(662, 43);
+            this.cmbBaoCaoBanHang.TabIndex = 15;
             // 
             // gunaButton4
             // 
@@ -151,6 +154,20 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
             this.gunabtncaidatNCC.Size = new System.Drawing.Size(53, 52);
             this.gunabtncaidatNCC.TabIndex = 3;
             // 
+            // pbLogo
+            // 
+            this.pbLogo.BackColor = System.Drawing.Color.Transparent;
+            this.pbLogo.IconChar = FontAwesome.Sharp.IconChar.StoreAlt;
+            this.pbLogo.IconColor = System.Drawing.Color.White;
+            this.pbLogo.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.pbLogo.IconSize = 63;
+            this.pbLogo.Location = new System.Drawing.Point(16, 12);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pbLogo.Name = "pbLogo";
+            this.pbLogo.Size = new System.Drawing.Size(69, 63);
+            this.pbLogo.TabIndex = 15;
+            this.pbLogo.TabStop = false;
+            // 
             // frmBaoCaoBanHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -159,7 +176,9 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
             this.Controls.Add(this.guna2Panel1);
             this.Name = "frmBaoCaoBanHang";
             this.Size = new System.Drawing.Size(1515, 809);
+            this.Load += new System.EventHandler(this.frmBaoCaoBanHang_Load);
             this.guna2Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -167,9 +186,10 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI.WinForms.GunaComboBox cmbNCC;
+        private Guna.UI.WinForms.GunaComboBox cmbBaoCaoBanHang;
         private Guna.UI.WinForms.GunaButton gunaButton4;
         private Guna.UI.WinForms.GunaButton gunabtnmenu;
         private Guna.UI.WinForms.GunaButton gunabtncaidatNCC;
+        private FontAwesome.Sharp.IconPictureBox pbLogo;
     }
 }
