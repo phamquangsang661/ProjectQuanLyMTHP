@@ -17,8 +17,8 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail
         {
             InitializeComponent();
             this.MaKH = MaKH;
-            pnlSell.Controls.Add(new Orders_detail.usSell() { Dock=DockStyle.Fill});
-
+            pnlMain.Controls.Add(new Orders_detail.usSell(this.MaKH) { Dock=DockStyle.Top});
+            pnlMain.Controls.Add(new Orders_detail.usFix(this.MaKH) { Dock = DockStyle.Top });
         }
     }
 }

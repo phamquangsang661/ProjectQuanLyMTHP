@@ -12,26 +12,26 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail.Orders_detail
 {
     public partial class usSell : UserControl
     {
-        MyControl.PanelSlicer virtualPnlVirtual;
-        public usSell()
+      
+        public usSell(int MaKH)
         {
             InitializeComponent();
-            virtualPnlVirtual = new MyControl.PanelSlicer(pnlDetail);
+           
 
         }
 
         private void btnShowDon_Click(object sender, EventArgs e)
         {
-            if(virtualPnlVirtual.statePnl==0)
+            if(pnlDetail.Visible)
             {
-                virtualPnlVirtual.Show();
+                pnlDetail.Visible = false;
                 btnShowDon.Image = imgl.Images[0];
-            }    
+            }
             else
             {
-                virtualPnlVirtual.Hide();
+                pnlDetail.Visible = true;
                 btnShowDon.Image = imgl.Images[1];
-            }    
+            }
         }
     }
 }

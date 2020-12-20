@@ -1,8 +1,6 @@
-﻿using System.Windows.Forms;
-
-namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail.Orders_detail
+﻿namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail.Orders_detail
 {
-    partial class usSell
+    partial class usFix
     {
         /// <summary> 
         /// Required designer variable.
@@ -21,9 +19,6 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail.Orders_detail
             }
             base.Dispose(disposing);
         }
-       
-
-     
 
         #region Component Designer generated code
 
@@ -34,36 +29,24 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail.Orders_detail
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(usSell));
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(usFix));
             this.pnlDetail = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnShowDon = new Guna.UI2.WinForms.Guna2Button();
             this.imgl = new System.Windows.Forms.ImageList(this.components);
-            this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.AutoSize = true;
-            this.guna2Panel1.Controls.Add(this.pnlDetail);
-            this.guna2Panel1.Controls.Add(this.guna2Panel2);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(610, 143);
-            this.guna2Panel1.TabIndex = 0;
-            // 
             // pnlDetail
             // 
+            this.pnlDetail.AutoSize = true;
             this.pnlDetail.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlDetail.Location = new System.Drawing.Point(0, 40);
             this.pnlDetail.Name = "pnlDetail";
             this.pnlDetail.ShadowDecoration.Parent = this.pnlDetail;
-            this.pnlDetail.Size = new System.Drawing.Size(610, 103);
-            this.pnlDetail.TabIndex = 1;
+            this.pnlDetail.Size = new System.Drawing.Size(785, 218);
+            this.pnlDetail.TabIndex = 3;
+            this.pnlDetail.VisibleChanged += new System.EventHandler(this.pnlDetail_VisibleChanged);
             // 
             // guna2Panel2
             // 
@@ -73,8 +56,8 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail.Orders_detail
             this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(610, 40);
-            this.guna2Panel2.TabIndex = 0;
+            this.guna2Panel2.Size = new System.Drawing.Size(785, 40);
+            this.guna2Panel2.TabIndex = 2;
             // 
             // btnShowDon
             // 
@@ -86,6 +69,7 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail.Orders_detail
             this.btnShowDon.ForeColor = System.Drawing.Color.Black;
             this.btnShowDon.HoverState.Parent = this.btnShowDon;
             this.btnShowDon.Image = ((System.Drawing.Image)(resources.GetObject("btnShowDon.Image")));
+            this.btnShowDon.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnShowDon.ImageSize = new System.Drawing.Size(16, 16);
             this.btnShowDon.Location = new System.Drawing.Point(5, 6);
             this.btnShowDon.Name = "btnShowDon";
@@ -96,7 +80,8 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail.Orders_detail
             this.btnShowDon.ShadowDecoration.Parent = this.btnShowDon;
             this.btnShowDon.Size = new System.Drawing.Size(123, 31);
             this.btnShowDon.TabIndex = 1;
-            this.btnShowDon.Text = "Đơn mua hàng";
+            this.btnShowDon.Text = "Đơn sửa";
+            this.btnShowDon.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnShowDon.Click += new System.EventHandler(this.btnShowDon_Click);
             // 
             // imgl
@@ -106,14 +91,15 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail.Orders_detail
             this.imgl.Images.SetKeyName(0, "collapse_arrow_104px.png");
             this.imgl.Images.SetKeyName(1, "expand_arrow_104px.png");
             // 
-            // usSell
+            // usFix
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.guna2Panel1);
-            this.Name = "usSell";
-            this.Size = new System.Drawing.Size(610, 143);
-            this.guna2Panel1.ResumeLayout(false);
+            this.AutoSize = true;
+            this.Controls.Add(this.pnlDetail);
+            this.Controls.Add(this.guna2Panel2);
+            this.Name = "usFix";
+            this.Size = new System.Drawing.Size(785, 258);
             this.guna2Panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -122,10 +108,9 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail.Orders_detail
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private System.Windows.Forms.ImageList imgl;
-        private Guna.UI2.WinForms.Guna2Button btnShowDon;
         private Guna.UI2.WinForms.Guna2Panel pnlDetail;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Guna.UI2.WinForms.Guna2Button btnShowDon;
+        private System.Windows.Forms.ImageList imgl;
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace DuAnMain
+﻿using System.Windows.Forms;
+
+namespace DuAnMain
 {
     partial class FormStaffs
     {
@@ -20,7 +22,7 @@
             }
             base.Dispose(disposing);
         }
-
+        
         #region Windows Form Designer generated code
 
         /// <summary>

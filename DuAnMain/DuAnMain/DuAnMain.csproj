@@ -278,6 +278,18 @@
     <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders.Designer.cs">
       <DependentUpon>Orders.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders_detail\usFix.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders_detail\usFix.Designer.cs">
+      <DependentUpon>usFix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders_detail\usFixDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders_detail\usFixDetail.Designer.cs">
+      <DependentUpon>usFixDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders_detail\usSell.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -422,6 +434,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders.resx">
       <DependentUpon>Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders_detail\usFix.resx">
+      <DependentUpon>usFix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders_detail\usFixDetail.resx">
+      <DependentUpon>usFixDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders_detail\usSell.resx">
       <DependentUpon>usSell.cs</DependentUpon>

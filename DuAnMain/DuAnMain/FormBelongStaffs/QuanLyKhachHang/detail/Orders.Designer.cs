@@ -1,4 +1,6 @@
-﻿namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail
+﻿using System.Windows.Forms;
+
+namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail
 {
     partial class Orders
     {
@@ -19,6 +21,7 @@
             }
             base.Dispose(disposing);
         }
+        
 
         #region Component Designer generated code
 
@@ -28,24 +31,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlMain = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlSetting = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlSell = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnlFix = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel1.SuspendLayout();
+            this.pnlMain.SuspendLayout();
             this.SuspendLayout();
             // 
-            // guna2Panel1
+            // pnlMain
             // 
-            this.guna2Panel1.Controls.Add(this.pnlFix);
-            this.guna2Panel1.Controls.Add(this.pnlSell);
-            this.guna2Panel1.Controls.Add(this.pnlSetting);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(857, 398);
-            this.guna2Panel1.TabIndex = 0;
+            this.pnlMain.Controls.Add(this.pnlSetting);
+            this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlMain.Location = new System.Drawing.Point(0, 0);
+            this.pnlMain.Name = "pnlMain";
+            this.pnlMain.ShadowDecoration.Parent = this.pnlMain;
+            this.pnlMain.Size = new System.Drawing.Size(857, 398);
+            this.pnlMain.TabIndex = 0;
             // 
             // pnlSetting
             // 
@@ -56,41 +55,21 @@
             this.pnlSetting.Size = new System.Drawing.Size(857, 42);
             this.pnlSetting.TabIndex = 0;
             // 
-            // pnlSell
-            // 
-            this.pnlSell.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlSell.Location = new System.Drawing.Point(0, 42);
-            this.pnlSell.Name = "pnlSell";
-            this.pnlSell.ShadowDecoration.Parent = this.pnlSell;
-            this.pnlSell.Size = new System.Drawing.Size(857, 35);
-            this.pnlSell.TabIndex = 1;
-            // 
-            // pnlFix
-            // 
-            this.pnlFix.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlFix.Location = new System.Drawing.Point(0, 77);
-            this.pnlFix.Name = "pnlFix";
-            this.pnlFix.ShadowDecoration.Parent = this.pnlFix;
-            this.pnlFix.Size = new System.Drawing.Size(857, 38);
-            this.pnlFix.TabIndex = 2;
-            // 
             // Orders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.pnlMain);
             this.Name = "Orders";
             this.Size = new System.Drawing.Size(857, 398);
-            this.guna2Panel1.ResumeLayout(false);
+            this.pnlMain.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Panel pnlFix;
-        private Guna.UI2.WinForms.Guna2Panel pnlSell;
+        private Guna.UI2.WinForms.Guna2Panel pnlMain;
         private Guna.UI2.WinForms.Guna2Panel pnlSetting;
     }
 }

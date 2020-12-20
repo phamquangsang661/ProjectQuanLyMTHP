@@ -48,5 +48,38 @@ namespace DuAnMain.DataBase_Connect
             DataRow r = dbc.Instance.get("Select * from nhanvien where MaTaiKhoan=" + MaTK).Rows[0];
             return r;
         }
+        /// <summary>
+        /// Đây là hàm lấy đơn sửa theo mã khách hàng
+        /// </summary>
+        /// <param name="MaKH"> Mã khách hàng</param>
+        /// <returns>Hàm trả về một bảng</returns>
+        public static DataTable getDonSuaTheoMaKhachHang(int MaKH)
+        {
+            DataTable r = dbc.Instance.get("Select * from donsua where MaKhachHang=" + MaKH);
+            return r; 
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="MaCN"></param>
+        /// <returns></returns>
+        public static DataRow getChiNhanhTheoMaChiNhanh(int MaCN)
+        {
+            DataRow r = dbc.Instance.get("Select * from chinhanh where MaChiNhanh=" + MaCN).Rows[0];
+            return r;
+        }
+        public static DataRow getQuyTrinhTheoMaQuyTrinh(int MaQT)
+        {
+            DataRow r = dbc.Instance.get("select * from QuyTrinhSuaMay where MaQuyTrinh=" + MaQT).Rows[0];
+            return r;
+        }
+        public static DataTable getDonSuaKhaiQuatTheoMaKhachHang(int MaKH)
+        {
+            DataTable r = dbc.Instance.get(@"select MaDonSua, TenChiNhanh,NgaySua,NgayTra,TenNV,MaQuyTrinh
+                                        from 
+                                            donsuamay inner join chinhanh on donsuamay.MaChiNhanh=chinhanh.MaChiNhanh
+                                            inner join nhanvien on nhanvien.MaNV=donsuamay.MaNV where MaKhachHang=" + MaKH);
+            return r;
+        }
     }
 }

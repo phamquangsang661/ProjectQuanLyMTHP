@@ -9,6 +9,25 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.MyControl
 {
     class PanelSlicer
     {
+      
+        public Guna.UI2.WinForms.Guna2Panel virtualPnlMask
+        {
+            get
+            {
+                return virtualPnl;
+            }
+            set
+            {
+                virtualPnl = value;
+                this.width = value.Width;
+                this.height = value.Height;
+               
+                this.div = height / interval;
+                virtualPnl.Bounds = new System.Drawing.Rectangle(virtualPnl.Location.X, virtualPnl.Location.Y, 0, 0);
+            }
+        }
+
+
         public Guna.UI2.WinForms.Guna2Panel virtualPnl;
         public int width;
 
@@ -19,16 +38,10 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.MyControl
         public int statePnl;
         public int interval;
        
-        public PanelSlicer(Guna.UI2.WinForms.Guna2Panel pnl,int interval=20)
+        public PanelSlicer(int interval=20)
         {
-            virtualPnl = pnl;
-            
-            this.width = pnl.Width;
-            this.height = pnl.Height;
-            tm.Interval = 200;
-            this.div = height / interval;
-            virtualPnl.Height = 0;
-            virtualPnl.Visible = false;
+
+            tm.Interval = 1;            
             this.interval = interval;
             tm.Tick += Tm_Tick;
             statePnl = 0;
@@ -38,13 +51,17 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.MyControl
         {
             if (statePnl==0)
             {
-                MessageBox.Show(virtualPnl.Height+"");
+                
                 if(virtualPnl.Height<this.height)
                 {
-                    virtualPnl.Height += 1;
+
+                    virtualPnl.Bounds = new System.Drawing.Rectangle(virtualPnl.Location.X, virtualPnl.Location.Y, virtualPnl.Width, virtualPnl.Height + 1);
+
+
                 }    
                 else
                 {
+                   
                     statePnl = 1;
                     tm.Stop();
                 }    
@@ -57,17 +74,19 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.MyControl
                     int temp = virtualPnl.Height-1;
                     if (temp<0)
                     {
-                        virtualPnl.Height = 0;
+                        virtualPnl.Bounds = new System.Drawing.Rectangle(virtualPnl.Location.X, virtualPnl.Location.Y, virtualPnl.Width, 0);
+                      
                     }
                     else
                     {
-                        virtualPnl.Height -= (int)(this.div);
-                    }    
+                        virtualPnl.Bounds = new System.Drawing.Rectangle(virtualPnl.Location.X, virtualPnl.Location.Y, virtualPnl.Width, virtualPnl.Height-1);
+                    }
+                   
                 }
                 else
                 {
                     statePnl = 0;
-                    virtualPnl.Visible = false;
+                    
                     tm.Stop();
                     
                 }
@@ -78,9 +97,8 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.MyControl
         {
             if (statePnl == 0)
             {
-           
-                virtualPnl.Visible = true;
-                MessageBox.Show("Bắt đầu");
+
+                
                 tm.Start();
             }
         }
