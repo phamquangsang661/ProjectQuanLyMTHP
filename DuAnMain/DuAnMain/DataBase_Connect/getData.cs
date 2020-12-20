@@ -38,5 +38,15 @@ namespace DuAnMain.DataBase_Connect
             DataTable r = dbc.Instance.get("Select * from GhiChuKhachHang where MaKhachhang=" + MaKH);
             return r;
         }
+        /// <summary>
+        /// Đây là hàm lấy nhân viên theo mã tài khoản
+        /// </summary>
+        /// <param name="MaTK">Mã Tài khoản</param>
+        /// <returns>Hàm trả về một dòng duy nhất</returns>
+        public static DataRow getNhanVienTheoMaTaiKhoan(int MaTK)
+        {
+            DataRow r = dbc.Instance.get("Select * from nhanvien where MaTaiKhoan=" + MaTK).Rows[0];
+            return r;
+        }
     }
 }

@@ -272,6 +272,12 @@
     <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Comment_detail\usCommentWrite.Designer.cs">
       <DependentUpon>usCommentWrite.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders.Designer.cs">
+      <DependentUpon>Orders.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Overview.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -290,6 +296,7 @@
     <Compile Include="FormBelongStaffs\QuanLyKhachHang\KhachHangChiTiet.Designer.cs">
       <DependentUpon>KhachHangChiTiet.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\MyControl\PanelSlicer.cs" />
     <Compile Include="FormBelongStaffs\QuanLyKhachHang\optional\uskhachhangkhaiquat.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -407,6 +414,9 @@
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\detail\Comment_detail\usCommentWrite.resx">
       <DependentUpon>usCommentWrite.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders.resx">
+      <DependentUpon>Orders.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\detail\Overview.resx">
       <DependentUpon>Overview.cs</DependentUpon>
     </EmbeddedResource>
@@ -490,7 +500,7 @@
     <None Include="Resources\enter_32px.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="FormBelongStaffs\QuanLyKhachHang\MyControl\" />
+    <Folder Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders_detail\" />
     <Folder Include="FormBelongStaffs\QuanLyNhanSu\" />
     <Folder Include="FormBelongStaffs\QuanLySuaChua\" />
     <Folder Include="FormBelongStaffs\QuanLyThongKe\" />

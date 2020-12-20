@@ -32,7 +32,7 @@ namespace DuAnMain
             this.ControlBox = false;
             this.DoubleBuffered = true;
             this.Text = String.Empty;
-           
+            this.WindowState = FormWindowState.Maximized;
             realclock.Start();
             DisableAllSubMenu();
         }

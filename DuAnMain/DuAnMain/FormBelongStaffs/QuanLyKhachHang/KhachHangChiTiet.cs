@@ -21,6 +21,7 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang
             this.MaKH = MaKH;
             info = DataBase_Connect.getData.getKhachHangTheoMa(MaKH);
             createControl();
+            btnTongQuan.PerformClick();
         }
         public void createControl()
         {

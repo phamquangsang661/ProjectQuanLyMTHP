@@ -44,7 +44,17 @@ namespace DuAnMain
         private void btnLogin_Click(object sender, EventArgs e)
         {
             FormStaffs frm = new FormStaffs();
-            frm.ShowDialog();
+            this.Hide();
+            
+            if(frm.ShowDialog()==DialogResult.OK)
+            {
+                this.Close();
+            }
+            else
+            {
+                this.Show();
+            }
+
         }
 
         private void gunaButton2_Click(object sender, EventArgs e)

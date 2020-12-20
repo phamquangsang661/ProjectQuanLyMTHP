@@ -24,19 +24,21 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang.detail
             }
             else
             {
-                pnlComment.Controls.Add(new detail.Comment_detail.usCommentWrite() { Dock = DockStyle.Top });
+                
                 foreach(DataRow r in dt.Rows)
                 {
                     Comment_detail.usCommentDetail us = new Comment_detail.usCommentDetail();
                     us.virtualtxtComment.Text = r["GhiChu"].ToString();
                     us.virtualLblTime.Text = r["ThoiGian"].ToString();
-                    string TenND = DataBase_Connect.getData.getTaiKhoanTheoMaTaiKhoan(int.Parse(r["MaTaiKhoan"].ToString()))["TenNguoiDung"].ToString();
+                    string TenND = DataBase_Connect.getData.getNhanVienTheoMaTaiKhoan(int.Parse(r["MaTaiKhoan"].ToString()))["TenNV"].ToString();
                     us.virtualLblBy.Text = TenND;
                     us.Dock = DockStyle.Top;
+                    
                     pnlComment.Controls.Add(us);
 
                     //us.virtualLblBy.Text=
                 }
+                pnlComment.Controls.Add(new detail.Comment_detail.usCommentWrite() { Dock = DockStyle.Top });
             }
         }
         public  void UpdateState()
