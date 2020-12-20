@@ -278,6 +278,12 @@
     <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders.Designer.cs">
       <DependentUpon>Orders.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders_detail\usSell.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders_detail\usSell.Designer.cs">
+      <DependentUpon>usSell.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormBelongStaffs\QuanLyKhachHang\detail\Overview.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -417,6 +423,9 @@
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders.resx">
       <DependentUpon>Orders.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders_detail\usSell.resx">
+      <DependentUpon>usSell.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhachHang\detail\Overview.resx">
       <DependentUpon>Overview.cs</DependentUpon>
     </EmbeddedResource>
@@ -500,7 +509,6 @@
     <None Include="Resources\enter_32px.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="FormBelongStaffs\QuanLyKhachHang\detail\Orders_detail\" />
     <Folder Include="FormBelongStaffs\QuanLyNhanSu\" />
     <Folder Include="FormBelongStaffs\QuanLySuaChua\" />
     <Folder Include="FormBelongStaffs\QuanLyThongKe\" />

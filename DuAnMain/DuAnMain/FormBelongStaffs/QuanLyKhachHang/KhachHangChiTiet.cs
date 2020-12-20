@@ -123,11 +123,15 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhachHang
 
                 ChangeOldStateBtn(onAcBtn);
             }
-
+            gtranpnl.Hide(pnlBot);
             ChangeNewStateBtn(btnBanHang);
             addPnlHover(btnBanHang);
 
             onAcBtn = btnBanHang;
+
+            pnlBot.Controls.Clear();
+            pnlBot.Controls.Add(new detail.Orders(MaKH) { Dock = DockStyle.Fill });
+            gtranpnl.ShowSync(pnlBot);
         }
 
         private void btnDanhSachLienQuan_Click(object sender, EventArgs e)
