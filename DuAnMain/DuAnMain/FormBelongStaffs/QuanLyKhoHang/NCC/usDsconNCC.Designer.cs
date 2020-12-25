@@ -30,7 +30,7 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC
         private void InitializeComponent()
         {
             this.pnlCenter = new Guna.UI2.WinForms.Guna2Panel();
-            this.pnllstKhachHang = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnllstNCC = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlToolLeft = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlKhachHang = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlKhachHang.SuspendLayout();
@@ -45,15 +45,15 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC
             this.pnlCenter.Size = new System.Drawing.Size(650, 470);
             this.pnlCenter.TabIndex = 3;
             // 
-            // pnllstKhachHang
+            // pnllstNCC
             // 
-            this.pnllstKhachHang.AutoScroll = true;
-            this.pnllstKhachHang.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnllstKhachHang.Location = new System.Drawing.Point(0, 66);
-            this.pnllstKhachHang.Name = "pnllstKhachHang";
-            this.pnllstKhachHang.ShadowDecoration.Parent = this.pnllstKhachHang;
-            this.pnllstKhachHang.Size = new System.Drawing.Size(215, 404);
-            this.pnllstKhachHang.TabIndex = 1;
+            this.pnllstNCC.AutoScroll = true;
+            this.pnllstNCC.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnllstNCC.Location = new System.Drawing.Point(0, 66);
+            this.pnllstNCC.Name = "pnllstNCC";
+            this.pnllstNCC.ShadowDecoration.Parent = this.pnllstNCC;
+            this.pnllstNCC.Size = new System.Drawing.Size(215, 404);
+            this.pnllstNCC.TabIndex = 1;
             // 
             // pnlToolLeft
             // 
@@ -67,7 +67,7 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC
             // 
             // pnlKhachHang
             // 
-            this.pnlKhachHang.Controls.Add(this.pnllstKhachHang);
+            this.pnlKhachHang.Controls.Add(this.pnllstNCC);
             this.pnlKhachHang.Controls.Add(this.pnlToolLeft);
             this.pnlKhachHang.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlKhachHang.Location = new System.Drawing.Point(0, 0);
@@ -92,7 +92,7 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel pnlCenter;
-        private Guna.UI2.WinForms.Guna2Panel pnllstKhachHang;
+        private Guna.UI2.WinForms.Guna2Panel pnllstNCC;
         private Guna.UI2.WinForms.Guna2Panel pnlToolLeft;
         private Guna.UI2.WinForms.Guna2Panel pnlKhachHang;
     }

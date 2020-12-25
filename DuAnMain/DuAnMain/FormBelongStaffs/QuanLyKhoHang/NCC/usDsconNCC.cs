@@ -20,53 +20,59 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC
             }
             public void updateDataPanelLeft()
             {
-                DataTable dt = DataBase_Connect.getData.getDsKhachHang();
+                DataTable dt = DataBase_Connect.getNCC.getDsNCC();
                 foreach (DataRow r in dt.Rows)
                 {
 
-                    optionNCC.Ds us = new optionNCC.Ds(r);
-                /*
-                    us.MouseHover += Us_MouseHover;
+                    optionNCC.usNCCkhaiquat us = new optionNCC.usNCCkhaiquat(r);
+
+                    us.MouseHover += Us_MouseHover1; ;
                     us.MouseLeave += Us_MouseLeave;
                     us.MouseClick += Us_MouseClick;
                     us.Dock = DockStyle.Top;
-                    pnllstKhachHang.Controls.Add(us);
-                */
+                    pnllstNCC.Controls.Add(us);
+                
                 }
 
             }
-        
-            private void Us_MouseClick(object sender, MouseEventArgs e)
+
+        private void Us_MouseHover1(object sender, EventArgs e)
+        {
+            optionNCC.usNCCkhaiquat us = sender as optionNCC.usNCCkhaiquat;
+            us.BackColor = Color.FromArgb(232, 232, 232);
+        }
+
+        private void Us_MouseClick(object sender, MouseEventArgs e)
             {
-            /*
-                optional.uskhachhangkhaiquat us = sender as optional.uskhachhangkhaiquat;
+            
+                optionNCC.usNCCkhaiquat us = sender as optionNCC.usNCCkhaiquat;
                 if (pnlCenter.Controls.Count == 0)
-                    pnlCenter.Controls.Add(new KhachHangChiTiet(us.MaKH) { Dock = DockStyle.Fill });
+                    pnlCenter.Controls.Add(new uschitiet(us.MaNCC) { Dock = DockStyle.Fill });
                 else
                 {
-                    if ((pnlCenter.Controls[0] as KhachHangChiTiet).MaKH == us.MaKH)
+                    if ((pnlCenter.Controls[0] as uschitiet).MaNCC == us.MaNCC)
                         return;
                     else
                     {
                         pnlCenter.Controls.Clear();
-                        pnlCenter.Controls.Add(new KhachHangChiTiet(us.MaKH) { Dock = DockStyle.Fill });
+                        pnlCenter.Controls.Add(new uschitiet(us.MaNCC) { Dock = DockStyle.Fill });
 
                     }
                 }
-            */
-            }
+            
+        }
 
-            public static Guna.UI2.WinForms.Guna2Panel VirtualpnllstNCC;
+        public static Guna.UI2.WinForms.Guna2Panel VirtualpnllstNCC;
             public static void chooseAllLeft()
             {
 
                 foreach (object obj in VirtualpnllstNCC.Controls)
                 {
-                /*
-                    optional.uskhachhangkhaiquat r = obj as optional.uskhachhangkhaiquat;
+
+                    optionNCC.usNCCkhaiquat r = obj as optionNCC.usNCCkhaiquat;
 
                     r.virtualCbk.Checked = true;
-                */
+                
                 }
 
             }
@@ -74,10 +80,10 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC
             {
                 foreach (object obj in VirtualpnllstNCC.Controls)
                 {
-                /*
-                    optional.uskhachhangkhaiquat r = obj as optional.uskhachhangkhaiquat;
+                
+                    optionNCC.usNCCkhaiquat r = obj as optionNCC.usNCCkhaiquat;
                     r.virtualCbk.Checked = false;
-                */
+                
                 }
             }
             public static Guna.UI2.WinForms.Guna2Panel VirtualpnlToolLeft;
@@ -101,27 +107,17 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC
             }
             public void updatePanelLeft()
             {
-                VirtualpnllstNCC = pnllstKhachHang;
+                VirtualpnllstNCC = pnllstNCC;
                 VirtualpnlToolLeft = pnlToolLeft;
                 pnlToolLeft.Controls.Add(new optionNCC.topleft() { Dock = DockStyle.Fill });
                 updateDataPanelLeft();
             }
 
             private void Us_MouseLeave(object sender, EventArgs e)
-            {
-            /*
-                optional.uskhachhangkhaiquat us = sender as optional.uskhachhangkhaiquat;
-                us.BackColor = Color.FromArgb(248, 247, 247);
-            */
-            }
-
-            private void Us_MouseHover(object sender, EventArgs e)
-            {
-            /*
-                optional.uskhachhangkhaiquat us = sender as optional.uskhachhangkhaiquat;
-                us.BackColor = Color.FromArgb(232, 232, 232);
-            */
-            }
+            { 
+            optionNCC.usNCCkhaiquat us = sender as optionNCC.usNCCkhaiquat;
+            us.BackColor = Color.FromArgb(248, 247, 247); 
+            }     
         }
     }
 
