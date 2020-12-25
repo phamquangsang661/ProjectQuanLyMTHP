@@ -217,6 +217,36 @@
     <Compile Include="FormBelongStaffs\BaoCaoDoanhSo\frmBaoCaoBanHang.Designer.cs">
       <DependentUpon>frmBaoCaoBanHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBelongStaffs\BaoCaoDoanhSo\option\uskhachhangkhaiquat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\BaoCaoDoanhSo\option\uskhachhangkhaiquat.Designer.cs">
+      <DependentUpon>uskhachhangkhaiquat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\BaoCaoDoanhSo\option\usTopLeft.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\BaoCaoDoanhSo\option\usTopLeft.Designer.cs">
+      <DependentUpon>usTopLeft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\BaoCaoDoanhSo\option\usTopLeftTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\BaoCaoDoanhSo\option\usTopLeftTool.Designer.cs">
+      <DependentUpon>usTopLeftTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\BaoCaoDoanhSo\usDanhSachKhachHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\BaoCaoDoanhSo\usDanhSachKhachHang.Designer.cs">
+      <DependentUpon>usDanhSachKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\BaoCaoDoanhSo\usKhachHangChiTiet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\BaoCaoDoanhSo\usKhachHangChiTiet.Designer.cs">
+      <DependentUpon>usKhachHangChiTiet.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormBelongStaffs\QuanLyBanTraHang\edit.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -424,6 +454,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormBelongStaffs\BaoCaoDoanhSo\frmBaoCaoBanHang.resx">
       <DependentUpon>frmBaoCaoBanHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\BaoCaoDoanhSo\option\uskhachhangkhaiquat.resx">
+      <DependentUpon>uskhachhangkhaiquat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\BaoCaoDoanhSo\option\usTopLeft.resx">
+      <DependentUpon>usTopLeft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\BaoCaoDoanhSo\option\usTopLeftTool.resx">
+      <DependentUpon>usTopLeftTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\BaoCaoDoanhSo\usDanhSachKhachHang.resx">
+      <DependentUpon>usDanhSachKhachHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyBanTraHang\edit.resx">
       <DependentUpon>edit.cs</DependentUpon>

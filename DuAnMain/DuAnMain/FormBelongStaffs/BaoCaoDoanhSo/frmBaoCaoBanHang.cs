@@ -17,7 +17,7 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
             InitializeComponent();
         }
 
-        private void frmBaoCaoBanHang_Load(object sender, EventArgs e)
+        private void frmBaoCaoBanHang_Load(object sender, EventArgs e)            // Đây là hàm hiện các mục trong combobox
         {
             List<string> ts = new List<string>()
             {
@@ -28,5 +28,43 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
             };
             cmbBaoCaoBanHang.DataSource = ts;
         }
+
+        private void cmbBaoCaoBanHang_DropDown(object sender, EventArgs e)          // Đây là hàm dãn combobox của Đức (nhưng nó vẫn ko co vì lí do nào đó :)))
+        {
+            ComboBox senderComboBox = (ComboBox)sender;
+            int width = senderComboBox.DropDownWidth;
+            Graphics g = senderComboBox.CreateGraphics();
+            Font font = senderComboBox.Font;
+            int vertScrollBarWidth =
+                (senderComboBox.Items.Count > senderComboBox.MaxDropDownItems)
+                ? SystemInformation.VerticalScrollBarWidth : 0;
+
+            int newWidth;
+            foreach (string s in ((ComboBox)sender).Items)
+            {
+                newWidth = (int)g.MeasureString(s, font).Width
+                    + vertScrollBarWidth;
+                if (width < newWidth)
+                {
+                    width = newWidth;
+                }
+
+                if (senderComboBox.Width < newWidth)
+                {
+                    senderComboBox.Width = newWidth + SystemInformation.VerticalScrollBarWidth;
+                }
+            }
+            senderComboBox.DropDownWidth = width;
+        }
+
+        public void updateDataPanelLeft()          // Đây là hàm update panel bên trái của Sáng
+        {
+            DataTable dt = DataBase_Connect.getData.getDsKhachHang();
+            foreach (DataRow r in dt.Rows)
+            {
+                
+            }
+        }
+
     }
 }

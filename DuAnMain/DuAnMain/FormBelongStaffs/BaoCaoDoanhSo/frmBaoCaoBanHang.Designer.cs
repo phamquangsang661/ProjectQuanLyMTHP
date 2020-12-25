@@ -32,10 +32,10 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBaoCaoBanHang));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.cmbBaoCaoBanHang = new Guna.UI.WinForms.GunaComboBox();
+            this.pbLogo = new FontAwesome.Sharp.IconPictureBox();
             this.gunaButton4 = new Guna.UI.WinForms.GunaButton();
             this.gunabtnmenu = new Guna.UI.WinForms.GunaButton();
             this.gunabtncaidatNCC = new Guna.UI.WinForms.GunaButton();
-            this.pbLogo = new FontAwesome.Sharp.IconPictureBox();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
@@ -57,7 +57,7 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(1515, 87);
+            this.guna2Panel1.Size = new System.Drawing.Size(1518, 87);
             this.guna2Panel1.TabIndex = 5;
             // 
             // cmbBaoCaoBanHang
@@ -76,8 +76,23 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
             this.cmbBaoCaoBanHang.Name = "cmbBaoCaoBanHang";
             this.cmbBaoCaoBanHang.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.cmbBaoCaoBanHang.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.cmbBaoCaoBanHang.Size = new System.Drawing.Size(662, 43);
+            this.cmbBaoCaoBanHang.Size = new System.Drawing.Size(647, 43);
             this.cmbBaoCaoBanHang.TabIndex = 15;
+            this.cmbBaoCaoBanHang.DropDown += new System.EventHandler(this.cmbBaoCaoBanHang_DropDown);
+            // 
+            // pbLogo
+            // 
+            this.pbLogo.BackColor = System.Drawing.Color.Transparent;
+            this.pbLogo.IconChar = FontAwesome.Sharp.IconChar.StoreAlt;
+            this.pbLogo.IconColor = System.Drawing.Color.White;
+            this.pbLogo.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.pbLogo.IconSize = 63;
+            this.pbLogo.Location = new System.Drawing.Point(16, 12);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pbLogo.Name = "pbLogo";
+            this.pbLogo.Size = new System.Drawing.Size(69, 63);
+            this.pbLogo.TabIndex = 15;
+            this.pbLogo.TabStop = false;
             // 
             // gunaButton4
             // 
@@ -92,7 +107,7 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
             this.gunaButton4.ForeColor = System.Drawing.Color.White;
             this.gunaButton4.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton4.Image")));
             this.gunaButton4.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton4.Location = new System.Drawing.Point(1350, 18);
+            this.gunaButton4.Location = new System.Drawing.Point(1353, 18);
             this.gunaButton4.Margin = new System.Windows.Forms.Padding(4);
             this.gunaButton4.Name = "gunaButton4";
             this.gunaButton4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
@@ -118,7 +133,7 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
             this.gunabtnmenu.ForeColor = System.Drawing.Color.White;
             this.gunabtnmenu.Image = global::DuAnMain.Properties.Resources.rounded__menu_256;
             this.gunabtnmenu.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunabtnmenu.Location = new System.Drawing.Point(1260, 18);
+            this.gunabtnmenu.Location = new System.Drawing.Point(1263, 18);
             this.gunabtnmenu.Margin = new System.Windows.Forms.Padding(4);
             this.gunabtnmenu.Name = "gunabtnmenu";
             this.gunabtnmenu.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
@@ -143,7 +158,7 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
             this.gunabtncaidatNCC.ForeColor = System.Drawing.Color.White;
             this.gunabtncaidatNCC.Image = global::DuAnMain.Properties.Resources.ic_settings_48px_256;
             this.gunabtncaidatNCC.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunabtncaidatNCC.Location = new System.Drawing.Point(1186, 18);
+            this.gunabtncaidatNCC.Location = new System.Drawing.Point(1189, 18);
             this.gunabtncaidatNCC.Margin = new System.Windows.Forms.Padding(4);
             this.gunabtncaidatNCC.Name = "gunabtncaidatNCC";
             this.gunabtncaidatNCC.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
@@ -154,20 +169,6 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
             this.gunabtncaidatNCC.Size = new System.Drawing.Size(53, 52);
             this.gunabtncaidatNCC.TabIndex = 3;
             // 
-            // pbLogo
-            // 
-            this.pbLogo.BackColor = System.Drawing.Color.Transparent;
-            this.pbLogo.IconChar = FontAwesome.Sharp.IconChar.StoreAlt;
-            this.pbLogo.IconColor = System.Drawing.Color.White;
-            this.pbLogo.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.pbLogo.IconSize = 63;
-            this.pbLogo.Location = new System.Drawing.Point(16, 12);
-            this.pbLogo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(69, 63);
-            this.pbLogo.TabIndex = 15;
-            this.pbLogo.TabStop = false;
-            // 
             // frmBaoCaoBanHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -175,7 +176,7 @@ namespace DuAnMain.FormBelongStaffs.BaoCaoDoanhSo
             this.AutoSize = true;
             this.Controls.Add(this.guna2Panel1);
             this.Name = "frmBaoCaoBanHang";
-            this.Size = new System.Drawing.Size(1515, 809);
+            this.Size = new System.Drawing.Size(1518, 809);
             this.Load += new System.EventHandler(this.frmBaoCaoBanHang_Load);
             this.guna2Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
