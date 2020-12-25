@@ -15,7 +15,8 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
         public fmNCC()
         {
             InitializeComponent();
-            
+            pnlmainNCC.Controls.Clear();
+            pnlmainNCC.Controls.Add(new FormBelongStaffs.QuanLyKhoHang.NCC.usDsconNCC() { Dock = DockStyle.Fill });
         }
         
 
@@ -93,13 +94,7 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang
 
         }
 
-        private void gunabtnmenu_Click(object sender, EventArgs e)
-        {
-            Panel pn = new Panel();
-            pn.Size = new Size(200, 255);
-            pn.Location = new Point(793, 6);
-            pn.Controls.Add(new Button());
-        }
+        
 
         private void pagethem_Click(object sender, EventArgs e)
         {

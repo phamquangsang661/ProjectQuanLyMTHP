@@ -211,6 +211,7 @@
   <ItemGroup>
     <Compile Include="DataBase_Connect\getData.cs" />
     <Compile Include="DataBase_Connect\dbc.cs" />
+    <Compile Include="DataBase_Connect\getNCC.cs" />
     <Compile Include="FormBelongStaffs\BaoCaoDoanhSo\frmBaoCaoBanHang.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -404,15 +405,17 @@
     <Compile Include="FormBelongStaffs\QuanLyKhoHang\fmQuanLyKhoSP.Designer.cs">
       <DependentUpon>fmQuanLyKhoSP.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\Ds.cs" />
-    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\Ds.Designer.cs">
-      <DependentUpon>Ds.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\topleft.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\topleft.Designer.cs">
       <DependentUpon>topleft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\usNCCkhaiquat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\usNCCkhaiquat.Designer.cs">
+      <DependentUpon>usNCCkhaiquat.cs</DependentUpon>
     </Compile>
     <Compile Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\ustoplefttool.cs">
       <SubType>UserControl</SubType>
@@ -542,11 +545,11 @@
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\fmQuanLyKhoSP.resx">
       <DependentUpon>fmQuanLyKhoSP.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\Ds.resx">
-      <DependentUpon>Ds.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\topleft.resx">
       <DependentUpon>topleft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\usNCCkhaiquat.resx">
+      <DependentUpon>usNCCkhaiquat.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelongStaffs\QuanLyKhoHang\NCC\optionNCC\ustoplefttool.resx">
       <DependentUpon>ustoplefttool.cs</DependentUpon>

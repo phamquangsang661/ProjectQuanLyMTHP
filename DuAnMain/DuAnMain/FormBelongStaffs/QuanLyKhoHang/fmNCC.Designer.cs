@@ -145,7 +145,7 @@
             this.gunabtnmenu.OnPressedColor = System.Drawing.Color.Black;
             this.gunabtnmenu.Size = new System.Drawing.Size(40, 42);
             this.gunabtnmenu.TabIndex = 4;
-            this.gunabtnmenu.Click += new System.EventHandler(this.gunabtnmenu_Click);
+            
             // 
             // gunabtnthemNCC
             // 
