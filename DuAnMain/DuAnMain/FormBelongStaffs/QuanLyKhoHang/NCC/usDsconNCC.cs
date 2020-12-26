@@ -20,7 +20,7 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC
             }
             public void updateDataPanelLeft()
             {
-                DataTable dt = DataBase_Connect.getNCC.getDsNCC();
+            DataTable dt = DataBase_Connect.getNCC.getDsNCC();
                 foreach (DataRow r in dt.Rows)
                 {
 
@@ -50,6 +50,7 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC
                     pnlCenter.Controls.Add(new uschitiet(us.MaNCC) { Dock = DockStyle.Fill });
                 else
                 {
+                    
                     if ((pnlCenter.Controls[0] as uschitiet).MaNCC == us.MaNCC)
                         return;
                     else
@@ -59,7 +60,7 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC
 
                     }
                 }
-            
+           
         }
 
         public static Guna.UI2.WinForms.Guna2Panel VirtualpnllstNCC;

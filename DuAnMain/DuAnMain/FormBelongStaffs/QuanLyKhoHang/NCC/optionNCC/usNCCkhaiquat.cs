@@ -14,7 +14,7 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC.optionNCC
     {
         delegate void AnotherUS();
         public int MaNCC;
-        public usNCCkhaiquat()
+        public usNCCkhaiquat(DataRow r)
         {
             InitializeComponent();
             lblTenNCC.Text = r["TenNhaCungCap"].ToString();
@@ -22,17 +22,8 @@ namespace DuAnMain.FormBelongStaffs.QuanLyKhoHang.NCC.optionNCC
             virtualCbk = cbkNCC;
             //self = this;
         }
-
-        public usNCCkhaiquat(DataRow r)
-        {
-            this.r = r;
-        }
-
         public Guna.UI2.WinForms.Guna2CheckBox virtualCbk;
-        private DataRow r;
-
-        //public static uskhachhangkhaiquat self;
-
+    
         private void cbkNCC_CheckedChanged(object sender, EventArgs e)
         {
             if (cbkNCC.Checked)
